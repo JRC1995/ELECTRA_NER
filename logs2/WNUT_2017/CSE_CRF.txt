@@ -1,0 +1,1081 @@
+Dataset: WNUT_2017
+Model Name: CSE_CRF
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 53456
+
+
+node_potentials.weight
+torch.Size([13, 4096])
+node_potentials.bias
+torch.Size([13])
+CRF.start_transitions
+torch.Size([13])
+CRF.end_transitions
+torch.Size([13])
+CRF.transitions
+torch.Size([13, 13])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   0, Iter:     0, Loss: 24.999, F1: 0.010
+Model: (CSE-CRF), Epoch:   0, Iter:    30, Loss: 11.026, F1: 0.000
+Model: (CSE-CRF), Epoch:   0, Iter:    60, Loss: 2.485, F1: 0.000
+Model: (CSE-CRF), Epoch:   0, Iter:    90, Loss: 3.810, F1: 0.000
+Model: (CSE-CRF), Epoch:   0, Iter:   120, Loss: 3.178, F1: 0.000
+Model: (CSE-CRF), Epoch:   0, Iter:   150, Loss: 0.214, F1: 0.000
+Model: (CSE-CRF), Epoch:   0, Iter:   180, Loss: 3.722, F1: 0.000
+Model: (CSE-CRF), Epoch:   0, Iter:   210, Loss: 0.716, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   0, Iter:     0, Loss: 5.719
+Model: (CSE-CRF), Epoch:   0, Iter:    30, Loss: 2.821
+Model: (CSE-CRF), Epoch:   0, Iter:    60, Loss: 9.449
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   0, Iter:     0, Loss: 18.641
+Model: (CSE-CRF), Epoch:   0, Iter:    30, Loss: 8.984
+Model: (CSE-CRF), Epoch:   0, Iter:    60, Loss: 4.424
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   0, Mean Train Loss: 11.508, Mean Train F1: 0.000
+Model: (CSE-CRF), Epoch:   0, Mean Validation Loss: 4.951, Validation F1: 0.007
+Model: (CSE-CRF), Epoch:   0, Mean Test Loss: 6.060, Test F1: 0.014
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   1, Iter:     0, Loss: 1.718, F1: 0.000
+Model: (CSE-CRF), Epoch:   1, Iter:    30, Loss: 1.072, F1: 0.000
+Model: (CSE-CRF), Epoch:   1, Iter:    60, Loss: 3.528, F1: 0.000
+Model: (CSE-CRF), Epoch:   1, Iter:    90, Loss: 0.551, F1: 0.000
+Model: (CSE-CRF), Epoch:   1, Iter:   120, Loss: 1.017, F1: 0.000
+Model: (CSE-CRF), Epoch:   1, Iter:   150, Loss: 2.719, F1: 0.000
+Model: (CSE-CRF), Epoch:   1, Iter:   180, Loss: 1.076, F1: 0.000
+Model: (CSE-CRF), Epoch:   1, Iter:   210, Loss: 1.624, F1: 0.250
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   1, Iter:     0, Loss: 4.944
+Model: (CSE-CRF), Epoch:   1, Iter:    30, Loss: 5.475
+Model: (CSE-CRF), Epoch:   1, Iter:    60, Loss: 3.424
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   1, Iter:     0, Loss: 3.318
+Model: (CSE-CRF), Epoch:   1, Iter:    30, Loss: 4.722
+Model: (CSE-CRF), Epoch:   1, Iter:    60, Loss: 0.701
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   1, Mean Train Loss: 3.405, Mean Train F1: 0.144
+Model: (CSE-CRF), Epoch:   1, Mean Validation Loss: 4.159, Validation F1: 0.292
+Model: (CSE-CRF), Epoch:   1, Mean Test Loss: 5.122, Test F1: 0.196
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   2, Iter:     0, Loss: 1.937, F1: 0.211
+Model: (CSE-CRF), Epoch:   2, Iter:    30, Loss: 2.080, F1: 0.400
+Model: (CSE-CRF), Epoch:   2, Iter:    60, Loss: 0.967, F1: 0.000
+Model: (CSE-CRF), Epoch:   2, Iter:    90, Loss: 2.417, F1: 0.250
+Model: (CSE-CRF), Epoch:   2, Iter:   120, Loss: 1.503, F1: 0.462
+Model: (CSE-CRF), Epoch:   2, Iter:   150, Loss: 0.949, F1: 0.500
+Model: (CSE-CRF), Epoch:   2, Iter:   180, Loss: 0.860, F1: 0.000
+Model: (CSE-CRF), Epoch:   2, Iter:   210, Loss: 1.523, F1: 0.533
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   2, Iter:     0, Loss: 3.395
+Model: (CSE-CRF), Epoch:   2, Iter:    30, Loss: 3.226
+Model: (CSE-CRF), Epoch:   2, Iter:    60, Loss: 8.461
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   2, Iter:     0, Loss: 3.026
+Model: (CSE-CRF), Epoch:   2, Iter:    30, Loss: 8.207
+Model: (CSE-CRF), Epoch:   2, Iter:    60, Loss: 7.188
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   2, Mean Train Loss: 2.793, Mean Train F1: 0.303
+Model: (CSE-CRF), Epoch:   2, Mean Validation Loss: 3.937, Validation F1: 0.326
+Model: (CSE-CRF), Epoch:   2, Mean Test Loss: 4.841, Test F1: 0.227
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   3, Iter:     0, Loss: 1.897, F1: 0.118
+Model: (CSE-CRF), Epoch:   3, Iter:    30, Loss: 1.045, F1: 0.500
+Model: (CSE-CRF), Epoch:   3, Iter:    60, Loss: 0.407, F1: 0.333
+Model: (CSE-CRF), Epoch:   3, Iter:    90, Loss: 0.670, F1: 0.000
+Model: (CSE-CRF), Epoch:   3, Iter:   120, Loss: 1.609, F1: 0.143
+Model: (CSE-CRF), Epoch:   3, Iter:   150, Loss: 1.549, F1: 0.571
+Model: (CSE-CRF), Epoch:   3, Iter:   180, Loss: 0.405, F1: 0.750
+Model: (CSE-CRF), Epoch:   3, Iter:   210, Loss: 1.994, F1: 0.375
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   3, Iter:     0, Loss: 3.169
+Model: (CSE-CRF), Epoch:   3, Iter:    30, Loss: 3.344
+Model: (CSE-CRF), Epoch:   3, Iter:    60, Loss: 4.912
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   3, Iter:     0, Loss: 3.085
+Model: (CSE-CRF), Epoch:   3, Iter:    30, Loss: 14.538
+Model: (CSE-CRF), Epoch:   3, Iter:    60, Loss: 2.980
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   3, Mean Train Loss: 2.452, Mean Train F1: 0.375
+Model: (CSE-CRF), Epoch:   3, Mean Validation Loss: 3.782, Validation F1: 0.380
+Model: (CSE-CRF), Epoch:   3, Mean Test Loss: 4.555, Test F1: 0.269
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   4, Iter:     0, Loss: 1.958, F1: 0.600
+Model: (CSE-CRF), Epoch:   4, Iter:    30, Loss: 1.892, F1: 0.316
+Model: (CSE-CRF), Epoch:   4, Iter:    60, Loss: 0.992, F1: 0.667
+Model: (CSE-CRF), Epoch:   4, Iter:    90, Loss: 1.677, F1: 0.435
+Model: (CSE-CRF), Epoch:   4, Iter:   120, Loss: 1.216, F1: 0.500
+Model: (CSE-CRF), Epoch:   4, Iter:   150, Loss: 0.145, F1: 1.000
+Model: (CSE-CRF), Epoch:   4, Iter:   180, Loss: 0.949, F1: 0.400
+Model: (CSE-CRF), Epoch:   4, Iter:   210, Loss: 0.071, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   4, Iter:     0, Loss: 3.792
+Model: (CSE-CRF), Epoch:   4, Iter:    30, Loss: 2.143
+Model: (CSE-CRF), Epoch:   4, Iter:    60, Loss: 2.169
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   4, Iter:     0, Loss: 6.413
+Model: (CSE-CRF), Epoch:   4, Iter:    30, Loss: 6.540
+Model: (CSE-CRF), Epoch:   4, Iter:    60, Loss: 4.879
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   4, Mean Train Loss: 2.212, Mean Train F1: 0.430
+Model: (CSE-CRF), Epoch:   4, Mean Validation Loss: 3.548, Validation F1: 0.389
+Model: (CSE-CRF), Epoch:   4, Mean Test Loss: 4.479, Test F1: 0.283
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   5, Iter:     0, Loss: 0.284, F1: 0.500
+Model: (CSE-CRF), Epoch:   5, Iter:    30, Loss: 0.638, F1: 0.727
+Model: (CSE-CRF), Epoch:   5, Iter:    60, Loss: 1.243, F1: 0.444
+Model: (CSE-CRF), Epoch:   5, Iter:    90, Loss: 0.780, F1: 0.533
+Model: (CSE-CRF), Epoch:   5, Iter:   120, Loss: 1.789, F1: 0.545
+Model: (CSE-CRF), Epoch:   5, Iter:   150, Loss: 1.252, F1: 0.333
+Model: (CSE-CRF), Epoch:   5, Iter:   180, Loss: 0.794, F1: 0.500
+Model: (CSE-CRF), Epoch:   5, Iter:   210, Loss: 1.303, F1: 0.571
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   5, Iter:     0, Loss: 1.012
+Model: (CSE-CRF), Epoch:   5, Iter:    30, Loss: 2.389
+Model: (CSE-CRF), Epoch:   5, Iter:    60, Loss: 4.533
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   5, Iter:     0, Loss: 7.592
+Model: (CSE-CRF), Epoch:   5, Iter:    30, Loss: 1.781
+Model: (CSE-CRF), Epoch:   5, Iter:    60, Loss: 3.722
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   5, Mean Train Loss: 2.031, Mean Train F1: 0.453
+Model: (CSE-CRF), Epoch:   5, Mean Validation Loss: 3.501, Validation F1: 0.393
+Model: (CSE-CRF), Epoch:   5, Mean Test Loss: 4.388, Test F1: 0.303
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   6, Iter:     0, Loss: 0.813, F1: 0.500
+Model: (CSE-CRF), Epoch:   6, Iter:    30, Loss: 1.284, F1: 0.154
+Model: (CSE-CRF), Epoch:   6, Iter:    60, Loss: 0.746, F1: 0.500
+Model: (CSE-CRF), Epoch:   6, Iter:    90, Loss: 0.221, F1: 0.667
+Model: (CSE-CRF), Epoch:   6, Iter:   120, Loss: 0.416, F1: 0.500
+Model: (CSE-CRF), Epoch:   6, Iter:   150, Loss: 0.816, F1: 0.545
+Model: (CSE-CRF), Epoch:   6, Iter:   180, Loss: 1.800, F1: 0.308
+Model: (CSE-CRF), Epoch:   6, Iter:   210, Loss: 0.714, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   6, Iter:     0, Loss: 3.089
+Model: (CSE-CRF), Epoch:   6, Iter:    30, Loss: 2.648
+Model: (CSE-CRF), Epoch:   6, Iter:    60, Loss: 6.996
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   6, Iter:     0, Loss: 4.606
+Model: (CSE-CRF), Epoch:   6, Iter:    30, Loss: 4.074
+Model: (CSE-CRF), Epoch:   6, Iter:    60, Loss: 4.451
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   6, Mean Train Loss: 1.880, Mean Train F1: 0.502
+Model: (CSE-CRF), Epoch:   6, Mean Validation Loss: 3.455, Validation F1: 0.424
+Model: (CSE-CRF), Epoch:   6, Mean Test Loss: 4.212, Test F1: 0.312
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   7, Iter:     0, Loss: 0.823, F1: 0.600
+Model: (CSE-CRF), Epoch:   7, Iter:    30, Loss: 1.443, F1: 0.462
+Model: (CSE-CRF), Epoch:   7, Iter:    60, Loss: 0.373, F1: 0.667
+Model: (CSE-CRF), Epoch:   7, Iter:    90, Loss: 0.504, F1: 0.600
+Model: (CSE-CRF), Epoch:   7, Iter:   120, Loss: 0.564, F1: 0.667
+Model: (CSE-CRF), Epoch:   7, Iter:   150, Loss: 0.599, F1: 0.769
+Model: (CSE-CRF), Epoch:   7, Iter:   180, Loss: 1.493, F1: 0.560
+Model: (CSE-CRF), Epoch:   7, Iter:   210, Loss: 0.394, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   7, Iter:     0, Loss: 2.518
+Model: (CSE-CRF), Epoch:   7, Iter:    30, Loss: 1.346
+Model: (CSE-CRF), Epoch:   7, Iter:    60, Loss: 4.076
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   7, Iter:     0, Loss: 0.716
+Model: (CSE-CRF), Epoch:   7, Iter:    30, Loss: 0.368
+Model: (CSE-CRF), Epoch:   7, Iter:    60, Loss: 5.446
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   7, Mean Train Loss: 1.756, Mean Train F1: 0.521
+Model: (CSE-CRF), Epoch:   7, Mean Validation Loss: 3.435, Validation F1: 0.419
+Model: (CSE-CRF), Epoch:   7, Mean Test Loss: 4.218, Test F1: 0.313
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   8, Iter:     0, Loss: 0.587, F1: 0.571
+Model: (CSE-CRF), Epoch:   8, Iter:    30, Loss: 0.587, F1: 0.625
+Model: (CSE-CRF), Epoch:   8, Iter:    60, Loss: 1.421, F1: 0.421
+Model: (CSE-CRF), Epoch:   8, Iter:    90, Loss: 0.408, F1: 0.400
+Model: (CSE-CRF), Epoch:   8, Iter:   120, Loss: 1.014, F1: 0.714
+Model: (CSE-CRF), Epoch:   8, Iter:   150, Loss: 0.876, F1: 0.714
+Model: (CSE-CRF), Epoch:   8, Iter:   180, Loss: 1.390, F1: 0.783
+Model: (CSE-CRF), Epoch:   8, Iter:   210, Loss: 0.732, F1: 0.333
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   8, Iter:     0, Loss: 1.686
+Model: (CSE-CRF), Epoch:   8, Iter:    30, Loss: 3.577
+Model: (CSE-CRF), Epoch:   8, Iter:    60, Loss: 3.125
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   8, Iter:     0, Loss: 1.590
+Model: (CSE-CRF), Epoch:   8, Iter:    30, Loss: 9.734
+Model: (CSE-CRF), Epoch:   8, Iter:    60, Loss: 0.325
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   8, Mean Train Loss: 1.645, Mean Train F1: 0.554
+Model: (CSE-CRF), Epoch:   8, Mean Validation Loss: 3.193, Validation F1: 0.437
+Model: (CSE-CRF), Epoch:   8, Mean Test Loss: 4.093, Test F1: 0.332
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:   9, Iter:     0, Loss: 0.863, F1: 0.400
+Model: (CSE-CRF), Epoch:   9, Iter:    30, Loss: 0.819, F1: 0.774
+Model: (CSE-CRF), Epoch:   9, Iter:    60, Loss: 0.761, F1: 0.500
+Model: (CSE-CRF), Epoch:   9, Iter:    90, Loss: 0.257, F1: 0.889
+Model: (CSE-CRF), Epoch:   9, Iter:   120, Loss: 1.433, F1: 0.720
+Model: (CSE-CRF), Epoch:   9, Iter:   150, Loss: 0.518, F1: 0.444
+Model: (CSE-CRF), Epoch:   9, Iter:   180, Loss: 0.816, F1: 0.800
+Model: (CSE-CRF), Epoch:   9, Iter:   210, Loss: 1.042, F1: 0.786
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:   9, Iter:     0, Loss: 1.861
+Model: (CSE-CRF), Epoch:   9, Iter:    30, Loss: 0.843
+Model: (CSE-CRF), Epoch:   9, Iter:    60, Loss: 1.939
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:   9, Iter:     0, Loss: 7.743
+Model: (CSE-CRF), Epoch:   9, Iter:    30, Loss: 3.647
+Model: (CSE-CRF), Epoch:   9, Iter:    60, Loss: 0.020
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:   9, Mean Train Loss: 1.548, Mean Train F1: 0.557
+Model: (CSE-CRF), Epoch:   9, Mean Validation Loss: 3.180, Validation F1: 0.444
+Model: (CSE-CRF), Epoch:   9, Mean Test Loss: 4.089, Test F1: 0.333
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  10, Iter:     0, Loss: 0.101, F1: 1.000
+Model: (CSE-CRF), Epoch:  10, Iter:    30, Loss: 0.343, F1: 0.857
+Model: (CSE-CRF), Epoch:  10, Iter:    60, Loss: 1.146, F1: 0.500
+Model: (CSE-CRF), Epoch:  10, Iter:    90, Loss: 1.045, F1: 0.750
+Model: (CSE-CRF), Epoch:  10, Iter:   120, Loss: 0.263, F1: 0.000
+Model: (CSE-CRF), Epoch:  10, Iter:   150, Loss: 0.911, F1: 0.364
+Model: (CSE-CRF), Epoch:  10, Iter:   180, Loss: 0.286, F1: 0.667
+Model: (CSE-CRF), Epoch:  10, Iter:   210, Loss: 0.614, F1: 0.533
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  10, Iter:     0, Loss: 2.739
+Model: (CSE-CRF), Epoch:  10, Iter:    30, Loss: 1.841
+Model: (CSE-CRF), Epoch:  10, Iter:    60, Loss: 1.470
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  10, Iter:     0, Loss: 5.036
+Model: (CSE-CRF), Epoch:  10, Iter:    30, Loss: 3.226
+Model: (CSE-CRF), Epoch:  10, Iter:    60, Loss: 3.302
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  10, Mean Train Loss: 1.461, Mean Train F1: 0.605
+Model: (CSE-CRF), Epoch:  10, Mean Validation Loss: 3.100, Validation F1: 0.449
+Model: (CSE-CRF), Epoch:  10, Mean Test Loss: 4.049, Test F1: 0.336
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  11, Iter:     0, Loss: 0.749, F1: 0.923
+Model: (CSE-CRF), Epoch:  11, Iter:    30, Loss: 1.509, F1: 0.500
+Model: (CSE-CRF), Epoch:  11, Iter:    60, Loss: 0.358, F1: 0.667
+Model: (CSE-CRF), Epoch:  11, Iter:    90, Loss: 0.791, F1: 0.500
+Model: (CSE-CRF), Epoch:  11, Iter:   120, Loss: 0.051, F1: 0.000
+Model: (CSE-CRF), Epoch:  11, Iter:   150, Loss: 0.451, F1: 0.941
+Model: (CSE-CRF), Epoch:  11, Iter:   180, Loss: 0.691, F1: 0.400
+Model: (CSE-CRF), Epoch:  11, Iter:   210, Loss: 0.404, F1: 0.870
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  11, Iter:     0, Loss: 0.847
+Model: (CSE-CRF), Epoch:  11, Iter:    30, Loss: 2.335
+Model: (CSE-CRF), Epoch:  11, Iter:    60, Loss: 3.158
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  11, Iter:     0, Loss: 6.635
+Model: (CSE-CRF), Epoch:  11, Iter:    30, Loss: 7.009
+Model: (CSE-CRF), Epoch:  11, Iter:    60, Loss: 4.684
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  11, Mean Train Loss: 1.394, Mean Train F1: 0.600
+Model: (CSE-CRF), Epoch:  11, Mean Validation Loss: 3.055, Validation F1: 0.449
+Model: (CSE-CRF), Epoch:  11, Mean Test Loss: 4.007, Test F1: 0.338
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  12, Iter:     0, Loss: 1.493, F1: 0.333
+Model: (CSE-CRF), Epoch:  12, Iter:    30, Loss: 0.927, F1: 0.765
+Model: (CSE-CRF), Epoch:  12, Iter:    60, Loss: 0.397, F1: 0.800
+Model: (CSE-CRF), Epoch:  12, Iter:    90, Loss: 0.888, F1: 0.783
+Model: (CSE-CRF), Epoch:  12, Iter:   120, Loss: 0.372, F1: 0.900
+Model: (CSE-CRF), Epoch:  12, Iter:   150, Loss: 0.442, F1: 0.800
+Model: (CSE-CRF), Epoch:  12, Iter:   180, Loss: 0.919, F1: 0.444
+Model: (CSE-CRF), Epoch:  12, Iter:   210, Loss: 0.786, F1: 0.462
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  12, Iter:     0, Loss: 3.638
+Model: (CSE-CRF), Epoch:  12, Iter:    30, Loss: 1.386
+Model: (CSE-CRF), Epoch:  12, Iter:    60, Loss: 4.306
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  12, Iter:     0, Loss: 1.643
+Model: (CSE-CRF), Epoch:  12, Iter:    30, Loss: 4.210
+Model: (CSE-CRF), Epoch:  12, Iter:    60, Loss: 3.451
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  12, Mean Train Loss: 1.312, Mean Train F1: 0.620
+Model: (CSE-CRF), Epoch:  12, Mean Validation Loss: 3.039, Validation F1: 0.445
+Model: (CSE-CRF), Epoch:  12, Mean Test Loss: 4.006, Test F1: 0.330
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  13, Iter:     0, Loss: 0.668, F1: 0.556
+Model: (CSE-CRF), Epoch:  13, Iter:    30, Loss: 0.726, F1: 0.889
+Model: (CSE-CRF), Epoch:  13, Iter:    60, Loss: 0.810, F1: 0.700
+Model: (CSE-CRF), Epoch:  13, Iter:    90, Loss: 0.192, F1: 0.800
+Model: (CSE-CRF), Epoch:  13, Iter:   120, Loss: 0.940, F1: 0.571
+Model: (CSE-CRF), Epoch:  13, Iter:   150, Loss: 0.812, F1: 0.632
+Model: (CSE-CRF), Epoch:  13, Iter:   180, Loss: 0.396, F1: 0.533
+Model: (CSE-CRF), Epoch:  13, Iter:   210, Loss: 0.391, F1: 0.769
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  13, Iter:     0, Loss: 1.603
+Model: (CSE-CRF), Epoch:  13, Iter:    30, Loss: 2.852
+Model: (CSE-CRF), Epoch:  13, Iter:    60, Loss: 3.813
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  13, Iter:     0, Loss: 2.787
+Model: (CSE-CRF), Epoch:  13, Iter:    30, Loss: 5.550
+Model: (CSE-CRF), Epoch:  13, Iter:    60, Loss: 3.998
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  13, Mean Train Loss: 1.244, Mean Train F1: 0.652
+Model: (CSE-CRF), Epoch:  13, Mean Validation Loss: 3.016, Validation F1: 0.456
+Model: (CSE-CRF), Epoch:  13, Mean Test Loss: 3.977, Test F1: 0.341
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  14, Iter:     0, Loss: 0.680, F1: 0.571
+Model: (CSE-CRF), Epoch:  14, Iter:    30, Loss: 0.260, F1: 0.500
+Model: (CSE-CRF), Epoch:  14, Iter:    60, Loss: 1.422, F1: 0.762
+Model: (CSE-CRF), Epoch:  14, Iter:    90, Loss: 0.038, F1: 0.000
+Model: (CSE-CRF), Epoch:  14, Iter:   120, Loss: 0.194, F1: 1.000
+Model: (CSE-CRF), Epoch:  14, Iter:   150, Loss: 0.253, F1: 0.667
+Model: (CSE-CRF), Epoch:  14, Iter:   180, Loss: 1.032, F1: 0.700
+Model: (CSE-CRF), Epoch:  14, Iter:   210, Loss: 0.530, F1: 0.857
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  14, Iter:     0, Loss: 3.746
+Model: (CSE-CRF), Epoch:  14, Iter:    30, Loss: 4.154
+Model: (CSE-CRF), Epoch:  14, Iter:    60, Loss: 4.366
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  14, Iter:     0, Loss: 2.124
+Model: (CSE-CRF), Epoch:  14, Iter:    30, Loss: 4.272
+Model: (CSE-CRF), Epoch:  14, Iter:    60, Loss: 6.920
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  14, Mean Train Loss: 1.184, Mean Train F1: 0.660
+Model: (CSE-CRF), Epoch:  14, Mean Validation Loss: 2.945, Validation F1: 0.458
+Model: (CSE-CRF), Epoch:  14, Mean Test Loss: 3.901, Test F1: 0.348
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  15, Iter:     0, Loss: 0.779, F1: 0.786
+Model: (CSE-CRF), Epoch:  15, Iter:    30, Loss: 0.214, F1: 0.889
+Model: (CSE-CRF), Epoch:  15, Iter:    60, Loss: 0.040, F1: 0.000
+Model: (CSE-CRF), Epoch:  15, Iter:    90, Loss: 0.121, F1: 0.500
+Model: (CSE-CRF), Epoch:  15, Iter:   120, Loss: 0.572, F1: 0.533
+Model: (CSE-CRF), Epoch:  15, Iter:   150, Loss: 0.378, F1: 0.909
+Model: (CSE-CRF), Epoch:  15, Iter:   180, Loss: 0.916, F1: 0.667
+Model: (CSE-CRF), Epoch:  15, Iter:   210, Loss: 1.041, F1: 0.737
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  15, Iter:     0, Loss: 4.100
+Model: (CSE-CRF), Epoch:  15, Iter:    30, Loss: 3.494
+Model: (CSE-CRF), Epoch:  15, Iter:    60, Loss: 2.267
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  15, Iter:     0, Loss: 5.915
+Model: (CSE-CRF), Epoch:  15, Iter:    30, Loss: 10.093
+Model: (CSE-CRF), Epoch:  15, Iter:    60, Loss: 3.780
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  15, Mean Train Loss: 1.126, Mean Train F1: 0.671
+Model: (CSE-CRF), Epoch:  15, Mean Validation Loss: 2.968, Validation F1: 0.456
+Model: (CSE-CRF), Epoch:  15, Mean Test Loss: 3.907, Test F1: 0.348
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  16, Iter:     0, Loss: 0.393, F1: 0.870
+Model: (CSE-CRF), Epoch:  16, Iter:    30, Loss: 0.398, F1: 0.750
+Model: (CSE-CRF), Epoch:  16, Iter:    60, Loss: 0.102, F1: 0.667
+Model: (CSE-CRF), Epoch:  16, Iter:    90, Loss: 1.093, F1: 0.667
+Model: (CSE-CRF), Epoch:  16, Iter:   120, Loss: 0.516, F1: 0.706
+Model: (CSE-CRF), Epoch:  16, Iter:   150, Loss: 0.331, F1: 0.500
+Model: (CSE-CRF), Epoch:  16, Iter:   180, Loss: 0.144, F1: 0.000
+Model: (CSE-CRF), Epoch:  16, Iter:   210, Loss: 0.891, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  16, Iter:     0, Loss: 3.461
+Model: (CSE-CRF), Epoch:  16, Iter:    30, Loss: 2.808
+Model: (CSE-CRF), Epoch:  16, Iter:    60, Loss: 2.656
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  16, Iter:     0, Loss: 5.150
+Model: (CSE-CRF), Epoch:  16, Iter:    30, Loss: 0.446
+Model: (CSE-CRF), Epoch:  16, Iter:    60, Loss: 2.722
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  16, Mean Train Loss: 1.074, Mean Train F1: 0.672
+Model: (CSE-CRF), Epoch:  16, Mean Validation Loss: 2.944, Validation F1: 0.451
+Model: (CSE-CRF), Epoch:  16, Mean Test Loss: 3.903, Test F1: 0.341
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  17, Iter:     0, Loss: 0.763, F1: 0.870
+Model: (CSE-CRF), Epoch:  17, Iter:    30, Loss: 0.507, F1: 0.667
+Model: (CSE-CRF), Epoch:  17, Iter:    60, Loss: 0.037, F1: 0.000
+Model: (CSE-CRF), Epoch:  17, Iter:    90, Loss: 0.468, F1: 0.500
+Model: (CSE-CRF), Epoch:  17, Iter:   120, Loss: 1.067, F1: 0.789
+Model: (CSE-CRF), Epoch:  17, Iter:   150, Loss: 0.721, F1: 0.706
+Model: (CSE-CRF), Epoch:  17, Iter:   180, Loss: 0.658, F1: 0.625
+Model: (CSE-CRF), Epoch:  17, Iter:   210, Loss: 0.778, F1: 0.706
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  17, Iter:     0, Loss: 4.472
+Model: (CSE-CRF), Epoch:  17, Iter:    30, Loss: 2.223
+Model: (CSE-CRF), Epoch:  17, Iter:    60, Loss: 3.500
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  17, Iter:     0, Loss: 4.776
+Model: (CSE-CRF), Epoch:  17, Iter:    30, Loss: 3.801
+Model: (CSE-CRF), Epoch:  17, Iter:    60, Loss: 4.857
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  17, Mean Train Loss: 1.022, Mean Train F1: 0.703
+Model: (CSE-CRF), Epoch:  17, Mean Validation Loss: 2.904, Validation F1: 0.470
+Model: (CSE-CRF), Epoch:  17, Mean Test Loss: 3.873, Test F1: 0.354
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  18, Iter:     0, Loss: 0.498, F1: 0.286
+Model: (CSE-CRF), Epoch:  18, Iter:    30, Loss: 0.405, F1: 0.857
+Model: (CSE-CRF), Epoch:  18, Iter:    60, Loss: 0.729, F1: 0.632
+Model: (CSE-CRF), Epoch:  18, Iter:    90, Loss: 0.535, F1: 0.824
+Model: (CSE-CRF), Epoch:  18, Iter:   120, Loss: 0.355, F1: 0.900
+Model: (CSE-CRF), Epoch:  18, Iter:   150, Loss: 0.567, F1: 0.800
+Model: (CSE-CRF), Epoch:  18, Iter:   180, Loss: 0.126, F1: 0.800
+Model: (CSE-CRF), Epoch:  18, Iter:   210, Loss: 1.012, F1: 0.690
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  18, Iter:     0, Loss: 3.414
+Model: (CSE-CRF), Epoch:  18, Iter:    30, Loss: 2.964
+Model: (CSE-CRF), Epoch:  18, Iter:    60, Loss: 2.668
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  18, Iter:     0, Loss: 0.470
+Model: (CSE-CRF), Epoch:  18, Iter:    30, Loss: 1.593
+Model: (CSE-CRF), Epoch:  18, Iter:    60, Loss: 0.055
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  18, Mean Train Loss: 0.979, Mean Train F1: 0.713
+Model: (CSE-CRF), Epoch:  18, Mean Validation Loss: 2.965, Validation F1: 0.455
+Model: (CSE-CRF), Epoch:  18, Mean Test Loss: 3.940, Test F1: 0.345
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  19, Iter:     0, Loss: 0.415, F1: 0.848
+Model: (CSE-CRF), Epoch:  19, Iter:    30, Loss: 0.544, F1: 0.824
+Model: (CSE-CRF), Epoch:  19, Iter:    60, Loss: 0.201, F1: 0.923
+Model: (CSE-CRF), Epoch:  19, Iter:    90, Loss: 0.064, F1: 1.000
+Model: (CSE-CRF), Epoch:  19, Iter:   120, Loss: 0.656, F1: 0.700
+Model: (CSE-CRF), Epoch:  19, Iter:   150, Loss: 0.102, F1: 1.000
+Model: (CSE-CRF), Epoch:  19, Iter:   180, Loss: 0.674, F1: 0.880
+Model: (CSE-CRF), Epoch:  19, Iter:   210, Loss: 0.418, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  19, Iter:     0, Loss: 2.685
+Model: (CSE-CRF), Epoch:  19, Iter:    30, Loss: 5.164
+Model: (CSE-CRF), Epoch:  19, Iter:    60, Loss: 2.769
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  19, Iter:     0, Loss: 3.199
+Model: (CSE-CRF), Epoch:  19, Iter:    30, Loss: 4.607
+Model: (CSE-CRF), Epoch:  19, Iter:    60, Loss: 4.488
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  19, Mean Train Loss: 0.936, Mean Train F1: 0.729
+Model: (CSE-CRF), Epoch:  19, Mean Validation Loss: 2.907, Validation F1: 0.461
+Model: (CSE-CRF), Epoch:  19, Mean Test Loss: 3.874, Test F1: 0.349
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  20, Iter:     0, Loss: 0.511, F1: 0.824
+Model: (CSE-CRF), Epoch:  20, Iter:    30, Loss: 0.286, F1: 0.667
+Model: (CSE-CRF), Epoch:  20, Iter:    60, Loss: 0.393, F1: 0.923
+Model: (CSE-CRF), Epoch:  20, Iter:    90, Loss: 0.235, F1: 0.933
+Model: (CSE-CRF), Epoch:  20, Iter:   120, Loss: 0.369, F1: 0.824
+Model: (CSE-CRF), Epoch:  20, Iter:   150, Loss: 0.244, F1: 0.923
+Model: (CSE-CRF), Epoch:  20, Iter:   180, Loss: 0.213, F1: 0.800
+Model: (CSE-CRF), Epoch:  20, Iter:   210, Loss: 0.155, F1: 1.000
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  20, Iter:     0, Loss: 2.721
+Model: (CSE-CRF), Epoch:  20, Iter:    30, Loss: 1.957
+Model: (CSE-CRF), Epoch:  20, Iter:    60, Loss: 3.293
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  20, Iter:     0, Loss: 2.311
+Model: (CSE-CRF), Epoch:  20, Iter:    30, Loss: 6.345
+Model: (CSE-CRF), Epoch:  20, Iter:    60, Loss: 0.963
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  20, Mean Train Loss: 0.895, Mean Train F1: 0.716
+Model: (CSE-CRF), Epoch:  20, Mean Validation Loss: 2.872, Validation F1: 0.471
+Model: (CSE-CRF), Epoch:  20, Mean Test Loss: 3.825, Test F1: 0.350
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  21, Iter:     0, Loss: 0.741, F1: 0.667
+Model: (CSE-CRF), Epoch:  21, Iter:    30, Loss: 0.603, F1: 0.667
+Model: (CSE-CRF), Epoch:  21, Iter:    60, Loss: 0.343, F1: 0.833
+Model: (CSE-CRF), Epoch:  21, Iter:    90, Loss: 0.177, F1: 0.800
+Model: (CSE-CRF), Epoch:  21, Iter:   120, Loss: 0.528, F1: 0.857
+Model: (CSE-CRF), Epoch:  21, Iter:   150, Loss: 0.368, F1: 0.900
+Model: (CSE-CRF), Epoch:  21, Iter:   180, Loss: 0.060, F1: 1.000
+Model: (CSE-CRF), Epoch:  21, Iter:   210, Loss: 0.050, F1: 1.000
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  21, Iter:     0, Loss: 1.793
+Model: (CSE-CRF), Epoch:  21, Iter:    30, Loss: 0.866
+Model: (CSE-CRF), Epoch:  21, Iter:    60, Loss: 2.125
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  21, Iter:     0, Loss: 3.251
+Model: (CSE-CRF), Epoch:  21, Iter:    30, Loss: 1.824
+Model: (CSE-CRF), Epoch:  21, Iter:    60, Loss: 4.286
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  21, Mean Train Loss: 0.859, Mean Train F1: 0.748
+Model: (CSE-CRF), Epoch:  21, Mean Validation Loss: 2.868, Validation F1: 0.474
+Model: (CSE-CRF), Epoch:  21, Mean Test Loss: 3.816, Test F1: 0.351
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  22, Iter:     0, Loss: 0.486, F1: 0.833
+Model: (CSE-CRF), Epoch:  22, Iter:    30, Loss: 0.142, F1: 0.800
+Model: (CSE-CRF), Epoch:  22, Iter:    60, Loss: 0.690, F1: 0.815
+Model: (CSE-CRF), Epoch:  22, Iter:    90, Loss: 0.463, F1: 0.842
+Model: (CSE-CRF), Epoch:  22, Iter:   120, Loss: 0.487, F1: 0.667
+Model: (CSE-CRF), Epoch:  22, Iter:   150, Loss: 0.386, F1: 0.923
+Model: (CSE-CRF), Epoch:  22, Iter:   180, Loss: 0.468, F1: 0.500
+Model: (CSE-CRF), Epoch:  22, Iter:   210, Loss: 0.471, F1: 0.444
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  22, Iter:     0, Loss: 1.824
+Model: (CSE-CRF), Epoch:  22, Iter:    30, Loss: 2.420
+Model: (CSE-CRF), Epoch:  22, Iter:    60, Loss: 4.972
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  22, Iter:     0, Loss: 3.021
+Model: (CSE-CRF), Epoch:  22, Iter:    30, Loss: 2.195
+Model: (CSE-CRF), Epoch:  22, Iter:    60, Loss: 9.271
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  22, Mean Train Loss: 0.823, Mean Train F1: 0.733
+Model: (CSE-CRF), Epoch:  22, Mean Validation Loss: 2.960, Validation F1: 0.447
+Model: (CSE-CRF), Epoch:  22, Mean Test Loss: 3.871, Test F1: 0.344
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  23, Iter:     0, Loss: 0.240, F1: 0.933
+Model: (CSE-CRF), Epoch:  23, Iter:    30, Loss: 0.419, F1: 0.571
+Model: (CSE-CRF), Epoch:  23, Iter:    60, Loss: 0.376, F1: 0.750
+Model: (CSE-CRF), Epoch:  23, Iter:    90, Loss: 0.702, F1: 0.636
+Model: (CSE-CRF), Epoch:  23, Iter:   120, Loss: 0.499, F1: 0.615
+Model: (CSE-CRF), Epoch:  23, Iter:   150, Loss: 0.761, F1: 0.783
+Model: (CSE-CRF), Epoch:  23, Iter:   180, Loss: 0.696, F1: 0.769
+Model: (CSE-CRF), Epoch:  23, Iter:   210, Loss: 0.053, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  23, Iter:     0, Loss: 2.264
+Model: (CSE-CRF), Epoch:  23, Iter:    30, Loss: 2.220
+Model: (CSE-CRF), Epoch:  23, Iter:    60, Loss: 2.791
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  23, Iter:     0, Loss: 0.035
+Model: (CSE-CRF), Epoch:  23, Iter:    30, Loss: 2.090
+Model: (CSE-CRF), Epoch:  23, Iter:    60, Loss: 0.524
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  23, Mean Train Loss: 0.791, Mean Train F1: 0.754
+Model: (CSE-CRF), Epoch:  23, Mean Validation Loss: 2.809, Validation F1: 0.476
+Model: (CSE-CRF), Epoch:  23, Mean Test Loss: 3.788, Test F1: 0.351
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  24, Iter:     0, Loss: 0.491, F1: 0.667
+Model: (CSE-CRF), Epoch:  24, Iter:    30, Loss: 0.602, F1: 0.800
+Model: (CSE-CRF), Epoch:  24, Iter:    60, Loss: 0.498, F1: 0.800
+Model: (CSE-CRF), Epoch:  24, Iter:    90, Loss: 0.553, F1: 0.667
+Model: (CSE-CRF), Epoch:  24, Iter:   120, Loss: 0.591, F1: 0.839
+Model: (CSE-CRF), Epoch:  24, Iter:   150, Loss: 0.372, F1: 0.870
+Model: (CSE-CRF), Epoch:  24, Iter:   180, Loss: 0.288, F1: 0.824
+Model: (CSE-CRF), Epoch:  24, Iter:   210, Loss: 0.287, F1: 0.909
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  24, Iter:     0, Loss: 3.296
+Model: (CSE-CRF), Epoch:  24, Iter:    30, Loss: 2.784
+Model: (CSE-CRF), Epoch:  24, Iter:    60, Loss: 1.368
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  24, Iter:     0, Loss: 3.289
+Model: (CSE-CRF), Epoch:  24, Iter:    30, Loss: 10.413
+Model: (CSE-CRF), Epoch:  24, Iter:    60, Loss: 6.934
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  24, Mean Train Loss: 0.759, Mean Train F1: 0.752
+Model: (CSE-CRF), Epoch:  24, Mean Validation Loss: 2.882, Validation F1: 0.466
+Model: (CSE-CRF), Epoch:  24, Mean Test Loss: 3.809, Test F1: 0.348
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  25, Iter:     0, Loss: 0.382, F1: 0.706
+Model: (CSE-CRF), Epoch:  25, Iter:    30, Loss: 0.534, F1: 0.846
+Model: (CSE-CRF), Epoch:  25, Iter:    60, Loss: 0.753, F1: 0.811
+Model: (CSE-CRF), Epoch:  25, Iter:    90, Loss: 0.235, F1: 0.750
+Model: (CSE-CRF), Epoch:  25, Iter:   120, Loss: 0.301, F1: 0.750
+Model: (CSE-CRF), Epoch:  25, Iter:   150, Loss: 0.180, F1: 0.750
+Model: (CSE-CRF), Epoch:  25, Iter:   180, Loss: 0.098, F1: 1.000
+Model: (CSE-CRF), Epoch:  25, Iter:   210, Loss: 0.733, F1: 0.759
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  25, Iter:     0, Loss: 2.778
+Model: (CSE-CRF), Epoch:  25, Iter:    30, Loss: 2.821
+Model: (CSE-CRF), Epoch:  25, Iter:    60, Loss: 3.246
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  25, Iter:     0, Loss: 2.186
+Model: (CSE-CRF), Epoch:  25, Iter:    30, Loss: 1.585
+Model: (CSE-CRF), Epoch:  25, Iter:    60, Loss: 7.648
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  25, Mean Train Loss: 0.731, Mean Train F1: 0.784
+Model: (CSE-CRF), Epoch:  25, Mean Validation Loss: 2.853, Validation F1: 0.474
+Model: (CSE-CRF), Epoch:  25, Mean Test Loss: 3.837, Test F1: 0.353
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (CSE-CRF), Epoch:  26, Iter:     0, Loss: 0.314, F1: 0.833
+Model: (CSE-CRF), Epoch:  26, Iter:    30, Loss: 0.354, F1: 0.857
+Model: (CSE-CRF), Epoch:  26, Iter:    60, Loss: 0.922, F1: 0.778
+Model: (CSE-CRF), Epoch:  26, Iter:    90, Loss: 0.843, F1: 0.556
+Model: (CSE-CRF), Epoch:  26, Iter:   120, Loss: 0.410, F1: 0.833
+Model: (CSE-CRF), Epoch:  26, Iter:   150, Loss: 0.233, F1: 0.750
+Model: (CSE-CRF), Epoch:  26, Iter:   180, Loss: 0.431, F1: 0.706
+Model: (CSE-CRF), Epoch:  26, Iter:   210, Loss: 0.993, F1: 0.757
+
+
+
+VALIDATING
+
+Model: (CSE-CRF), Epoch:  26, Iter:     0, Loss: 2.287
+Model: (CSE-CRF), Epoch:  26, Iter:    30, Loss: 2.931
+Model: (CSE-CRF), Epoch:  26, Iter:    60, Loss: 2.922
+
+
+
+TESTING
+
+Model: (CSE-CRF), Epoch:  26, Iter:     0, Loss: 0.034
+Model: (CSE-CRF), Epoch:  26, Iter:    30, Loss: 1.833
+Model: (CSE-CRF), Epoch:  26, Iter:    60, Loss: 0.000
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-CRF), Epoch:  26, Mean Train Loss: 0.704, Mean Train F1: 0.768
+Model: (CSE-CRF), Epoch:  26, Mean Validation Loss: 2.861, Validation F1: 0.459
+Model: (CSE-CRF), Epoch:  26, Mean Test Loss: 3.831, Test F1: 0.350
+Impatience Level: 3
+
+

@@ -1,0 +1,1055 @@
+Dataset: WNUT_2017
+Model Name: ELECTRA_BiLSTM_CRF_natural_query
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 3020446
+
+
+layer_weights
+torch.Size([12])
+query_embd2query_enc.weight
+torch.Size([128, 1024])
+query_embd2query_enc.bias
+torch.Size([128])
+BiLSTM.weight_ih_l0
+torch.Size([1024, 1152])
+BiLSTM.weight_hh_l0
+torch.Size([1024, 256])
+BiLSTM.bias_ih_l0
+torch.Size([1024])
+BiLSTM.bias_hh_l0
+torch.Size([1024])
+BiLSTM.weight_ih_l0_reverse
+torch.Size([1024, 1152])
+BiLSTM.weight_hh_l0_reverse
+torch.Size([1024, 256])
+BiLSTM.bias_ih_l0_reverse
+torch.Size([1024])
+BiLSTM.bias_hh_l0_reverse
+torch.Size([1024])
+node_potentials.weight
+torch.Size([3, 512])
+node_potentials.bias
+torch.Size([3])
+CRF.start_transitions
+torch.Size([3])
+CRF.end_transitions
+torch.Size([3])
+CRF.transitions
+torch.Size([3, 3])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:     0, Loss: 7.513, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    30, Loss: 0.322, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    60, Loss: 0.532, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    90, Loss: 1.526, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   120, Loss: 1.059, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   150, Loss: 0.383, F1: 0.500
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   180, Loss: 1.085, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   210, Loss: 1.114, F1: 0.267
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   240, Loss: 0.747, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   270, Loss: 1.309, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   300, Loss: 0.790, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   330, Loss: 0.041, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:     0, Loss: 0.585
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    30, Loss: 0.416
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    60, Loss: 1.082
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    90, Loss: 0.491
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   120, Loss: 0.646
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   150, Loss: 1.116
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   180, Loss: 0.814
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   210, Loss: 0.139
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   240, Loss: 0.758
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   270, Loss: 0.801
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   300, Loss: 0.439
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   330, Loss: 1.504
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   360, Loss: 0.220
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:     0, Loss: 0.759
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    30, Loss: 0.863
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    60, Loss: 0.839
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:    90, Loss: 0.936
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   120, Loss: 0.776
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   150, Loss: 0.503
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   180, Loss: 0.645
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   210, Loss: 1.876
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   240, Loss: 1.555
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   270, Loss: 0.508
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   300, Loss: 0.649
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   330, Loss: 0.751
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   360, Loss: 1.101
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   390, Loss: 0.374
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   420, Loss: 0.951
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   450, Loss: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Iter:   480, Loss: 0.382
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Mean Train Loss: 2.155, Mean Train F1: 0.057
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Mean Validation Loss: 0.798, Validation F1: 0.186
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   0, Mean Test Loss: 0.942, Test F1: 0.119
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:     0, Loss: 1.043, F1: 0.182
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    30, Loss: 1.331, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    60, Loss: 0.543, F1: 0.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    90, Loss: 0.965, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   120, Loss: 0.646, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   150, Loss: 0.708, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   180, Loss: 2.122, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   210, Loss: 0.491, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   240, Loss: 0.655, F1: 0.545
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   270, Loss: 0.441, F1: 0.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   300, Loss: 0.485, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   330, Loss: 0.748, F1: 0.333
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:     0, Loss: 0.341
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    30, Loss: 0.803
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    60, Loss: 1.214
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    90, Loss: 1.050
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   120, Loss: 1.407
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   150, Loss: 0.209
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   180, Loss: 1.339
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   210, Loss: 1.230
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   240, Loss: 1.108
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   270, Loss: 1.063
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   300, Loss: 0.280
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   330, Loss: 0.477
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   360, Loss: 0.854
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:     0, Loss: 0.126
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    30, Loss: 0.926
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    60, Loss: 0.030
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:    90, Loss: 0.307
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   120, Loss: 0.690
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   150, Loss: 0.441
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   180, Loss: 0.543
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   210, Loss: 0.354
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   240, Loss: 0.565
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   270, Loss: 0.623
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   300, Loss: 2.569
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   330, Loss: 0.711
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   360, Loss: 0.769
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   390, Loss: 0.514
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   420, Loss: 0.843
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   450, Loss: 0.657
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Iter:   480, Loss: 0.591
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Mean Train Loss: 1.502, Mean Train F1: 0.200
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Mean Validation Loss: 0.790, Validation F1: 0.403
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   1, Mean Test Loss: 0.937, Test F1: 0.331
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:     0, Loss: 1.018, F1: 0.200
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    30, Loss: 0.654, F1: 0.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    60, Loss: 0.696, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    90, Loss: 0.634, F1: 0.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   120, Loss: 0.796, F1: 0.222
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   150, Loss: 0.791, F1: 0.200
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   180, Loss: 0.541, F1: 0.615
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   210, Loss: 0.193, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   240, Loss: 0.992, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   270, Loss: 0.653, F1: 0.333
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   300, Loss: 0.745, F1: 0.222
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   330, Loss: 0.278, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:     0, Loss: 0.332
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    30, Loss: 0.627
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    60, Loss: 0.427
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    90, Loss: 0.867
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   120, Loss: 0.584
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   150, Loss: 0.635
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   180, Loss: 0.160
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   210, Loss: 0.582
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   240, Loss: 0.735
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   270, Loss: 0.905
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   300, Loss: 0.147
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   330, Loss: 0.126
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   360, Loss: 0.343
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:     0, Loss: 0.794
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    30, Loss: 0.055
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    60, Loss: 0.805
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:    90, Loss: 0.735
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   120, Loss: 0.565
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   150, Loss: 1.430
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   180, Loss: 0.970
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   210, Loss: 0.300
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   240, Loss: 0.596
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   270, Loss: 0.650
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   300, Loss: 0.663
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   330, Loss: 0.227
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   360, Loss: 0.507
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   390, Loss: 1.091
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   420, Loss: 0.557
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   450, Loss: 0.646
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Iter:   480, Loss: 0.388
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Mean Train Loss: 1.345, Mean Train F1: 0.320
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Mean Validation Loss: 0.549, Validation F1: 0.558
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   2, Mean Test Loss: 0.733, Test F1: 0.413
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:     0, Loss: 0.565, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    30, Loss: 0.535, F1: 0.333
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    60, Loss: 0.771, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    90, Loss: 0.653, F1: 0.250
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   120, Loss: 0.306, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   150, Loss: 0.753, F1: 0.375
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   180, Loss: 0.951, F1: 0.353
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   210, Loss: 0.093, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   240, Loss: 0.421, F1: 0.333
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   270, Loss: 0.505, F1: 0.615
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   300, Loss: 0.889, F1: 0.375
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   330, Loss: 0.220, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:     0, Loss: 0.540
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    30, Loss: 0.750
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    60, Loss: 0.908
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    90, Loss: 0.904
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   120, Loss: 0.181
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   150, Loss: 0.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   180, Loss: 0.537
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   210, Loss: 1.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   240, Loss: 0.662
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   270, Loss: 0.222
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   300, Loss: 1.228
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   330, Loss: 0.555
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   360, Loss: 0.642
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:     0, Loss: 0.486
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    30, Loss: 1.219
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    60, Loss: 0.744
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:    90, Loss: 0.318
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   120, Loss: 0.471
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   150, Loss: 1.141
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   180, Loss: 0.193
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   210, Loss: 0.686
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   240, Loss: 1.276
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   270, Loss: 0.900
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   300, Loss: 0.560
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   330, Loss: 0.401
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   360, Loss: 0.321
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   390, Loss: 0.577
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   420, Loss: 0.563
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   450, Loss: 1.218
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Iter:   480, Loss: 1.661
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Mean Train Loss: 1.189, Mean Train F1: 0.380
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Mean Validation Loss: 0.669, Validation F1: 0.526
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   3, Mean Test Loss: 0.822, Test F1: 0.432
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:     0, Loss: 0.842, F1: 0.571
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    30, Loss: 0.362, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    60, Loss: 0.984, F1: 0.182
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    90, Loss: 0.839, F1: 0.533
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   120, Loss: 0.407, F1: 0.600
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   150, Loss: 1.449, F1: 0.250
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   180, Loss: 0.553, F1: 0.200
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   210, Loss: 0.420, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   240, Loss: 0.454, F1: 0.727
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   270, Loss: 0.193, F1: 0.889
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   300, Loss: 0.477, F1: 0.533
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   330, Loss: 0.521, F1: 0.375
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:     0, Loss: 0.458
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    30, Loss: 0.807
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    60, Loss: 0.457
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    90, Loss: 0.407
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   120, Loss: 0.228
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   150, Loss: 0.593
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   180, Loss: 0.493
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   210, Loss: 0.150
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   240, Loss: 0.570
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   270, Loss: 0.608
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   300, Loss: 0.220
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   330, Loss: 0.348
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   360, Loss: 0.267
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:     0, Loss: 0.726
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    30, Loss: 0.550
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    60, Loss: 1.167
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:    90, Loss: 0.997
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   120, Loss: 0.149
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   150, Loss: 0.075
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   180, Loss: 1.852
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   210, Loss: 0.454
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   240, Loss: 0.345
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   270, Loss: 1.075
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   300, Loss: 0.866
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   330, Loss: 1.153
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   360, Loss: 0.323
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   390, Loss: 0.606
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   420, Loss: 0.698
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   450, Loss: 0.714
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Iter:   480, Loss: 0.412
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Mean Train Loss: 1.095, Mean Train F1: 0.441
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Mean Validation Loss: 0.664, Validation F1: 0.503
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   4, Mean Test Loss: 0.843, Test F1: 0.416
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:     0, Loss: 1.086, F1: 0.444
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    30, Loss: 0.657, F1: 0.250
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    60, Loss: 0.873, F1: 0.750
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    90, Loss: 0.240, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   120, Loss: 0.198, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   150, Loss: 0.505, F1: 0.588
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   180, Loss: 1.088, F1: 0.167
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   210, Loss: 0.722, F1: 0.182
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   240, Loss: 0.737, F1: 0.526
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   270, Loss: 0.445, F1: 0.500
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   300, Loss: 0.359, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   330, Loss: 0.165, F1: 1.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:     0, Loss: 1.274
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    30, Loss: 0.379
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    60, Loss: 0.279
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    90, Loss: 0.475
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   120, Loss: 0.189
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   150, Loss: 0.072
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   180, Loss: 1.137
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   210, Loss: 0.551
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   240, Loss: 0.354
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   270, Loss: 0.302
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   300, Loss: 0.318
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   330, Loss: 0.335
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   360, Loss: 2.055
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:     0, Loss: 0.886
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    30, Loss: 0.898
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    60, Loss: 1.106
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:    90, Loss: 3.518
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   120, Loss: 0.983
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   150, Loss: 0.558
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   180, Loss: 1.448
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   210, Loss: 0.203
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   240, Loss: 1.643
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   270, Loss: 0.295
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   300, Loss: 0.494
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   330, Loss: 0.181
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   360, Loss: 1.050
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   390, Loss: 0.663
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   420, Loss: 0.399
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   450, Loss: 0.239
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Iter:   480, Loss: 0.904
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Mean Train Loss: 1.005, Mean Train F1: 0.476
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Mean Validation Loss: 0.558, Validation F1: 0.591
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   5, Mean Test Loss: 0.734, Test F1: 0.481
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:     0, Loss: 0.826, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    30, Loss: 0.342, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    60, Loss: 0.821, F1: 0.462
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    90, Loss: 0.496, F1: 0.500
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   120, Loss: 0.744, F1: 0.444
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   150, Loss: 0.141, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   180, Loss: 0.452, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   210, Loss: 0.166, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   240, Loss: 0.929, F1: 0.250
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   270, Loss: 0.557, F1: 0.600
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   300, Loss: 0.559, F1: 0.571
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   330, Loss: 0.476, F1: 0.625
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:     0, Loss: 0.332
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    30, Loss: 0.700
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    60, Loss: 0.223
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    90, Loss: 0.058
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   120, Loss: 0.611
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   150, Loss: 0.599
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   180, Loss: 0.262
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   210, Loss: 0.268
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   240, Loss: 0.274
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   270, Loss: 0.545
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   300, Loss: 0.370
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   330, Loss: 0.173
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   360, Loss: 0.280
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:     0, Loss: 0.123
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    30, Loss: 0.582
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    60, Loss: 0.188
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:    90, Loss: 1.290
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   120, Loss: 0.474
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   150, Loss: 2.171
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   180, Loss: 0.769
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   210, Loss: 0.442
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   240, Loss: 0.396
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   270, Loss: 0.969
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   300, Loss: 0.937
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   330, Loss: 0.376
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   360, Loss: 0.242
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   390, Loss: 0.719
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   420, Loss: 0.329
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   450, Loss: 1.035
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Iter:   480, Loss: 0.918
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Mean Train Loss: 0.935, Mean Train F1: 0.507
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Mean Validation Loss: 0.485, Validation F1: 0.603
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   6, Mean Test Loss: 0.654, Test F1: 0.493
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:     0, Loss: 0.304, F1: 0.571
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    30, Loss: 0.610, F1: 0.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    60, Loss: 0.142, F1: 0.800
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    90, Loss: 0.886, F1: 0.364
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   120, Loss: 0.475, F1: 0.444
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   150, Loss: 0.461, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   180, Loss: 0.310, F1: 0.833
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   210, Loss: 0.276, F1: 0.750
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   240, Loss: 0.735, F1: 0.778
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   270, Loss: 0.502, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   300, Loss: 0.548, F1: 0.600
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   330, Loss: 0.326, F1: 0.933
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:     0, Loss: 0.339
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    30, Loss: 0.497
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    60, Loss: 0.213
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    90, Loss: 0.522
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   120, Loss: 1.878
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   150, Loss: 1.390
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   180, Loss: 0.987
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   210, Loss: 0.304
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   240, Loss: 0.157
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   270, Loss: 0.372
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   300, Loss: 1.006
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   330, Loss: 0.630
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   360, Loss: 0.584
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:     0, Loss: 0.385
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    30, Loss: 0.134
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    60, Loss: 0.342
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:    90, Loss: 1.090
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   120, Loss: 0.103
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   150, Loss: 1.369
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   180, Loss: 0.292
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   210, Loss: 0.147
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   240, Loss: 0.330
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   270, Loss: 1.693
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   300, Loss: 1.032
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   330, Loss: 0.325
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   360, Loss: 0.211
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   390, Loss: 1.205
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   420, Loss: 2.868
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   450, Loss: 0.171
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Iter:   480, Loss: 0.345
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Mean Train Loss: 0.925, Mean Train F1: 0.506
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Mean Validation Loss: 0.443, Validation F1: 0.650
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   7, Mean Test Loss: 0.601, Test F1: 0.511
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:     0, Loss: 0.593, F1: 0.333
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    30, Loss: 0.639, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    60, Loss: 0.820, F1: 0.250
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    90, Loss: 0.280, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   120, Loss: 0.233, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   150, Loss: 0.307, F1: 0.875
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   180, Loss: 0.593, F1: 0.800
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   210, Loss: 0.165, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   240, Loss: 1.440, F1: 0.267
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   270, Loss: 0.388, F1: 0.222
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   300, Loss: 0.207, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   330, Loss: 0.411, F1: 0.615
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:     0, Loss: 0.056
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    30, Loss: 1.174
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    60, Loss: 0.055
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    90, Loss: 1.093
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   120, Loss: 0.518
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   150, Loss: 0.924
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   180, Loss: 0.394
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   210, Loss: 0.555
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   240, Loss: 0.174
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   270, Loss: 0.270
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   300, Loss: 0.803
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   330, Loss: 0.669
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   360, Loss: 0.158
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:     0, Loss: 0.172
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    30, Loss: 0.039
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    60, Loss: 1.158
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:    90, Loss: 0.033
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   120, Loss: 2.700
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   150, Loss: 0.585
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   180, Loss: 0.092
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   210, Loss: 0.177
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   240, Loss: 0.821
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   270, Loss: 1.700
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   300, Loss: 0.195
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   330, Loss: 0.447
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   360, Loss: 1.204
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   390, Loss: 0.211
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   420, Loss: 0.318
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   450, Loss: 0.277
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Iter:   480, Loss: 0.920
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Mean Train Loss: 0.896, Mean Train F1: 0.497
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Mean Validation Loss: 0.414, Validation F1: 0.653
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   8, Mean Test Loss: 0.574, Test F1: 0.523
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:     0, Loss: 0.247, F1: 0.889
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    30, Loss: 0.088, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    60, Loss: 0.683, F1: 0.600
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    90, Loss: 0.363, F1: 0.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   120, Loss: 0.168, F1: 0.750
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   150, Loss: 0.745, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   180, Loss: 0.348, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   210, Loss: 0.193, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   240, Loss: 0.424, F1: 0.615
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   270, Loss: 0.231, F1: 0.727
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   300, Loss: 0.857, F1: 0.182
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   330, Loss: 0.659, F1: 0.526
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:     0, Loss: 0.132
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    30, Loss: 0.123
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    60, Loss: 0.650
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    90, Loss: 0.206
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   120, Loss: 0.234
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   150, Loss: 0.110
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   180, Loss: 0.541
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   210, Loss: 0.128
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   240, Loss: 1.113
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   270, Loss: 0.764
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   300, Loss: 0.175
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   330, Loss: 0.079
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   360, Loss: 0.630
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:     0, Loss: 0.201
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    30, Loss: 0.264
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    60, Loss: 0.452
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:    90, Loss: 0.191
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   120, Loss: 0.443
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   150, Loss: 0.291
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   180, Loss: 0.684
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   210, Loss: 0.052
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   240, Loss: 0.223
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   270, Loss: 0.401
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   300, Loss: 3.608
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   330, Loss: 0.573
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   360, Loss: 0.847
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   390, Loss: 0.617
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   420, Loss: 0.306
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   450, Loss: 0.493
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Iter:   480, Loss: 0.035
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Mean Train Loss: 0.824, Mean Train F1: 0.537
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Mean Validation Loss: 0.460, Validation F1: 0.633
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:   9, Mean Test Loss: 0.610, Test F1: 0.508
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:     0, Loss: 0.385, F1: 0.769
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    30, Loss: 0.516, F1: 0.833
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    60, Loss: 0.231, F1: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    90, Loss: 0.333, F1: 0.500
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   120, Loss: 0.177, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   150, Loss: 0.300, F1: 0.500
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   180, Loss: 0.412, F1: 0.714
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   210, Loss: 0.339, F1: 0.833
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   240, Loss: 0.317, F1: 0.800
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   270, Loss: 0.391, F1: 0.500
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   300, Loss: 0.606, F1: 0.462
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   330, Loss: 0.189, F1: 0.800
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:     0, Loss: 1.200
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    30, Loss: 0.021
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    60, Loss: 0.305
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    90, Loss: 0.372
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   120, Loss: 0.118
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   150, Loss: 0.297
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   180, Loss: 0.172
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   210, Loss: 0.263
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   240, Loss: 0.681
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   270, Loss: 0.384
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   300, Loss: 0.459
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   330, Loss: 0.062
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   360, Loss: 0.813
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:     0, Loss: 0.086
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    30, Loss: 1.075
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    60, Loss: 0.319
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:    90, Loss: 1.300
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   120, Loss: 0.158
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   150, Loss: 0.188
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   180, Loss: 0.196
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   210, Loss: 0.328
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   240, Loss: 2.701
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   270, Loss: 0.588
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   300, Loss: 0.112
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   330, Loss: 0.441
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   360, Loss: 0.249
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   390, Loss: 0.136
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   420, Loss: 0.713
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   450, Loss: 0.212
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Iter:   480, Loss: 0.336
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Mean Train Loss: 0.790, Mean Train F1: 0.564
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Mean Validation Loss: 0.401, Validation F1: 0.657
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  10, Mean Test Loss: 0.576, Test F1: 0.518
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:     0, Loss: 0.310, F1: 0.800
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    30, Loss: 0.598, F1: 0.706
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    60, Loss: 0.481, F1: 0.571
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    90, Loss: 0.158, F1: 0.857
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   120, Loss: 0.142, F1: 0.857
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   150, Loss: 0.130, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   180, Loss: 0.279, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   210, Loss: 0.229, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   240, Loss: 0.068, F1: 0.800
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   270, Loss: 0.528, F1: 0.615
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   300, Loss: 0.453, F1: 0.600
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   330, Loss: 0.271, F1: 0.750
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:     0, Loss: 0.386
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    30, Loss: 0.395
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    60, Loss: 0.573
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    90, Loss: 0.075
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   120, Loss: 0.205
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   150, Loss: 0.489
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   180, Loss: 0.494
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   210, Loss: 0.240
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   240, Loss: 0.652
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   270, Loss: 2.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   300, Loss: 0.125
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   330, Loss: 0.126
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   360, Loss: 0.219
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:     0, Loss: 0.265
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    30, Loss: 0.591
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    60, Loss: 1.422
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:    90, Loss: 0.071
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   120, Loss: 0.971
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   150, Loss: 0.051
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   180, Loss: 0.290
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   210, Loss: 0.441
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   240, Loss: 0.270
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   270, Loss: 0.985
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   300, Loss: 0.033
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   330, Loss: 0.436
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   360, Loss: 0.029
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   390, Loss: 0.073
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   420, Loss: 0.046
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   450, Loss: 1.050
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Iter:   480, Loss: 0.628
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Mean Train Loss: 0.755, Mean Train F1: 0.550
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Mean Validation Loss: 0.394, Validation F1: 0.663
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  11, Mean Test Loss: 0.554, Test F1: 0.529
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:     0, Loss: 0.258, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    30, Loss: 0.360, F1: 0.824
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    60, Loss: 0.549, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    90, Loss: 0.163, F1: 0.889
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   120, Loss: 0.653, F1: 0.720
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   150, Loss: 0.317, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   180, Loss: 0.056, F1: 1.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   210, Loss: 0.266, F1: 0.571
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   240, Loss: 0.168, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   270, Loss: 0.035, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   300, Loss: 0.185, F1: 0.889
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   330, Loss: 0.705, F1: 0.462
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:     0, Loss: 0.163
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    30, Loss: 0.293
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    60, Loss: 0.118
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    90, Loss: 0.400
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   120, Loss: 1.484
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   150, Loss: 0.079
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   180, Loss: 0.702
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   210, Loss: 0.048
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   240, Loss: 0.257
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   270, Loss: 0.717
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   300, Loss: 0.278
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   330, Loss: 0.220
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   360, Loss: 0.226
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:     0, Loss: 2.486
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    30, Loss: 0.210
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    60, Loss: 2.481
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:    90, Loss: 0.224
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   120, Loss: 0.074
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   150, Loss: 0.058
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   180, Loss: 0.219
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   210, Loss: 0.347
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   240, Loss: 1.422
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   270, Loss: 0.437
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   300, Loss: 0.127
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   330, Loss: 1.946
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   360, Loss: 0.139
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   390, Loss: 0.504
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   420, Loss: 0.192
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   450, Loss: 0.235
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Iter:   480, Loss: 0.640
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Mean Train Loss: 0.742, Mean Train F1: 0.570
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Mean Validation Loss: 0.447, Validation F1: 0.635
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  12, Mean Test Loss: 0.615, Test F1: 0.519
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:     0, Loss: 0.395, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    30, Loss: 0.288, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    60, Loss: 0.370, F1: 0.333
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    90, Loss: 0.207, F1: 0.889
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   120, Loss: 0.247, F1: 0.571
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   150, Loss: 0.418, F1: 0.500
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   180, Loss: 0.254, F1: 0.909
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   210, Loss: 0.941, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   240, Loss: 0.148, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   270, Loss: 0.306, F1: 0.800
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   300, Loss: 0.073, F1: 1.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   330, Loss: 0.255, F1: 0.400
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:     0, Loss: 0.073
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    30, Loss: 0.338
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    60, Loss: 0.273
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    90, Loss: 0.335
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   120, Loss: 0.503
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   150, Loss: 0.094
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   180, Loss: 0.689
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   210, Loss: 0.656
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   240, Loss: 0.451
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   270, Loss: 0.266
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   300, Loss: 0.257
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   330, Loss: 0.501
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   360, Loss: 0.226
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:     0, Loss: 0.209
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    30, Loss: 0.164
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    60, Loss: 0.077
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:    90, Loss: 1.792
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   120, Loss: 0.679
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   150, Loss: 2.255
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   180, Loss: 2.819
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   210, Loss: 0.447
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   240, Loss: 0.031
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   270, Loss: 0.231
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   300, Loss: 0.573
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   330, Loss: 0.246
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   360, Loss: 2.772
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   390, Loss: 0.373
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   420, Loss: 0.173
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   450, Loss: 1.214
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Iter:   480, Loss: 0.124
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Mean Train Loss: 0.715, Mean Train F1: 0.586
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Mean Validation Loss: 0.440, Validation F1: 0.627
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  13, Mean Test Loss: 0.623, Test F1: 0.523
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:     0, Loss: 0.179, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    30, Loss: 0.374, F1: 0.600
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    60, Loss: 0.386, F1: 0.875
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    90, Loss: 0.527, F1: 0.556
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   120, Loss: 0.381, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   150, Loss: 0.048, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   180, Loss: 0.555, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   210, Loss: 0.495, F1: 0.286
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   240, Loss: 0.393, F1: 0.000
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   270, Loss: 0.220, F1: 0.667
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   300, Loss: 0.178, F1: 0.889
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   330, Loss: 0.189, F1: 0.800
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:     0, Loss: 0.170
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    30, Loss: 0.580
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    60, Loss: 0.389
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    90, Loss: 0.785
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   120, Loss: 0.407
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   150, Loss: 0.188
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   180, Loss: 0.306
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   210, Loss: 0.352
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   240, Loss: 0.295
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   270, Loss: 0.067
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   300, Loss: 0.219
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   330, Loss: 0.266
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   360, Loss: 0.567
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:     0, Loss: 0.349
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    30, Loss: 0.656
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    60, Loss: 0.939
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:    90, Loss: 0.368
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   120, Loss: 0.095
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   150, Loss: 1.131
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   180, Loss: 0.055
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   210, Loss: 0.210
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   240, Loss: 0.117
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   270, Loss: 0.137
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   300, Loss: 0.271
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   330, Loss: 0.434
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   360, Loss: 0.405
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   390, Loss: 0.473
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   420, Loss: 0.303
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   450, Loss: 0.735
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Iter:   480, Loss: 0.659
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Mean Train Loss: 0.696, Mean Train F1: 0.581
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Mean Validation Loss: 0.448, Validation F1: 0.630
+Model: (ELECTRA-BiLSTM-CRF-natural-query), Epoch:  14, Mean Test Loss: 0.605, Test F1: 0.529
+Impatience Level: 3
+
+

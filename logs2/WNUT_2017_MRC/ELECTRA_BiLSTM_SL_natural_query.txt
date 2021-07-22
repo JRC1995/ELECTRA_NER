@@ -1,0 +1,175 @@
+Dataset: WNUT_2017
+Model Name: ELECTRA_BiLSTM_SL_natural_query
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 3020431
+
+
+layer_weights
+torch.Size([12])
+query_embd2query_enc.weight
+torch.Size([128, 1024])
+query_embd2query_enc.bias
+torch.Size([128])
+BiLSTM.weight_ih_l0
+torch.Size([1024, 1152])
+BiLSTM.weight_hh_l0
+torch.Size([1024, 256])
+BiLSTM.bias_ih_l0
+torch.Size([1024])
+BiLSTM.bias_hh_l0
+torch.Size([1024])
+BiLSTM.weight_ih_l0_reverse
+torch.Size([1024, 1152])
+BiLSTM.weight_hh_l0_reverse
+torch.Size([1024, 256])
+BiLSTM.bias_ih_l0_reverse
+torch.Size([1024])
+BiLSTM.bias_hh_l0_reverse
+torch.Size([1024])
+node_potentials.weight
+torch.Size([3, 512])
+node_potentials.bias
+torch.Size([3])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:     0, Loss: 0.498, F1: 0.286
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    30, Loss: 0.081, F1: 0.000
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    60, Loss: 0.193, F1: 0.000
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    90, Loss: 0.203, F1: 0.000
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   120, Loss: 0.097, F1: 0.174
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   150, Loss: 0.064, F1: 0.250
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   180, Loss: 0.121, F1: 0.211
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   210, Loss: 0.099, F1: 0.320
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   240, Loss: 0.055, F1: 0.286
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   270, Loss: 0.109, F1: 0.353
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   300, Loss: 0.135, F1: 0.267
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   330, Loss: 0.048, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:     0, Loss: 0.072
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    30, Loss: 0.245
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    60, Loss: 0.102
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    90, Loss: 0.195
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   120, Loss: 0.193
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   150, Loss: 0.087
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   180, Loss: 0.131
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   210, Loss: 0.089
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   240, Loss: 0.056
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   270, Loss: 0.071
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   300, Loss: 0.032
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   330, Loss: 0.336
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   360, Loss: 0.023
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:     0, Loss: 0.132
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    30, Loss: 0.179
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    60, Loss: 0.088
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:    90, Loss: 0.108
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   120, Loss: 0.126
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   150, Loss: 0.076
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   180, Loss: 0.141
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   210, Loss: 0.134
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   240, Loss: 0.436
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   270, Loss: 0.076
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   300, Loss: 0.106
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   330, Loss: 0.061
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   360, Loss: 0.109
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   390, Loss: 0.097
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   420, Loss: 0.197
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   450, Loss: 0.119
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Iter:   480, Loss: 0.028
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Mean Train Loss: 0.255, Mean Train F1: 0.172
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Mean Validation Loss: 0.180, Validation F1: 0.224
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   0, Mean Test Loss: 0.156, Test F1: 0.185
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:     0, Loss: 0.152, F1: 0.222
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    30, Loss: 0.122, F1: 0.364
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    60, Loss: 0.049, F1: 0.316
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    90, Loss: 0.092, F1: 0.200
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   120, Loss: 0.073, F1: 0.200
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   150, Loss: 0.068, F1: 0.400
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   180, Loss: 0.270, F1: 0.118
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   210, Loss: 0.077, F1: 0.333
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   240, Loss: 0.106, F1: 0.500
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   270, Loss: 0.054, F1: 0.375
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   300, Loss: 0.051, F1: 0.588
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   330, Loss: 0.069, F1: 0.462
+
+
+
+VALIDATING
+
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:     0, Loss: 0.244
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    30, Loss: 0.131
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    60, Loss: 0.241
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    90, Loss: 0.140
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   120, Loss: 0.278
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   150, Loss: 0.172
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   180, Loss: 0.176
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   210, Loss: 0.095
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   240, Loss: 0.154
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   270, Loss: 0.318
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   300, Loss: 0.141
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   330, Loss: 0.167
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   360, Loss: 0.121
+
+
+
+TESTING
+
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:     0, Loss: 0.119
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    30, Loss: 0.129
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    60, Loss: 0.054
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:    90, Loss: 0.135
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   120, Loss: 0.167
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   150, Loss: 0.225
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   180, Loss: 0.077
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   210, Loss: 0.171
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   240, Loss: 0.137
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   270, Loss: 0.224
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   300, Loss: 0.591
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   330, Loss: 0.139
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   360, Loss: 0.086
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   390, Loss: 0.145
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   420, Loss: 0.166
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   450, Loss: 0.112
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Iter:   480, Loss: 0.191
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-BiLSTM-SL-natural-query), Epoch:   1, Mean Train Loss: 0.185, Mean Train F1: 0.337

@@ -1,0 +1,535 @@
+Dataset: WNUT_2017
+Model Name: BERT
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 13337
+
+
+layer_weights
+torch.Size([12])
+hidden2tags.weight
+torch.Size([13, 1024])
+hidden2tags.bias
+torch.Size([13])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (BERT), Epoch:   0, Iter:     0, Loss: 1.583, F1: 0.009
+Model: (BERT), Epoch:   0, Iter:    30, Loss: 0.254, F1: 0.000
+Model: (BERT), Epoch:   0, Iter:    60, Loss: 0.019, F1: 0.000
+Model: (BERT), Epoch:   0, Iter:    90, Loss: 0.247, F1: 0.000
+Model: (BERT), Epoch:   0, Iter:   120, Loss: 0.126, F1: 0.000
+Model: (BERT), Epoch:   0, Iter:   150, Loss: 0.047, F1: 0.000
+Model: (BERT), Epoch:   0, Iter:   180, Loss: 0.119, F1: 0.125
+Model: (BERT), Epoch:   0, Iter:   210, Loss: 0.076, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   0, Iter:     0, Loss: 0.172
+Model: (BERT), Epoch:   0, Iter:    30, Loss: 0.641
+Model: (BERT), Epoch:   0, Iter:    60, Loss: 0.559
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   0, Iter:     0, Loss: 0.609
+Model: (BERT), Epoch:   0, Iter:    30, Loss: 0.429
+Model: (BERT), Epoch:   0, Iter:    60, Loss: 0.291
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   0, Mean Train Loss: 0.451, Mean Train F1: 0.077
+Model: (BERT), Epoch:   0, Mean Validation Loss: 0.396, Validation F1: 0.289
+Model: (BERT), Epoch:   0, Mean Test Loss: 0.351, Test F1: 0.215
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:   1, Iter:     0, Loss: 0.056, F1: 0.400
+Model: (BERT), Epoch:   1, Iter:    30, Loss: 0.084, F1: 0.286
+Model: (BERT), Epoch:   1, Iter:    60, Loss: 0.152, F1: 0.000
+Model: (BERT), Epoch:   1, Iter:    90, Loss: 0.049, F1: 0.750
+Model: (BERT), Epoch:   1, Iter:   120, Loss: 0.089, F1: 0.000
+Model: (BERT), Epoch:   1, Iter:   150, Loss: 0.108, F1: 0.444
+Model: (BERT), Epoch:   1, Iter:   180, Loss: 0.060, F1: 0.545
+Model: (BERT), Epoch:   1, Iter:   210, Loss: 0.084, F1: 0.222
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   1, Iter:     0, Loss: 0.106
+Model: (BERT), Epoch:   1, Iter:    30, Loss: 0.423
+Model: (BERT), Epoch:   1, Iter:    60, Loss: 0.478
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   1, Iter:     0, Loss: 0.291
+Model: (BERT), Epoch:   1, Iter:    30, Loss: 0.267
+Model: (BERT), Epoch:   1, Iter:    60, Loss: 0.290
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   1, Mean Train Loss: 0.167, Mean Train F1: 0.324
+Model: (BERT), Epoch:   1, Mean Validation Loss: 0.354, Validation F1: 0.396
+Model: (BERT), Epoch:   1, Mean Test Loss: 0.301, Test F1: 0.299
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:   2, Iter:     0, Loss: 0.083, F1: 0.211
+Model: (BERT), Epoch:   2, Iter:    30, Loss: 0.113, F1: 0.500
+Model: (BERT), Epoch:   2, Iter:    60, Loss: 0.097, F1: 0.000
+Model: (BERT), Epoch:   2, Iter:    90, Loss: 0.119, F1: 0.385
+Model: (BERT), Epoch:   2, Iter:   120, Loss: 0.089, F1: 0.267
+Model: (BERT), Epoch:   2, Iter:   150, Loss: 0.057, F1: 0.400
+Model: (BERT), Epoch:   2, Iter:   180, Loss: 0.037, F1: 0.333
+Model: (BERT), Epoch:   2, Iter:   210, Loss: 0.062, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   2, Iter:     0, Loss: 0.083
+Model: (BERT), Epoch:   2, Iter:    30, Loss: 0.298
+Model: (BERT), Epoch:   2, Iter:    60, Loss: 0.156
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   2, Iter:     0, Loss: 0.174
+Model: (BERT), Epoch:   2, Iter:    30, Loss: 0.350
+Model: (BERT), Epoch:   2, Iter:    60, Loss: 0.344
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   2, Mean Train Loss: 0.148, Mean Train F1: 0.380
+Model: (BERT), Epoch:   2, Mean Validation Loss: 0.357, Validation F1: 0.411
+Model: (BERT), Epoch:   2, Mean Test Loss: 0.296, Test F1: 0.308
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:   3, Iter:     0, Loss: 0.087, F1: 0.364
+Model: (BERT), Epoch:   3, Iter:    30, Loss: 0.040, F1: 0.632
+Model: (BERT), Epoch:   3, Iter:    60, Loss: 0.031, F1: 0.571
+Model: (BERT), Epoch:   3, Iter:    90, Loss: 0.055, F1: 0.000
+Model: (BERT), Epoch:   3, Iter:   120, Loss: 0.081, F1: 0.400
+Model: (BERT), Epoch:   3, Iter:   150, Loss: 0.082, F1: 0.316
+Model: (BERT), Epoch:   3, Iter:   180, Loss: 0.029, F1: 0.667
+Model: (BERT), Epoch:   3, Iter:   210, Loss: 0.124, F1: 0.471
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   3, Iter:     0, Loss: 0.113
+Model: (BERT), Epoch:   3, Iter:    30, Loss: 0.109
+Model: (BERT), Epoch:   3, Iter:    60, Loss: 1.087
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   3, Iter:     0, Loss: 0.199
+Model: (BERT), Epoch:   3, Iter:    30, Loss: 0.467
+Model: (BERT), Epoch:   3, Iter:    60, Loss: 0.146
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   3, Mean Train Loss: 0.135, Mean Train F1: 0.422
+Model: (BERT), Epoch:   3, Mean Validation Loss: 0.408, Validation F1: 0.440
+Model: (BERT), Epoch:   3, Mean Test Loss: 0.294, Test F1: 0.335
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:   4, Iter:     0, Loss: 0.107, F1: 0.400
+Model: (BERT), Epoch:   4, Iter:    30, Loss: 0.075, F1: 0.273
+Model: (BERT), Epoch:   4, Iter:    60, Loss: 0.080, F1: 0.727
+Model: (BERT), Epoch:   4, Iter:    90, Loss: 0.098, F1: 0.417
+Model: (BERT), Epoch:   4, Iter:   120, Loss: 0.049, F1: 0.526
+Model: (BERT), Epoch:   4, Iter:   150, Loss: 0.031, F1: 0.667
+Model: (BERT), Epoch:   4, Iter:   180, Loss: 0.066, F1: 0.500
+Model: (BERT), Epoch:   4, Iter:   210, Loss: 0.023, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   4, Iter:     0, Loss: 0.158
+Model: (BERT), Epoch:   4, Iter:    30, Loss: 0.324
+Model: (BERT), Epoch:   4, Iter:    60, Loss: 0.350
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   4, Iter:     0, Loss: 0.678
+Model: (BERT), Epoch:   4, Iter:    30, Loss: 0.329
+Model: (BERT), Epoch:   4, Iter:    60, Loss: 0.282
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   4, Mean Train Loss: 0.128, Mean Train F1: 0.431
+Model: (BERT), Epoch:   4, Mean Validation Loss: 0.321, Validation F1: 0.446
+Model: (BERT), Epoch:   4, Mean Test Loss: 0.290, Test F1: 0.332
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:   5, Iter:     0, Loss: 0.023, F1: 0.000
+Model: (BERT), Epoch:   5, Iter:    30, Loss: 0.066, F1: 0.444
+Model: (BERT), Epoch:   5, Iter:    60, Loss: 0.083, F1: 0.471
+Model: (BERT), Epoch:   5, Iter:    90, Loss: 0.042, F1: 0.667
+Model: (BERT), Epoch:   5, Iter:   120, Loss: 0.099, F1: 0.364
+Model: (BERT), Epoch:   5, Iter:   150, Loss: 0.055, F1: 0.286
+Model: (BERT), Epoch:   5, Iter:   180, Loss: 0.053, F1: 0.250
+Model: (BERT), Epoch:   5, Iter:   210, Loss: 0.065, F1: 0.545
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   5, Iter:     0, Loss: 0.152
+Model: (BERT), Epoch:   5, Iter:    30, Loss: 0.081
+Model: (BERT), Epoch:   5, Iter:    60, Loss: 0.313
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   5, Iter:     0, Loss: 0.550
+Model: (BERT), Epoch:   5, Iter:    30, Loss: 0.301
+Model: (BERT), Epoch:   5, Iter:    60, Loss: 0.103
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   5, Mean Train Loss: 0.122, Mean Train F1: 0.432
+Model: (BERT), Epoch:   5, Mean Validation Loss: 0.356, Validation F1: 0.454
+Model: (BERT), Epoch:   5, Mean Test Loss: 0.292, Test F1: 0.335
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:   6, Iter:     0, Loss: 0.108, F1: 0.500
+Model: (BERT), Epoch:   6, Iter:    30, Loss: 0.063, F1: 0.333
+Model: (BERT), Epoch:   6, Iter:    60, Loss: 0.108, F1: 0.182
+Model: (BERT), Epoch:   6, Iter:    90, Loss: 0.012, F1: 0.667
+Model: (BERT), Epoch:   6, Iter:   120, Loss: 0.025, F1: 0.500
+Model: (BERT), Epoch:   6, Iter:   150, Loss: 0.050, F1: 0.348
+Model: (BERT), Epoch:   6, Iter:   180, Loss: 0.099, F1: 0.000
+Model: (BERT), Epoch:   6, Iter:   210, Loss: 0.054, F1: 0.286
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   6, Iter:     0, Loss: 0.079
+Model: (BERT), Epoch:   6, Iter:    30, Loss: 0.164
+Model: (BERT), Epoch:   6, Iter:    60, Loss: 0.306
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   6, Iter:     0, Loss: 0.562
+Model: (BERT), Epoch:   6, Iter:    30, Loss: 0.134
+Model: (BERT), Epoch:   6, Iter:    60, Loss: 0.264
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   6, Mean Train Loss: 0.118, Mean Train F1: 0.466
+Model: (BERT), Epoch:   6, Mean Validation Loss: 0.393, Validation F1: 0.465
+Model: (BERT), Epoch:   6, Mean Test Loss: 0.291, Test F1: 0.359
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:   7, Iter:     0, Loss: 0.072, F1: 0.600
+Model: (BERT), Epoch:   7, Iter:    30, Loss: 0.063, F1: 0.167
+Model: (BERT), Epoch:   7, Iter:    60, Loss: 0.014, F1: 0.857
+Model: (BERT), Epoch:   7, Iter:    90, Loss: 0.036, F1: 0.444
+Model: (BERT), Epoch:   7, Iter:   120, Loss: 0.040, F1: 0.444
+Model: (BERT), Epoch:   7, Iter:   150, Loss: 0.038, F1: 0.333
+Model: (BERT), Epoch:   7, Iter:   180, Loss: 0.091, F1: 0.417
+Model: (BERT), Epoch:   7, Iter:   210, Loss: 0.059, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   7, Iter:     0, Loss: 0.143
+Model: (BERT), Epoch:   7, Iter:    30, Loss: 0.303
+Model: (BERT), Epoch:   7, Iter:    60, Loss: 0.403
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   7, Iter:     0, Loss: 0.181
+Model: (BERT), Epoch:   7, Iter:    30, Loss: 0.696
+Model: (BERT), Epoch:   7, Iter:    60, Loss: 0.268
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   7, Mean Train Loss: 0.114, Mean Train F1: 0.459
+Model: (BERT), Epoch:   7, Mean Validation Loss: 0.428, Validation F1: 0.454
+Model: (BERT), Epoch:   7, Mean Test Loss: 0.296, Test F1: 0.357
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (BERT), Epoch:   8, Iter:     0, Loss: 0.041, F1: 0.500
+Model: (BERT), Epoch:   8, Iter:    30, Loss: 0.045, F1: 0.429
+Model: (BERT), Epoch:   8, Iter:    60, Loss: 0.090, F1: 0.455
+Model: (BERT), Epoch:   8, Iter:    90, Loss: 0.016, F1: 0.000
+Model: (BERT), Epoch:   8, Iter:   120, Loss: 0.070, F1: 0.593
+Model: (BERT), Epoch:   8, Iter:   150, Loss: 0.038, F1: 0.667
+Model: (BERT), Epoch:   8, Iter:   180, Loss: 0.099, F1: 0.480
+Model: (BERT), Epoch:   8, Iter:   210, Loss: 0.050, F1: 0.571
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   8, Iter:     0, Loss: 0.634
+Model: (BERT), Epoch:   8, Iter:    30, Loss: 0.371
+Model: (BERT), Epoch:   8, Iter:    60, Loss: 0.366
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   8, Iter:     0, Loss: 0.167
+Model: (BERT), Epoch:   8, Iter:    30, Loss: 0.425
+Model: (BERT), Epoch:   8, Iter:    60, Loss: 0.267
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   8, Mean Train Loss: 0.111, Mean Train F1: 0.477
+Model: (BERT), Epoch:   8, Mean Validation Loss: 0.312, Validation F1: 0.467
+Model: (BERT), Epoch:   8, Mean Test Loss: 0.285, Test F1: 0.360
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:   9, Iter:     0, Loss: 0.069, F1: 0.286
+Model: (BERT), Epoch:   9, Iter:    30, Loss: 0.044, F1: 0.593
+Model: (BERT), Epoch:   9, Iter:    60, Loss: 0.046, F1: 0.842
+Model: (BERT), Epoch:   9, Iter:    90, Loss: 0.016, F1: 0.857
+Model: (BERT), Epoch:   9, Iter:   120, Loss: 0.092, F1: 0.522
+Model: (BERT), Epoch:   9, Iter:   150, Loss: 0.053, F1: 0.500
+Model: (BERT), Epoch:   9, Iter:   180, Loss: 0.067, F1: 0.333
+Model: (BERT), Epoch:   9, Iter:   210, Loss: 0.063, F1: 0.786
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:   9, Iter:     0, Loss: 0.362
+Model: (BERT), Epoch:   9, Iter:    30, Loss: 0.248
+Model: (BERT), Epoch:   9, Iter:    60, Loss: 0.747
+
+
+
+TESTING
+
+Model: (BERT), Epoch:   9, Iter:     0, Loss: 0.250
+Model: (BERT), Epoch:   9, Iter:    30, Loss: 0.275
+Model: (BERT), Epoch:   9, Iter:    60, Loss: 0.002
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:   9, Mean Train Loss: 0.109, Mean Train F1: 0.485
+Model: (BERT), Epoch:   9, Mean Validation Loss: 0.320, Validation F1: 0.469
+Model: (BERT), Epoch:   9, Mean Test Loss: 0.291, Test F1: 0.365
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT), Epoch:  10, Iter:     0, Loss: 0.015, F1: 0.667
+Model: (BERT), Epoch:  10, Iter:    30, Loss: 0.032, F1: 0.333
+Model: (BERT), Epoch:  10, Iter:    60, Loss: 0.072, F1: 0.533
+Model: (BERT), Epoch:  10, Iter:    90, Loss: 0.076, F1: 0.364
+Model: (BERT), Epoch:  10, Iter:   120, Loss: 0.039, F1: 0.667
+Model: (BERT), Epoch:  10, Iter:   150, Loss: 0.065, F1: 0.571
+Model: (BERT), Epoch:  10, Iter:   180, Loss: 0.033, F1: 0.500
+Model: (BERT), Epoch:  10, Iter:   210, Loss: 0.040, F1: 0.400
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:  10, Iter:     0, Loss: 0.306
+Model: (BERT), Epoch:  10, Iter:    30, Loss: 0.127
+Model: (BERT), Epoch:  10, Iter:    60, Loss: 0.493
+
+
+
+TESTING
+
+Model: (BERT), Epoch:  10, Iter:     0, Loss: 0.355
+Model: (BERT), Epoch:  10, Iter:    30, Loss: 0.341
+Model: (BERT), Epoch:  10, Iter:    60, Loss: 0.149
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:  10, Mean Train Loss: 0.107, Mean Train F1: 0.495
+Model: (BERT), Epoch:  10, Mean Validation Loss: 0.322, Validation F1: 0.459
+Model: (BERT), Epoch:  10, Mean Test Loss: 0.298, Test F1: 0.354
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (BERT), Epoch:  11, Iter:     0, Loss: 0.040, F1: 0.727
+Model: (BERT), Epoch:  11, Iter:    30, Loss: 0.063, F1: 0.500
+Model: (BERT), Epoch:  11, Iter:    60, Loss: 0.023, F1: 0.667
+Model: (BERT), Epoch:  11, Iter:    90, Loss: 0.049, F1: 0.545
+Model: (BERT), Epoch:  11, Iter:   120, Loss: 0.007, F1: 0.000
+Model: (BERT), Epoch:  11, Iter:   150, Loss: 0.027, F1: 0.400
+Model: (BERT), Epoch:  11, Iter:   180, Loss: 0.105, F1: 0.400
+Model: (BERT), Epoch:  11, Iter:   210, Loss: 0.024, F1: 0.609
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:  11, Iter:     0, Loss: 0.284
+Model: (BERT), Epoch:  11, Iter:    30, Loss: 0.233
+Model: (BERT), Epoch:  11, Iter:    60, Loss: 0.180
+
+
+
+TESTING
+
+Model: (BERT), Epoch:  11, Iter:     0, Loss: 0.576
+Model: (BERT), Epoch:  11, Iter:    30, Loss: 0.405
+Model: (BERT), Epoch:  11, Iter:    60, Loss: 0.518
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:  11, Mean Train Loss: 0.107, Mean Train F1: 0.492
+Model: (BERT), Epoch:  11, Mean Validation Loss: 0.330, Validation F1: 0.438
+Model: (BERT), Epoch:  11, Mean Test Loss: 0.312, Test F1: 0.344
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (BERT), Epoch:  12, Iter:     0, Loss: 0.127, F1: 0.000
+Model: (BERT), Epoch:  12, Iter:    30, Loss: 0.102, F1: 0.516
+Model: (BERT), Epoch:  12, Iter:    60, Loss: 0.032, F1: 0.667
+Model: (BERT), Epoch:  12, Iter:    90, Loss: 0.048, F1: 0.696
+Model: (BERT), Epoch:  12, Iter:   120, Loss: 0.032, F1: 0.556
+Model: (BERT), Epoch:  12, Iter:   150, Loss: 0.040, F1: 0.615
+Model: (BERT), Epoch:  12, Iter:   180, Loss: 0.040, F1: 0.800
+Model: (BERT), Epoch:  12, Iter:   210, Loss: 0.087, F1: 0.571
+
+
+
+VALIDATING
+
+Model: (BERT), Epoch:  12, Iter:     0, Loss: 0.152
+Model: (BERT), Epoch:  12, Iter:    30, Loss: 0.305
+Model: (BERT), Epoch:  12, Iter:    60, Loss: 0.230
+
+
+
+TESTING
+
+Model: (BERT), Epoch:  12, Iter:     0, Loss: 0.254
+Model: (BERT), Epoch:  12, Iter:    30, Loss: 0.183
+Model: (BERT), Epoch:  12, Iter:    60, Loss: 0.257
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT), Epoch:  12, Mean Train Loss: 0.101, Mean Train F1: 0.499
+Model: (BERT), Epoch:  12, Mean Validation Loss: 0.329, Validation F1: 0.439
+Model: (BERT), Epoch:  12, Mean Test Loss: 0.313, Test F1: 0.339
+Impatience Level: 3
+
+

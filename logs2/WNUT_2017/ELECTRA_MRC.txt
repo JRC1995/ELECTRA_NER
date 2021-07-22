@@ -1,0 +1,1409 @@
+Dataset: WNUT_2017
+Model Name: ELECTRA_MRC
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 334096400
+
+
+layer_weights
+torch.Size([12])
+BigTransformer.embeddings.word_embeddings.weight
+torch.Size([30522, 1024])
+BigTransformer.embeddings.position_embeddings.weight
+torch.Size([512, 1024])
+BigTransformer.embeddings.token_type_embeddings.weight
+torch.Size([2, 1024])
+BigTransformer.embeddings.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.embeddings.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.0.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.0.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.0.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.0.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.0.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.0.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.0.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.0.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.0.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.0.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.0.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.0.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.0.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.0.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.0.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.0.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.1.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.1.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.1.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.1.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.1.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.1.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.1.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.1.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.1.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.1.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.1.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.1.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.1.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.1.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.1.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.1.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.2.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.2.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.2.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.2.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.2.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.2.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.2.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.2.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.2.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.2.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.2.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.2.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.2.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.2.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.2.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.2.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.3.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.3.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.3.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.3.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.3.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.3.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.3.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.3.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.3.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.3.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.3.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.3.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.3.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.3.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.3.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.3.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.4.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.4.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.4.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.4.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.4.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.4.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.4.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.4.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.4.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.4.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.4.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.4.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.4.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.4.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.4.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.4.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.5.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.5.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.5.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.5.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.5.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.5.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.5.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.5.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.5.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.5.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.5.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.5.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.5.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.5.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.5.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.5.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.6.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.6.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.6.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.6.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.6.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.6.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.6.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.6.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.6.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.6.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.6.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.6.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.6.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.6.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.6.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.6.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.7.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.7.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.7.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.7.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.7.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.7.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.7.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.7.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.7.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.7.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.7.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.7.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.7.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.7.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.7.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.7.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.8.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.8.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.8.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.8.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.8.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.8.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.8.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.8.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.8.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.8.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.8.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.8.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.8.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.8.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.8.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.8.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.9.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.9.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.9.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.9.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.9.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.9.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.9.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.9.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.9.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.9.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.9.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.9.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.9.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.9.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.9.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.9.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.10.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.10.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.10.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.10.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.10.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.10.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.10.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.10.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.10.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.10.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.10.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.10.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.10.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.10.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.10.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.10.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.11.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.11.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.11.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.11.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.11.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.11.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.11.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.11.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.11.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.11.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.11.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.11.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.11.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.11.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.11.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.11.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.12.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.12.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.12.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.12.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.12.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.12.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.12.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.12.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.12.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.12.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.12.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.12.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.12.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.12.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.12.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.12.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.13.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.13.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.13.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.13.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.13.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.13.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.13.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.13.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.13.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.13.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.13.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.13.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.13.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.13.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.13.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.13.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.14.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.14.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.14.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.14.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.14.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.14.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.14.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.14.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.14.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.14.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.14.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.14.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.14.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.14.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.14.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.14.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.15.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.15.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.15.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.15.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.15.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.15.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.15.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.15.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.15.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.15.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.15.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.15.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.15.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.15.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.15.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.15.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.16.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.16.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.16.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.16.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.16.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.16.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.16.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.16.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.16.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.16.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.16.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.16.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.16.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.16.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.16.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.16.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.17.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.17.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.17.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.17.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.17.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.17.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.17.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.17.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.17.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.17.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.17.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.17.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.17.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.17.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.17.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.17.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.18.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.18.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.18.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.18.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.18.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.18.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.18.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.18.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.18.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.18.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.18.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.18.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.18.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.18.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.18.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.18.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.19.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.19.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.19.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.19.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.19.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.19.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.19.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.19.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.19.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.19.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.19.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.19.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.19.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.19.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.19.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.19.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.20.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.20.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.20.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.20.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.20.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.20.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.20.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.20.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.20.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.20.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.20.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.20.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.20.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.20.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.20.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.20.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.21.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.21.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.21.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.21.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.21.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.21.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.21.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.21.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.21.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.21.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.21.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.21.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.21.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.21.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.21.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.21.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.22.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.22.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.22.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.22.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.22.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.22.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.22.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.22.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.22.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.22.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.22.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.22.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.22.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.22.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.22.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.22.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.23.attention.self.query.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.23.attention.self.query.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.23.attention.self.key.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.23.attention.self.key.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.23.attention.self.value.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.23.attention.self.value.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.23.attention.output.dense.weight
+torch.Size([1024, 1024])
+BigTransformer.encoder.layer.23.attention.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.23.attention.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.23.attention.output.LayerNorm.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.23.intermediate.dense.weight
+torch.Size([4096, 1024])
+BigTransformer.encoder.layer.23.intermediate.dense.bias
+torch.Size([4096])
+BigTransformer.encoder.layer.23.output.dense.weight
+torch.Size([1024, 4096])
+BigTransformer.encoder.layer.23.output.dense.bias
+torch.Size([1024])
+BigTransformer.encoder.layer.23.output.LayerNorm.weight
+torch.Size([1024])
+BigTransformer.encoder.layer.23.output.LayerNorm.bias
+torch.Size([1024])
+hidden2start.weight
+torch.Size([2, 1024])
+hidden2start.bias
+torch.Size([2])
+hidden2end.weight
+torch.Size([2, 1024])
+hidden2end.bias
+torch.Size([2])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   0, Iter:     0, Loss: 0.336, F1: 0.000
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    30, Loss: 0.042, F1: 0.000
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    60, Loss: 0.130, F1: 0.000
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    90, Loss: 0.055, F1: 0.364
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   120, Loss: 0.038, F1: 0.556
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   150, Loss: 0.028, F1: 0.800
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   180, Loss: 0.075, F1: 0.333
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   210, Loss: 0.051, F1: 0.235
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   240, Loss: 0.018, F1: 0.444
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   270, Loss: 0.044, F1: 0.400
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   300, Loss: 0.054, F1: 0.500
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   330, Loss: 0.005, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   0, Iter:     0, Loss: 0.023
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    30, Loss: 0.039
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    60, Loss: 0.093
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    90, Loss: 0.054
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   120, Loss: 0.133
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   150, Loss: 0.043
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   180, Loss: 0.053
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   210, Loss: 0.059
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   240, Loss: 0.049
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   270, Loss: 0.022
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   300, Loss: 0.021
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   330, Loss: 0.098
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   360, Loss: 0.021
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   0, Iter:     0, Loss: 0.067
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    30, Loss: 0.056
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    60, Loss: 0.061
+Model: (ELECTRA-MRC), Epoch:   0, Iter:    90, Loss: 0.049
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   120, Loss: 0.058
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   150, Loss: 0.032
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   180, Loss: 0.076
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   210, Loss: 0.074
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   240, Loss: 0.135
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   270, Loss: 0.041
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   300, Loss: 0.057
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   330, Loss: 0.034
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   360, Loss: 0.071
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   390, Loss: 0.047
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   420, Loss: 0.123
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   450, Loss: 0.104
+Model: (ELECTRA-MRC), Epoch:   0, Iter:   480, Loss: 0.014
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   0, Mean Train Loss: 0.111, Mean Train F1: 0.385
+Model: (ELECTRA-MRC), Epoch:   0, Mean Validation Loss: 0.075, Validation F1: 0.449
+Model: (ELECTRA-MRC), Epoch:   0, Mean Test Loss: 0.072, Test F1: 0.347
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   1, Iter:     0, Loss: 0.044, F1: 0.333
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    30, Loss: 0.049, F1: 0.471
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    60, Loss: 0.010, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    90, Loss: 0.022, F1: 0.444
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   120, Loss: 0.021, F1: 0.600
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   150, Loss: 0.024, F1: 0.444
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   180, Loss: 0.064, F1: 0.471
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   210, Loss: 0.042, F1: 0.333
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   240, Loss: 0.006, F1: 0.875
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   270, Loss: 0.008, F1: 0.727
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   300, Loss: 0.022, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   330, Loss: 0.018, F1: 0.778
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   1, Iter:     0, Loss: 0.051
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    30, Loss: 0.036
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    60, Loss: 0.120
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    90, Loss: 0.089
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   120, Loss: 0.111
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   150, Loss: 0.091
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   180, Loss: 0.051
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   210, Loss: 0.025
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   240, Loss: 0.035
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   270, Loss: 0.130
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   300, Loss: 0.013
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   330, Loss: 0.070
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   360, Loss: 0.038
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   1, Iter:     0, Loss: 0.041
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    30, Loss: 0.034
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    60, Loss: 0.013
+Model: (ELECTRA-MRC), Epoch:   1, Iter:    90, Loss: 0.010
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   120, Loss: 0.128
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   150, Loss: 0.323
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   180, Loss: 0.023
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   210, Loss: 0.035
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   240, Loss: 0.056
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   270, Loss: 0.123
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   300, Loss: 0.117
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   330, Loss: 0.087
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   360, Loss: 0.082
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   390, Loss: 0.029
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   420, Loss: 0.052
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   450, Loss: 0.021
+Model: (ELECTRA-MRC), Epoch:   1, Iter:   480, Loss: 0.039
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   1, Mean Train Loss: 0.052, Mean Train F1: 0.630
+Model: (ELECTRA-MRC), Epoch:   1, Mean Validation Loss: 0.075, Validation F1: 0.480
+Model: (ELECTRA-MRC), Epoch:   1, Mean Test Loss: 0.072, Test F1: 0.353
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   2, Iter:     0, Loss: 0.022, F1: 0.545
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    30, Loss: 0.031, F1: 0.800
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    60, Loss: 0.006, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    90, Loss: 0.029, F1: 0.571
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   120, Loss: 0.028, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   150, Loss: 0.040, F1: 0.769
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   180, Loss: 0.017, F1: 0.714
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   210, Loss: 0.004, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   240, Loss: 0.019, F1: 0.500
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   270, Loss: 0.011, F1: 0.800
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   300, Loss: 0.013, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   330, Loss: 0.035, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   2, Iter:     0, Loss: 0.007
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    30, Loss: 0.121
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    60, Loss: 0.034
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    90, Loss: 0.050
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   120, Loss: 0.023
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   150, Loss: 0.032
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   180, Loss: 0.007
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   210, Loss: 0.004
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   240, Loss: 0.064
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   270, Loss: 0.032
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   300, Loss: 0.001
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   330, Loss: 0.001
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   360, Loss: 0.017
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   2, Iter:     0, Loss: 0.061
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    30, Loss: 0.011
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    60, Loss: 0.107
+Model: (ELECTRA-MRC), Epoch:   2, Iter:    90, Loss: 0.055
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   120, Loss: 0.073
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   150, Loss: 0.106
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   180, Loss: 0.092
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   210, Loss: 0.004
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   240, Loss: 0.016
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   270, Loss: 0.186
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   300, Loss: 0.122
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   330, Loss: 0.017
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   360, Loss: 0.061
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   390, Loss: 0.124
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   420, Loss: 0.043
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   450, Loss: 0.077
+Model: (ELECTRA-MRC), Epoch:   2, Iter:   480, Loss: 0.036
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   2, Mean Train Loss: 0.037, Mean Train F1: 0.707
+Model: (ELECTRA-MRC), Epoch:   2, Mean Validation Loss: 0.076, Validation F1: 0.524
+Model: (ELECTRA-MRC), Epoch:   2, Mean Test Loss: 0.077, Test F1: 0.392
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   3, Iter:     0, Loss: 0.021, F1: 0.333
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    30, Loss: 0.013, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    60, Loss: 0.021, F1: 0.444
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    90, Loss: 0.012, F1: 0.857
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   120, Loss: 0.003, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   150, Loss: 0.011, F1: 0.556
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   180, Loss: 0.015, F1: 0.778
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   210, Loss: 0.003, F1: 0.800
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   240, Loss: 0.018, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   270, Loss: 0.008, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   300, Loss: 0.009, F1: 0.800
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   330, Loss: 0.000, F1: 1.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   3, Iter:     0, Loss: 0.023
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    30, Loss: 0.019
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    60, Loss: 0.011
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    90, Loss: 0.092
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   120, Loss: 0.090
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   150, Loss: 0.005
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   180, Loss: 0.081
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   210, Loss: 0.191
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   240, Loss: 0.069
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   270, Loss: 0.027
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   300, Loss: 0.014
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   330, Loss: 0.004
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   360, Loss: 0.078
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   3, Iter:     0, Loss: 0.054
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    30, Loss: 0.114
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    60, Loss: 0.010
+Model: (ELECTRA-MRC), Epoch:   3, Iter:    90, Loss: 0.318
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   120, Loss: 0.018
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   150, Loss: 0.088
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   180, Loss: 0.009
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   210, Loss: 0.020
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   240, Loss: 0.090
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   270, Loss: 0.047
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   300, Loss: 0.043
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   330, Loss: 0.021
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   360, Loss: 0.005
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   390, Loss: 0.011
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   420, Loss: 0.126
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   450, Loss: 0.080
+Model: (ELECTRA-MRC), Epoch:   3, Iter:   480, Loss: 0.050
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   3, Mean Train Loss: 0.027, Mean Train F1: 0.760
+Model: (ELECTRA-MRC), Epoch:   3, Mean Validation Loss: 0.080, Validation F1: 0.601
+Model: (ELECTRA-MRC), Epoch:   3, Mean Test Loss: 0.079, Test F1: 0.429
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   4, Iter:     0, Loss: 0.011, F1: 0.714
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    30, Loss: 0.001, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    60, Loss: 0.021, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    90, Loss: 0.008, F1: 0.900
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   120, Loss: 0.007, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   150, Loss: 0.006, F1: 0.800
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   180, Loss: 0.010, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   210, Loss: 0.023, F1: 0.500
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   240, Loss: 0.006, F1: 0.727
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   270, Loss: 0.001, F1: 0.889
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   300, Loss: 0.002, F1: 0.933
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   330, Loss: 0.015, F1: 0.609
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   4, Iter:     0, Loss: 0.051
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    30, Loss: 0.215
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    60, Loss: 0.013
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    90, Loss: 0.047
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   120, Loss: 0.087
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   150, Loss: 0.019
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   180, Loss: 0.325
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   210, Loss: 0.019
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   240, Loss: 0.199
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   270, Loss: 0.155
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   300, Loss: 0.045
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   330, Loss: 0.005
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   360, Loss: 0.127
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   4, Iter:     0, Loss: 0.095
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    30, Loss: 0.228
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    60, Loss: 0.228
+Model: (ELECTRA-MRC), Epoch:   4, Iter:    90, Loss: 0.131
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   120, Loss: 0.218
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   150, Loss: 0.015
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   180, Loss: 0.293
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   210, Loss: 0.137
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   240, Loss: 0.002
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   270, Loss: 0.052
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   300, Loss: 0.078
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   330, Loss: 0.130
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   360, Loss: 0.129
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   390, Loss: 0.023
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   420, Loss: 0.177
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   450, Loss: 0.050
+Model: (ELECTRA-MRC), Epoch:   4, Iter:   480, Loss: 0.017
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   4, Mean Train Loss: 0.021, Mean Train F1: 0.794
+Model: (ELECTRA-MRC), Epoch:   4, Mean Validation Loss: 0.111, Validation F1: 0.459
+Model: (ELECTRA-MRC), Epoch:   4, Mean Test Loss: 0.106, Test F1: 0.275
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   5, Iter:     0, Loss: 0.016, F1: 0.875
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    30, Loss: 0.009, F1: 0.857
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    60, Loss: 0.021, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    90, Loss: 0.001, F1: 0.750
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   120, Loss: 0.030, F1: 0.500
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   150, Loss: 0.006, F1: 0.857
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   180, Loss: 0.023, F1: 0.353
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   210, Loss: 0.012, F1: 0.900
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   240, Loss: 0.011, F1: 0.640
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   270, Loss: 0.017, F1: 0.727
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   300, Loss: 0.000, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   330, Loss: 0.001, F1: 0.857
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   5, Iter:     0, Loss: 0.012
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    30, Loss: 0.024
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    60, Loss: 0.015
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    90, Loss: 0.014
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   120, Loss: 0.011
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   150, Loss: 0.034
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   180, Loss: 0.043
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   210, Loss: 0.009
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   240, Loss: 0.111
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   270, Loss: 0.030
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   300, Loss: 0.026
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   330, Loss: 0.002
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   360, Loss: 0.583
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   5, Iter:     0, Loss: 0.087
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    30, Loss: 0.017
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    60, Loss: 0.136
+Model: (ELECTRA-MRC), Epoch:   5, Iter:    90, Loss: 0.090
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   120, Loss: 0.031
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   150, Loss: 0.025
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   180, Loss: 0.096
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   210, Loss: 0.558
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   240, Loss: 0.372
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   270, Loss: 0.044
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   300, Loss: 0.105
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   330, Loss: 0.011
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   360, Loss: 0.015
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   390, Loss: 0.099
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   420, Loss: 0.041
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   450, Loss: 0.468
+Model: (ELECTRA-MRC), Epoch:   5, Iter:   480, Loss: 0.056
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   5, Mean Train Loss: 0.016, Mean Train F1: 0.830
+Model: (ELECTRA-MRC), Epoch:   5, Mean Validation Loss: 0.100, Validation F1: 0.602
+Model: (ELECTRA-MRC), Epoch:   5, Mean Test Loss: 0.097, Test F1: 0.443
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   6, Iter:     0, Loss: 0.006, F1: 0.714
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    30, Loss: 0.001, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    60, Loss: 0.002, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    90, Loss: 0.010, F1: 0.857
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   120, Loss: 0.002, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   150, Loss: 0.116, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   180, Loss: 0.006, F1: 0.800
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   210, Loss: 0.003, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   240, Loss: 0.012, F1: 0.923
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   270, Loss: 0.004, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   300, Loss: 0.009, F1: 0.947
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   330, Loss: 0.001, F1: 1.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   6, Iter:     0, Loss: 0.365
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    30, Loss: 0.079
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    60, Loss: 0.023
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    90, Loss: 0.000
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   120, Loss: 0.197
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   150, Loss: 0.844
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   180, Loss: 0.021
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   210, Loss: 0.177
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   240, Loss: 0.003
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   270, Loss: 0.053
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   300, Loss: 0.033
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   330, Loss: 0.000
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   360, Loss: 0.001
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   6, Iter:     0, Loss: 0.000
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    30, Loss: 0.150
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    60, Loss: 0.003
+Model: (ELECTRA-MRC), Epoch:   6, Iter:    90, Loss: 0.072
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   120, Loss: 0.092
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   150, Loss: 0.090
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   180, Loss: 0.456
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   210, Loss: 0.017
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   240, Loss: 0.024
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   270, Loss: 0.076
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   300, Loss: 0.153
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   330, Loss: 0.066
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   360, Loss: 0.021
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   390, Loss: 0.121
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   420, Loss: 0.009
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   450, Loss: 0.046
+Model: (ELECTRA-MRC), Epoch:   6, Iter:   480, Loss: 0.067
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   6, Mean Train Loss: 0.013, Mean Train F1: 0.852
+Model: (ELECTRA-MRC), Epoch:   6, Mean Validation Loss: 0.117, Validation F1: 0.579
+Model: (ELECTRA-MRC), Epoch:   6, Mean Test Loss: 0.121, Test F1: 0.400
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   7, Iter:     0, Loss: 0.007, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    30, Loss: 0.015, F1: 0.429
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    60, Loss: 0.001, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    90, Loss: 0.012, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   120, Loss: 0.004, F1: 0.857
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   150, Loss: 0.000, F1: 0.800
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   180, Loss: 0.016, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   210, Loss: 0.008, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   240, Loss: 0.010, F1: 0.842
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   270, Loss: 0.012, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   300, Loss: 0.007, F1: 0.929
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   330, Loss: 0.010, F1: 0.800
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   7, Iter:     0, Loss: 0.342
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    30, Loss: 0.100
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    60, Loss: 0.014
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    90, Loss: 0.064
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   120, Loss: 0.395
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   150, Loss: 0.089
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   180, Loss: 0.307
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   210, Loss: 0.169
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   240, Loss: 0.014
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   270, Loss: 0.010
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   300, Loss: 0.065
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   330, Loss: 0.055
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   360, Loss: 0.154
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   7, Iter:     0, Loss: 0.084
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    30, Loss: 0.032
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    60, Loss: 0.181
+Model: (ELECTRA-MRC), Epoch:   7, Iter:    90, Loss: 0.152
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   120, Loss: 0.050
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   150, Loss: 0.131
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   180, Loss: 0.112
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   210, Loss: 0.004
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   240, Loss: 0.016
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   270, Loss: 0.096
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   300, Loss: 0.143
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   330, Loss: 0.018
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   360, Loss: 0.007
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   390, Loss: 0.174
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   420, Loss: 0.500
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   450, Loss: 0.048
+Model: (ELECTRA-MRC), Epoch:   7, Iter:   480, Loss: 0.004
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   7, Mean Train Loss: 0.012, Mean Train F1: 0.842
+Model: (ELECTRA-MRC), Epoch:   7, Mean Validation Loss: 0.101, Validation F1: 0.552
+Model: (ELECTRA-MRC), Epoch:   7, Mean Test Loss: 0.085, Test F1: 0.427
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (ELECTRA-MRC), Epoch:   8, Iter:     0, Loss: 0.010, F1: 0.500
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    30, Loss: 0.005, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    60, Loss: 0.002, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    90, Loss: 0.001, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   120, Loss: 0.001, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   150, Loss: 0.004, F1: 0.667
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   180, Loss: 0.000, F1: 0.909
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   210, Loss: 0.002, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   240, Loss: 0.002, F1: 0.917
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   270, Loss: 0.007, F1: 0.833
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   300, Loss: 0.000, F1: 1.000
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   330, Loss: 0.001, F1: 0.889
+
+
+
+VALIDATING
+
+Model: (ELECTRA-MRC), Epoch:   8, Iter:     0, Loss: 0.000
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    30, Loss: 0.179
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    60, Loss: 0.080
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    90, Loss: 0.169
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   120, Loss: 0.042
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   150, Loss: 0.440
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   180, Loss: 0.012
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   210, Loss: 0.162
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   240, Loss: 0.042
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   270, Loss: 0.001
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   300, Loss: 0.369
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   330, Loss: 0.233
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   360, Loss: 0.026
+
+
+
+TESTING
+
+Model: (ELECTRA-MRC), Epoch:   8, Iter:     0, Loss: 0.003
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    30, Loss: 0.037
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    60, Loss: 0.276
+Model: (ELECTRA-MRC), Epoch:   8, Iter:    90, Loss: 0.005
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   120, Loss: 0.720
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   150, Loss: 0.048
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   180, Loss: 0.021
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   210, Loss: 0.001
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   240, Loss: 0.029
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   270, Loss: 0.170
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   300, Loss: 0.008
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   330, Loss: 0.177
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   360, Loss: 0.254
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   390, Loss: 0.082
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   420, Loss: 0.012
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   450, Loss: 0.003
+Model: (ELECTRA-MRC), Epoch:   8, Iter:   480, Loss: 0.064
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-MRC), Epoch:   8, Mean Train Loss: 0.010, Mean Train F1: 0.854
+Model: (ELECTRA-MRC), Epoch:   8, Mean Validation Loss: 0.133, Validation F1: 0.594
+Model: (ELECTRA-MRC), Epoch:   8, Mean Test Loss: 0.128, Test F1: 0.441
+Impatience Level: 3
+
+

@@ -1,0 +1,555 @@
+Dataset: WNUT_2017
+Model Name: CSE_w2v_BiLSTM_CRF
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 9743056
+
+
+BiLSTM.weight_ih_l0
+torch.Size([1024, 4496])
+BiLSTM.weight_hh_l0
+torch.Size([1024, 256])
+BiLSTM.bias_ih_l0
+torch.Size([1024])
+BiLSTM.bias_hh_l0
+torch.Size([1024])
+BiLSTM.weight_ih_l0_reverse
+torch.Size([1024, 4496])
+BiLSTM.weight_hh_l0_reverse
+torch.Size([1024, 256])
+BiLSTM.bias_ih_l0_reverse
+torch.Size([1024])
+BiLSTM.bias_hh_l0_reverse
+torch.Size([1024])
+node_potentials.weight
+torch.Size([13, 512])
+node_potentials.bias
+torch.Size([13])
+CRF.start_transitions
+torch.Size([13])
+CRF.end_transitions
+torch.Size([13])
+CRF.transitions
+torch.Size([13, 13])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:     0, Loss: 12.115, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    30, Loss: 0.292, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    60, Loss: 1.783, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    90, Loss: 1.285, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   120, Loss: 2.009, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   150, Loss: 0.641, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   180, Loss: 1.326, F1: 0.286
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   210, Loss: 0.849, F1: 0.333
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   240, Loss: 1.511, F1: 0.118
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   270, Loss: 0.684, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   300, Loss: 0.397, F1: 0.333
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   330, Loss: 0.347, F1: 0.750
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   360, Loss: 0.472, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   390, Loss: 1.213, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   420, Loss: 0.030, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:     0, Loss: 4.139
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    30, Loss: 7.988
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    60, Loss: 5.659
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    90, Loss: 6.982
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   120, Loss: 5.063
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:     0, Loss: 5.903
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    30, Loss: 3.509
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    60, Loss: 5.068
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:    90, Loss: 2.031
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   120, Loss: 10.086
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Iter:   150, Loss: 2.054
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Mean Train Loss: 4.715, Mean Train F1: 0.160
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Mean Validation Loss: 5.394, Validation F1: 0.109
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   0, Mean Test Loss: 6.669, Test F1: 0.052
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:     0, Loss: 0.879, F1: 0.444
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    30, Loss: 0.445, F1: 0.500
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    60, Loss: 1.307, F1: 0.571
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    90, Loss: 0.148, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   120, Loss: 0.314, F1: 0.842
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   150, Loss: 0.044, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   180, Loss: 0.457, F1: 0.545
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   210, Loss: 1.378, F1: 0.200
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   240, Loss: 0.026, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   270, Loss: 0.373, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   300, Loss: 0.480, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   330, Loss: 0.138, F1: 0.400
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   360, Loss: 1.579, F1: 0.308
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   390, Loss: 0.060, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   420, Loss: 0.411, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:     0, Loss: 7.340
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    30, Loss: 3.493
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    60, Loss: 3.364
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    90, Loss: 3.438
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   120, Loss: 4.138
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:     0, Loss: 4.483
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    30, Loss: 0.067
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    60, Loss: 12.420
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:    90, Loss: 10.079
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   120, Loss: 6.369
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Iter:   150, Loss: 8.344
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Mean Train Loss: 2.308, Mean Train F1: 0.455
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Mean Validation Loss: 4.879, Validation F1: 0.148
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   1, Mean Test Loss: 6.029, Test F1: 0.088
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:     0, Loss: 0.883, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    30, Loss: 0.123, F1: 0.500
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    60, Loss: 0.479, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    90, Loss: 1.238, F1: 0.267
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   120, Loss: 1.577, F1: 0.526
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   150, Loss: 0.285, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   180, Loss: 0.517, F1: 0.429
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   210, Loss: 0.859, F1: 0.286
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   240, Loss: 0.130, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   270, Loss: 0.154, F1: 0.857
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   300, Loss: 0.794, F1: 0.200
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   330, Loss: 0.013, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   360, Loss: 1.159, F1: 0.636
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   390, Loss: 1.011, F1: 0.714
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   420, Loss: 0.221, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:     0, Loss: 5.504
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    30, Loss: 4.076
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    60, Loss: 6.075
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    90, Loss: 3.170
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   120, Loss: 0.754
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:     0, Loss: 3.087
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    30, Loss: 11.781
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    60, Loss: 4.471
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:    90, Loss: 2.041
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   120, Loss: 2.155
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Iter:   150, Loss: 3.258
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Mean Train Loss: 1.766, Mean Train F1: 0.540
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Mean Validation Loss: 4.072, Validation F1: 0.184
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   2, Mean Test Loss: 5.228, Test F1: 0.113
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:     0, Loss: 0.832, F1: 0.476
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    30, Loss: 0.043, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    60, Loss: 0.042, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    90, Loss: 0.424, F1: 0.600
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   120, Loss: 0.457, F1: 0.750
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   150, Loss: 0.557, F1: 0.250
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   180, Loss: 0.578, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   210, Loss: 0.370, F1: 0.842
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   240, Loss: 0.684, F1: 0.286
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   270, Loss: 0.665, F1: 0.526
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   300, Loss: 0.033, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   330, Loss: 0.084, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   360, Loss: 0.832, F1: 0.500
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   390, Loss: 1.220, F1: 0.545
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   420, Loss: 0.226, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:     0, Loss: 4.838
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    30, Loss: 5.441
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    60, Loss: 3.865
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    90, Loss: 5.848
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   120, Loss: 5.797
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:     0, Loss: 5.401
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    30, Loss: 6.125
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    60, Loss: 3.178
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:    90, Loss: 11.882
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   120, Loss: 0.014
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Iter:   150, Loss: 8.544
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Mean Train Loss: 1.391, Mean Train F1: 0.604
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Mean Validation Loss: 4.253, Validation F1: 0.186
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   3, Mean Test Loss: 5.510, Test F1: 0.114
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:     0, Loss: 0.035, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    30, Loss: 0.028, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    60, Loss: 0.232, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    90, Loss: 0.345, F1: 0.833
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   120, Loss: 0.172, F1: 0.909
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   150, Loss: 0.314, F1: 0.714
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   180, Loss: 0.105, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   210, Loss: 0.088, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   240, Loss: 0.008, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   270, Loss: 0.856, F1: 0.824
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   300, Loss: 0.011, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   330, Loss: 0.134, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   360, Loss: 0.622, F1: 0.737
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   390, Loss: 0.777, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   420, Loss: 0.524, F1: 0.600
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:     0, Loss: 1.940
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    30, Loss: 4.550
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    60, Loss: 4.739
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    90, Loss: 2.255
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   120, Loss: 3.855
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:     0, Loss: 3.658
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    30, Loss: 8.254
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    60, Loss: 3.634
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:    90, Loss: 3.050
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   120, Loss: 0.042
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Iter:   150, Loss: 6.684
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Mean Train Loss: 1.113, Mean Train F1: 0.641
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Mean Validation Loss: 3.762, Validation F1: 0.275
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   4, Mean Test Loss: 4.870, Test F1: 0.175
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:     0, Loss: 0.156, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    30, Loss: 0.076, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    60, Loss: 0.342, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    90, Loss: 0.156, F1: 0.500
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   120, Loss: 0.025, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   150, Loss: 0.135, F1: 0.857
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   180, Loss: 0.024, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   210, Loss: 0.123, F1: 0.750
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   240, Loss: 0.336, F1: 0.824
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   270, Loss: 0.387, F1: 0.500
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   300, Loss: 0.017, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   330, Loss: 0.665, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   360, Loss: 0.186, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   390, Loss: 0.285, F1: 0.818
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   420, Loss: 0.033, F1: 1.000
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:     0, Loss: 6.326
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    30, Loss: 2.520
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    60, Loss: 6.335
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    90, Loss: 3.186
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   120, Loss: 1.140
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:     0, Loss: 6.487
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    30, Loss: 17.297
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    60, Loss: 7.692
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:    90, Loss: 4.623
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   120, Loss: 0.052
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Iter:   150, Loss: 1.488
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Mean Train Loss: 0.856, Mean Train F1: 0.690
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Mean Validation Loss: 3.929, Validation F1: 0.268
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   5, Mean Test Loss: 5.152, Test F1: 0.175
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:     0, Loss: 0.164, F1: 0.857
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    30, Loss: 0.108, F1: 0.889
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    60, Loss: 0.124, F1: 0.750
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    90, Loss: 0.160, F1: 0.923
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   120, Loss: 0.357, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   150, Loss: 0.156, F1: 0.909
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   180, Loss: 0.069, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   210, Loss: 0.333, F1: 0.941
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   240, Loss: 0.630, F1: 0.750
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   270, Loss: 0.207, F1: 0.833
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   300, Loss: 0.056, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   330, Loss: 0.133, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   360, Loss: 0.351, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   390, Loss: 0.069, F1: 0.857
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   420, Loss: 0.167, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:     0, Loss: 7.383
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    30, Loss: 2.140
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    60, Loss: 2.668
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    90, Loss: 12.770
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   120, Loss: 4.281
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:     0, Loss: 11.814
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    30, Loss: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    60, Loss: 4.204
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:    90, Loss: 1.855
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   120, Loss: 7.584
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Iter:   150, Loss: 5.430
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Mean Train Loss: 0.714, Mean Train F1: 0.737
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Mean Validation Loss: 3.803, Validation F1: 0.378
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   6, Mean Test Loss: 5.106, Test F1: 0.250
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:     0, Loss: 0.121, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    30, Loss: 0.250, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    60, Loss: 0.153, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    90, Loss: 0.261, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   120, Loss: 0.062, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   150, Loss: 0.677, F1: 0.615
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   180, Loss: 0.009, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   210, Loss: 0.045, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   240, Loss: 0.201, F1: 0.750
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   270, Loss: 0.052, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   300, Loss: 0.022, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   330, Loss: 0.032, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   360, Loss: 0.048, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   390, Loss: 0.188, F1: 0.929
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   420, Loss: 0.017, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:     0, Loss: 0.688
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    30, Loss: 1.789
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    60, Loss: 5.474
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    90, Loss: 4.438
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   120, Loss: 1.325
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:     0, Loss: 7.383
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    30, Loss: 9.270
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    60, Loss: 10.494
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:    90, Loss: 3.051
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   120, Loss: 10.710
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Iter:   150, Loss: 0.557
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Mean Train Loss: 0.598, Mean Train F1: 0.774
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Mean Validation Loss: 4.410, Validation F1: 0.255
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   7, Mean Test Loss: 5.996, Test F1: 0.150
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:     0, Loss: 0.021, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    30, Loss: 0.111, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    60, Loss: 0.124, F1: 0.923
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    90, Loss: 0.003, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   120, Loss: 0.022, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   150, Loss: 0.262, F1: 0.444
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   180, Loss: 0.254, F1: 0.923
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   210, Loss: 0.028, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   240, Loss: 0.073, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   270, Loss: 0.037, F1: 0.667
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   300, Loss: 0.039, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   330, Loss: 0.011, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   360, Loss: 0.112, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   390, Loss: 0.175, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   420, Loss: 0.110, F1: 1.000
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:     0, Loss: 1.513
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    30, Loss: 3.898
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    60, Loss: 2.258
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    90, Loss: 2.057
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   120, Loss: 5.775
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:     0, Loss: 6.955
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    30, Loss: 4.531
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    60, Loss: 4.212
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:    90, Loss: 2.477
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   120, Loss: 3.919
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Iter:   150, Loss: 1.407
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Mean Train Loss: 0.463, Mean Train F1: 0.808
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Mean Validation Loss: 4.176, Validation F1: 0.369
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   8, Mean Test Loss: 5.788, Test F1: 0.242
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:     0, Loss: 0.109, F1: 0.857
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    30, Loss: 0.011, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    60, Loss: 0.037, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    90, Loss: 0.007, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   120, Loss: 0.125, F1: 0.900
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   150, Loss: 0.155, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   180, Loss: 0.016, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   210, Loss: 0.227, F1: 0.857
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   240, Loss: 0.058, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   270, Loss: 0.144, F1: 0.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   300, Loss: 0.052, F1: 1.000
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   330, Loss: 0.056, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   360, Loss: 0.275, F1: 0.800
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   390, Loss: 0.084, F1: 0.923
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   420, Loss: 0.037, F1: 1.000
+
+
+
+VALIDATING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:     0, Loss: 1.049
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    30, Loss: 6.055
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    60, Loss: 4.036
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    90, Loss: 8.290
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   120, Loss: 4.485
+
+
+
+TESTING
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:     0, Loss: 1.336
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    30, Loss: 6.816
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    60, Loss: 4.863
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:    90, Loss: 1.628
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   120, Loss: 5.964
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Iter:   150, Loss: 2.305
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Mean Train Loss: 0.386, Mean Train F1: 0.839
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Mean Validation Loss: 4.747, Validation F1: 0.270
+Model: (CSE-w2v-BiLSTM-CRF), Epoch:   9, Mean Test Loss: 6.374, Test F1: 0.169
+Impatience Level: 3
+
+

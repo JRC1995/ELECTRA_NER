@@ -1,0 +1,538 @@
+Dataset: WNUT_2017
+Model Name: BERT_CRF
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 13532
+
+
+layer_weights
+torch.Size([12])
+node_potentials.weight
+torch.Size([13, 1024])
+node_potentials.bias
+torch.Size([13])
+CRF.start_transitions
+torch.Size([13])
+CRF.end_transitions
+torch.Size([13])
+CRF.transitions
+torch.Size([13, 13])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   0, Iter:     0, Loss: 32.150, F1: 0.010
+Model: (BERT-CRF), Epoch:   0, Iter:    30, Loss: 4.422, F1: 0.000
+Model: (BERT-CRF), Epoch:   0, Iter:    60, Loss: 0.208, F1: 0.000
+Model: (BERT-CRF), Epoch:   0, Iter:    90, Loss: 3.052, F1: 0.000
+Model: (BERT-CRF), Epoch:   0, Iter:   120, Loss: 2.314, F1: 0.400
+Model: (BERT-CRF), Epoch:   0, Iter:   150, Loss: 0.090, F1: 0.000
+Model: (BERT-CRF), Epoch:   0, Iter:   180, Loss: 2.769, F1: 0.250
+Model: (BERT-CRF), Epoch:   0, Iter:   210, Loss: 0.397, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   0, Iter:     0, Loss: 3.879
+Model: (BERT-CRF), Epoch:   0, Iter:    30, Loss: 2.666
+Model: (BERT-CRF), Epoch:   0, Iter:    60, Loss: 8.671
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   0, Iter:     0, Loss: 14.945
+Model: (BERT-CRF), Epoch:   0, Iter:    30, Loss: 7.221
+Model: (BERT-CRF), Epoch:   0, Iter:    60, Loss: 3.175
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   0, Mean Train Loss: 8.341, Mean Train F1: 0.138
+Model: (BERT-CRF), Epoch:   0, Mean Validation Loss: 3.949, Validation F1: 0.367
+Model: (BERT-CRF), Epoch:   0, Mean Test Loss: 4.860, Test F1: 0.278
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   1, Iter:     0, Loss: 1.198, F1: 0.471
+Model: (BERT-CRF), Epoch:   1, Iter:    30, Loss: 0.713, F1: 0.286
+Model: (BERT-CRF), Epoch:   1, Iter:    60, Loss: 2.687, F1: 0.000
+Model: (BERT-CRF), Epoch:   1, Iter:    90, Loss: 0.470, F1: 0.750
+Model: (BERT-CRF), Epoch:   1, Iter:   120, Loss: 0.904, F1: 0.286
+Model: (BERT-CRF), Epoch:   1, Iter:   150, Loss: 2.587, F1: 0.483
+Model: (BERT-CRF), Epoch:   1, Iter:   180, Loss: 0.900, F1: 0.545
+Model: (BERT-CRF), Epoch:   1, Iter:   210, Loss: 1.339, F1: 0.222
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   1, Iter:     0, Loss: 3.747
+Model: (BERT-CRF), Epoch:   1, Iter:    30, Loss: 3.666
+Model: (BERT-CRF), Epoch:   1, Iter:    60, Loss: 3.435
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   1, Iter:     0, Loss: 2.865
+Model: (BERT-CRF), Epoch:   1, Iter:    30, Loss: 3.568
+Model: (BERT-CRF), Epoch:   1, Iter:    60, Loss: 0.727
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   1, Mean Train Loss: 2.649, Mean Train F1: 0.396
+Model: (BERT-CRF), Epoch:   1, Mean Validation Loss: 3.391, Validation F1: 0.442
+Model: (BERT-CRF), Epoch:   1, Mean Test Loss: 4.265, Test F1: 0.338
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   2, Iter:     0, Loss: 1.709, F1: 0.636
+Model: (BERT-CRF), Epoch:   2, Iter:    30, Loss: 1.419, F1: 0.471
+Model: (BERT-CRF), Epoch:   2, Iter:    60, Loss: 0.963, F1: 0.000
+Model: (BERT-CRF), Epoch:   2, Iter:    90, Loss: 2.242, F1: 0.500
+Model: (BERT-CRF), Epoch:   2, Iter:   120, Loss: 0.981, F1: 0.375
+Model: (BERT-CRF), Epoch:   2, Iter:   150, Loss: 0.971, F1: 0.500
+Model: (BERT-CRF), Epoch:   2, Iter:   180, Loss: 0.306, F1: 0.667
+Model: (BERT-CRF), Epoch:   2, Iter:   210, Loss: 1.262, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   2, Iter:     0, Loss: 2.050
+Model: (BERT-CRF), Epoch:   2, Iter:    30, Loss: 2.584
+Model: (BERT-CRF), Epoch:   2, Iter:    60, Loss: 5.701
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   2, Iter:     0, Loss: 1.979
+Model: (BERT-CRF), Epoch:   2, Iter:    30, Loss: 4.719
+Model: (BERT-CRF), Epoch:   2, Iter:    60, Loss: 5.655
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   2, Mean Train Loss: 2.310, Mean Train F1: 0.439
+Model: (BERT-CRF), Epoch:   2, Mean Validation Loss: 3.334, Validation F1: 0.454
+Model: (BERT-CRF), Epoch:   2, Mean Test Loss: 4.199, Test F1: 0.356
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   3, Iter:     0, Loss: 1.814, F1: 0.500
+Model: (BERT-CRF), Epoch:   3, Iter:    30, Loss: 1.057, F1: 0.632
+Model: (BERT-CRF), Epoch:   3, Iter:    60, Loss: 0.290, F1: 0.750
+Model: (BERT-CRF), Epoch:   3, Iter:    90, Loss: 0.723, F1: 0.000
+Model: (BERT-CRF), Epoch:   3, Iter:   120, Loss: 1.748, F1: 0.400
+Model: (BERT-CRF), Epoch:   3, Iter:   150, Loss: 1.536, F1: 0.316
+Model: (BERT-CRF), Epoch:   3, Iter:   180, Loss: 0.340, F1: 0.500
+Model: (BERT-CRF), Epoch:   3, Iter:   210, Loss: 1.593, F1: 0.526
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   3, Iter:     0, Loss: 2.369
+Model: (BERT-CRF), Epoch:   3, Iter:    30, Loss: 2.924
+Model: (BERT-CRF), Epoch:   3, Iter:    60, Loss: 5.411
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   3, Iter:     0, Loss: 2.315
+Model: (BERT-CRF), Epoch:   3, Iter:    30, Loss: 11.511
+Model: (BERT-CRF), Epoch:   3, Iter:    60, Loss: 2.777
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   3, Mean Train Loss: 2.119, Mean Train F1: 0.460
+Model: (BERT-CRF), Epoch:   3, Mean Validation Loss: 3.356, Validation F1: 0.480
+Model: (BERT-CRF), Epoch:   3, Mean Test Loss: 4.039, Test F1: 0.366
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   4, Iter:     0, Loss: 1.640, F1: 0.529
+Model: (BERT-CRF), Epoch:   4, Iter:    30, Loss: 1.954, F1: 0.364
+Model: (BERT-CRF), Epoch:   4, Iter:    60, Loss: 0.681, F1: 0.727
+Model: (BERT-CRF), Epoch:   4, Iter:    90, Loss: 1.657, F1: 0.522
+Model: (BERT-CRF), Epoch:   4, Iter:   120, Loss: 1.171, F1: 0.632
+Model: (BERT-CRF), Epoch:   4, Iter:   150, Loss: 0.241, F1: 0.667
+Model: (BERT-CRF), Epoch:   4, Iter:   180, Loss: 1.011, F1: 0.500
+Model: (BERT-CRF), Epoch:   4, Iter:   210, Loss: 0.069, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   4, Iter:     0, Loss: 2.300
+Model: (BERT-CRF), Epoch:   4, Iter:    30, Loss: 2.276
+Model: (BERT-CRF), Epoch:   4, Iter:    60, Loss: 1.779
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   4, Iter:     0, Loss: 7.005
+Model: (BERT-CRF), Epoch:   4, Iter:    30, Loss: 5.467
+Model: (BERT-CRF), Epoch:   4, Iter:    60, Loss: 3.727
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   4, Mean Train Loss: 1.981, Mean Train F1: 0.487
+Model: (BERT-CRF), Epoch:   4, Mean Validation Loss: 3.108, Validation F1: 0.476
+Model: (BERT-CRF), Epoch:   4, Mean Test Loss: 4.042, Test F1: 0.378
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   5, Iter:     0, Loss: 0.210, F1: 0.500
+Model: (BERT-CRF), Epoch:   5, Iter:    30, Loss: 0.915, F1: 0.444
+Model: (BERT-CRF), Epoch:   5, Iter:    60, Loss: 1.192, F1: 0.500
+Model: (BERT-CRF), Epoch:   5, Iter:    90, Loss: 0.774, F1: 0.667
+Model: (BERT-CRF), Epoch:   5, Iter:   120, Loss: 1.606, F1: 0.455
+Model: (BERT-CRF), Epoch:   5, Iter:   150, Loss: 1.081, F1: 0.286
+Model: (BERT-CRF), Epoch:   5, Iter:   180, Loss: 0.658, F1: 0.444
+Model: (BERT-CRF), Epoch:   5, Iter:   210, Loss: 1.196, F1: 0.571
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   5, Iter:     0, Loss: 0.655
+Model: (BERT-CRF), Epoch:   5, Iter:    30, Loss: 1.917
+Model: (BERT-CRF), Epoch:   5, Iter:    60, Loss: 3.676
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   5, Iter:     0, Loss: 8.736
+Model: (BERT-CRF), Epoch:   5, Iter:    30, Loss: 1.423
+Model: (BERT-CRF), Epoch:   5, Iter:    60, Loss: 4.753
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   5, Mean Train Loss: 1.869, Mean Train F1: 0.499
+Model: (BERT-CRF), Epoch:   5, Mean Validation Loss: 3.146, Validation F1: 0.490
+Model: (BERT-CRF), Epoch:   5, Mean Test Loss: 4.048, Test F1: 0.370
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   6, Iter:     0, Loss: 0.631, F1: 0.000
+Model: (BERT-CRF), Epoch:   6, Iter:    30, Loss: 0.875, F1: 0.667
+Model: (BERT-CRF), Epoch:   6, Iter:    60, Loss: 0.768, F1: 0.182
+Model: (BERT-CRF), Epoch:   6, Iter:    90, Loss: 0.128, F1: 1.000
+Model: (BERT-CRF), Epoch:   6, Iter:   120, Loss: 0.349, F1: 0.500
+Model: (BERT-CRF), Epoch:   6, Iter:   150, Loss: 1.262, F1: 0.455
+Model: (BERT-CRF), Epoch:   6, Iter:   180, Loss: 1.752, F1: 0.000
+Model: (BERT-CRF), Epoch:   6, Iter:   210, Loss: 0.491, F1: 0.286
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   6, Iter:     0, Loss: 2.887
+Model: (BERT-CRF), Epoch:   6, Iter:    30, Loss: 2.720
+Model: (BERT-CRF), Epoch:   6, Iter:    60, Loss: 5.752
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   6, Iter:     0, Loss: 4.368
+Model: (BERT-CRF), Epoch:   6, Iter:    30, Loss: 4.177
+Model: (BERT-CRF), Epoch:   6, Iter:    60, Loss: 4.782
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   6, Mean Train Loss: 1.788, Mean Train F1: 0.511
+Model: (BERT-CRF), Epoch:   6, Mean Validation Loss: 3.107, Validation F1: 0.502
+Model: (BERT-CRF), Epoch:   6, Mean Test Loss: 3.875, Test F1: 0.396
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   7, Iter:     0, Loss: 0.609, F1: 0.727
+Model: (BERT-CRF), Epoch:   7, Iter:    30, Loss: 1.214, F1: 0.333
+Model: (BERT-CRF), Epoch:   7, Iter:    60, Loss: 0.129, F1: 0.857
+Model: (BERT-CRF), Epoch:   7, Iter:    90, Loss: 0.554, F1: 0.444
+Model: (BERT-CRF), Epoch:   7, Iter:   120, Loss: 0.564, F1: 0.600
+Model: (BERT-CRF), Epoch:   7, Iter:   150, Loss: 0.749, F1: 0.500
+Model: (BERT-CRF), Epoch:   7, Iter:   180, Loss: 1.196, F1: 0.560
+Model: (BERT-CRF), Epoch:   7, Iter:   210, Loss: 0.409, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   7, Iter:     0, Loss: 2.295
+Model: (BERT-CRF), Epoch:   7, Iter:    30, Loss: 0.785
+Model: (BERT-CRF), Epoch:   7, Iter:    60, Loss: 4.433
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   7, Iter:     0, Loss: 0.854
+Model: (BERT-CRF), Epoch:   7, Iter:    30, Loss: 0.844
+Model: (BERT-CRF), Epoch:   7, Iter:    60, Loss: 4.724
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   7, Mean Train Loss: 1.700, Mean Train F1: 0.517
+Model: (BERT-CRF), Epoch:   7, Mean Validation Loss: 3.156, Validation F1: 0.488
+Model: (BERT-CRF), Epoch:   7, Mean Test Loss: 3.936, Test F1: 0.389
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   8, Iter:     0, Loss: 0.475, F1: 0.571
+Model: (BERT-CRF), Epoch:   8, Iter:    30, Loss: 0.951, F1: 0.429
+Model: (BERT-CRF), Epoch:   8, Iter:    60, Loss: 1.410, F1: 0.435
+Model: (BERT-CRF), Epoch:   8, Iter:    90, Loss: 0.390, F1: 0.000
+Model: (BERT-CRF), Epoch:   8, Iter:   120, Loss: 1.146, F1: 0.667
+Model: (BERT-CRF), Epoch:   8, Iter:   150, Loss: 0.661, F1: 0.625
+Model: (BERT-CRF), Epoch:   8, Iter:   180, Loss: 1.614, F1: 0.667
+Model: (BERT-CRF), Epoch:   8, Iter:   210, Loss: 0.728, F1: 0.571
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   8, Iter:     0, Loss: 1.470
+Model: (BERT-CRF), Epoch:   8, Iter:    30, Loss: 2.634
+Model: (BERT-CRF), Epoch:   8, Iter:    60, Loss: 2.801
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   8, Iter:     0, Loss: 1.138
+Model: (BERT-CRF), Epoch:   8, Iter:    30, Loss: 8.694
+Model: (BERT-CRF), Epoch:   8, Iter:    60, Loss: 0.565
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   8, Mean Train Loss: 1.639, Mean Train F1: 0.547
+Model: (BERT-CRF), Epoch:   8, Mean Validation Loss: 2.823, Validation F1: 0.506
+Model: (BERT-CRF), Epoch:   8, Mean Test Loss: 3.799, Test F1: 0.393
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:   9, Iter:     0, Loss: 0.727, F1: 0.429
+Model: (BERT-CRF), Epoch:   9, Iter:    30, Loss: 1.103, F1: 0.593
+Model: (BERT-CRF), Epoch:   9, Iter:    60, Loss: 0.632, F1: 0.842
+Model: (BERT-CRF), Epoch:   9, Iter:    90, Loss: 0.142, F1: 1.000
+Model: (BERT-CRF), Epoch:   9, Iter:   120, Loss: 1.374, F1: 0.583
+Model: (BERT-CRF), Epoch:   9, Iter:   150, Loss: 0.563, F1: 0.500
+Model: (BERT-CRF), Epoch:   9, Iter:   180, Loss: 1.335, F1: 0.333
+Model: (BERT-CRF), Epoch:   9, Iter:   210, Loss: 1.297, F1: 0.786
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:   9, Iter:     0, Loss: 1.828
+Model: (BERT-CRF), Epoch:   9, Iter:    30, Loss: 1.035
+Model: (BERT-CRF), Epoch:   9, Iter:    60, Loss: 1.664
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:   9, Iter:     0, Loss: 7.633
+Model: (BERT-CRF), Epoch:   9, Iter:    30, Loss: 3.874
+Model: (BERT-CRF), Epoch:   9, Iter:    60, Loss: 0.002
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:   9, Mean Train Loss: 1.574, Mean Train F1: 0.556
+Model: (BERT-CRF), Epoch:   9, Mean Validation Loss: 2.856, Validation F1: 0.508
+Model: (BERT-CRF), Epoch:   9, Mean Test Loss: 3.805, Test F1: 0.389
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:  10, Iter:     0, Loss: 0.129, F1: 0.667
+Model: (BERT-CRF), Epoch:  10, Iter:    30, Loss: 0.594, F1: 0.667
+Model: (BERT-CRF), Epoch:  10, Iter:    60, Loss: 0.882, F1: 0.562
+Model: (BERT-CRF), Epoch:  10, Iter:    90, Loss: 1.417, F1: 0.333
+Model: (BERT-CRF), Epoch:  10, Iter:   120, Loss: 0.300, F1: 0.667
+Model: (BERT-CRF), Epoch:  10, Iter:   150, Loss: 0.766, F1: 0.769
+Model: (BERT-CRF), Epoch:  10, Iter:   180, Loss: 0.331, F1: 0.500
+Model: (BERT-CRF), Epoch:  10, Iter:   210, Loss: 0.623, F1: 0.571
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:  10, Iter:     0, Loss: 2.026
+Model: (BERT-CRF), Epoch:  10, Iter:    30, Loss: 1.503
+Model: (BERT-CRF), Epoch:  10, Iter:    60, Loss: 1.785
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:  10, Iter:     0, Loss: 4.456
+Model: (BERT-CRF), Epoch:  10, Iter:    30, Loss: 3.904
+Model: (BERT-CRF), Epoch:  10, Iter:    60, Loss: 2.327
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:  10, Mean Train Loss: 1.532, Mean Train F1: 0.551
+Model: (BERT-CRF), Epoch:  10, Mean Validation Loss: 2.876, Validation F1: 0.504
+Model: (BERT-CRF), Epoch:  10, Mean Test Loss: 3.852, Test F1: 0.390
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:  11, Iter:     0, Loss: 0.639, F1: 0.880
+Model: (BERT-CRF), Epoch:  11, Iter:    30, Loss: 1.176, F1: 0.640
+Model: (BERT-CRF), Epoch:  11, Iter:    60, Loss: 0.218, F1: 0.667
+Model: (BERT-CRF), Epoch:  11, Iter:    90, Loss: 0.915, F1: 0.545
+Model: (BERT-CRF), Epoch:  11, Iter:   120, Loss: 0.017, F1: 0.000
+Model: (BERT-CRF), Epoch:  11, Iter:   150, Loss: 0.547, F1: 0.714
+Model: (BERT-CRF), Epoch:  11, Iter:   180, Loss: 0.818, F1: 0.222
+Model: (BERT-CRF), Epoch:  11, Iter:   210, Loss: 0.287, F1: 0.783
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:  11, Iter:     0, Loss: 1.131
+Model: (BERT-CRF), Epoch:  11, Iter:    30, Loss: 2.850
+Model: (BERT-CRF), Epoch:  11, Iter:    60, Loss: 3.863
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:  11, Iter:     0, Loss: 7.596
+Model: (BERT-CRF), Epoch:  11, Iter:    30, Loss: 6.630
+Model: (BERT-CRF), Epoch:  11, Iter:    60, Loss: 4.753
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:  11, Mean Train Loss: 1.473, Mean Train F1: 0.586
+Model: (BERT-CRF), Epoch:  11, Mean Validation Loss: 2.944, Validation F1: 0.485
+Model: (BERT-CRF), Epoch:  11, Mean Test Loss: 3.927, Test F1: 0.386
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (BERT-CRF), Epoch:  12, Iter:     0, Loss: 1.244, F1: 0.143
+Model: (BERT-CRF), Epoch:  12, Iter:    30, Loss: 1.594, F1: 0.600
+Model: (BERT-CRF), Epoch:  12, Iter:    60, Loss: 0.687, F1: 0.714
+Model: (BERT-CRF), Epoch:  12, Iter:    90, Loss: 0.828, F1: 0.800
+Model: (BERT-CRF), Epoch:  12, Iter:   120, Loss: 0.467, F1: 0.889
+Model: (BERT-CRF), Epoch:  12, Iter:   150, Loss: 0.589, F1: 0.462
+Model: (BERT-CRF), Epoch:  12, Iter:   180, Loss: 0.478, F1: 0.800
+Model: (BERT-CRF), Epoch:  12, Iter:   210, Loss: 0.862, F1: 0.714
+
+
+
+VALIDATING
+
+Model: (BERT-CRF), Epoch:  12, Iter:     0, Loss: 3.925
+Model: (BERT-CRF), Epoch:  12, Iter:    30, Loss: 1.835
+Model: (BERT-CRF), Epoch:  12, Iter:    60, Loss: 3.385
+
+
+
+TESTING
+
+Model: (BERT-CRF), Epoch:  12, Iter:     0, Loss: 1.588
+Model: (BERT-CRF), Epoch:  12, Iter:    30, Loss: 4.438
+Model: (BERT-CRF), Epoch:  12, Iter:    60, Loss: 2.301
+
+
+
+EPOCH SUMMARY
+
+Model: (BERT-CRF), Epoch:  12, Mean Train Loss: 1.412, Mean Train F1: 0.582
+Model: (BERT-CRF), Epoch:  12, Mean Validation Loss: 2.928, Validation F1: 0.486
+Model: (BERT-CRF), Epoch:  12, Mean Test Loss: 3.927, Test F1: 0.381
+Impatience Level: 3
+
+
