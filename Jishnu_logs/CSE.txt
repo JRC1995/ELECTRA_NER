@@ -1,0 +1,616 @@
+Dataset: WNUT_2017
+Model Name: CSE
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+2020-04-28 00:17:30,698 https://s3.eu-central-1.amazonaws.com/alan-nlp/resources/embeddings-v0.4.1/big-news-forward--h2048-l1-d0.05-lr30-0.25-20/news-forward-0.4.1.pt not found in cache, downloading to /tmp/tmpqs713x06
+2020-04-28 00:17:36,154 copying /tmp/tmpqs713x06 to cache at /home/ubuntu/.flair/embeddings/news-forward-0.4.1.pt
+2020-04-28 00:17:36,232 removing temp file /tmp/tmpqs713x06
+2020-04-28 00:17:40,702 https://s3.eu-central-1.amazonaws.com/alan-nlp/resources/embeddings-v0.4.1/big-news-backward--h2048-l1-d0.05-lr30-0.25-20/news-backward-0.4.1.pt not found in cache, downloading to /tmp/tmpfm4cfoef
+2020-04-28 00:17:46,277 copying /tmp/tmpfm4cfoef to cache at /home/ubuntu/.flair/embeddings/news-backward-0.4.1.pt
+2020-04-28 00:17:46,355 removing temp file /tmp/tmpfm4cfoef
+
+
+Parameter Count: 53261
+
+
+hidden2tags.weight
+torch.Size([13, 4096])
+hidden2tags.bias
+torch.Size([13])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (CSE), Epoch:   0, Iter:     0, Loss: 1.288, F1: 0.000
+Model: (CSE), Epoch:   0, Iter:    30, Loss: 0.702, F1: 0.000
+Model: (CSE), Epoch:   0, Iter:    60, Loss: 0.279, F1: 0.000
+Model: (CSE), Epoch:   0, Iter:    90, Loss: 0.305, F1: 0.000
+Model: (CSE), Epoch:   0, Iter:   120, Loss: 0.182, F1: 0.000
+Model: (CSE), Epoch:   0, Iter:   150, Loss: 0.118, F1: 0.000
+Model: (CSE), Epoch:   0, Iter:   180, Loss: 0.169, F1: 0.000
+Model: (CSE), Epoch:   0, Iter:   210, Loss: 0.149, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   0, Iter:     0, Loss: 0.262
+Model: (CSE), Epoch:   0, Iter:    30, Loss: 0.772
+Model: (CSE), Epoch:   0, Iter:    60, Loss: 0.664
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   0, Iter:     0, Loss: 0.760
+Model: (CSE), Epoch:   0, Iter:    30, Loss: 0.560
+Model: (CSE), Epoch:   0, Iter:    60, Loss: 0.441
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   0, Mean Train Loss: 0.701, Mean Train F1: 0.000
+Model: (CSE), Epoch:   0, Mean Validation Loss: 0.516, Validation F1: 0.000
+Model: (CSE), Epoch:   0, Mean Test Loss: 0.465, Test F1: 0.000
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:   1, Iter:     0, Loss: 0.098, F1: 0.000
+Model: (CSE), Epoch:   1, Iter:    30, Loss: 0.131, F1: 0.000
+Model: (CSE), Epoch:   1, Iter:    60, Loss: 0.201, F1: 0.000
+Model: (CSE), Epoch:   1, Iter:    90, Loss: 0.074, F1: 0.000
+Model: (CSE), Epoch:   1, Iter:   120, Loss: 0.111, F1: 0.000
+Model: (CSE), Epoch:   1, Iter:   150, Loss: 0.135, F1: 0.000
+Model: (CSE), Epoch:   1, Iter:   180, Loss: 0.082, F1: 0.000
+Model: (CSE), Epoch:   1, Iter:   210, Loss: 0.110, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   1, Iter:     0, Loss: 0.144
+Model: (CSE), Epoch:   1, Iter:    30, Loss: 0.615
+Model: (CSE), Epoch:   1, Iter:    60, Loss: 0.506
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   1, Iter:     0, Loss: 0.379
+Model: (CSE), Epoch:   1, Iter:    30, Loss: 0.427
+Model: (CSE), Epoch:   1, Iter:    60, Loss: 0.311
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   1, Mean Train Loss: 0.242, Mean Train F1: 0.007
+Model: (CSE), Epoch:   1, Mean Validation Loss: 0.456, Validation F1: 0.051
+Model: (CSE), Epoch:   1, Mean Test Loss: 0.388, Test F1: 0.039
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:   2, Iter:     0, Loss: 0.106, F1: 0.000
+Model: (CSE), Epoch:   2, Iter:    30, Loss: 0.176, F1: 0.167
+Model: (CSE), Epoch:   2, Iter:    60, Loss: 0.111, F1: 0.000
+Model: (CSE), Epoch:   2, Iter:    90, Loss: 0.143, F1: 0.182
+Model: (CSE), Epoch:   2, Iter:   120, Loss: 0.151, F1: 0.333
+Model: (CSE), Epoch:   2, Iter:   150, Loss: 0.068, F1: 0.000
+Model: (CSE), Epoch:   2, Iter:   180, Loss: 0.092, F1: 0.000
+Model: (CSE), Epoch:   2, Iter:   210, Loss: 0.077, F1: 0.167
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   2, Iter:     0, Loss: 0.150
+Model: (CSE), Epoch:   2, Iter:    30, Loss: 0.401
+Model: (CSE), Epoch:   2, Iter:    60, Loss: 0.229
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   2, Iter:     0, Loss: 0.275
+Model: (CSE), Epoch:   2, Iter:    30, Loss: 0.614
+Model: (CSE), Epoch:   2, Iter:    60, Loss: 0.444
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   2, Mean Train Loss: 0.199, Mean Train F1: 0.122
+Model: (CSE), Epoch:   2, Mean Validation Loss: 0.419, Validation F1: 0.159
+Model: (CSE), Epoch:   2, Mean Test Loss: 0.360, Test F1: 0.113
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:   3, Iter:     0, Loss: 0.103, F1: 0.125
+Model: (CSE), Epoch:   3, Iter:    30, Loss: 0.046, F1: 0.000
+Model: (CSE), Epoch:   3, Iter:    60, Loss: 0.053, F1: 0.333
+Model: (CSE), Epoch:   3, Iter:    90, Loss: 0.055, F1: 0.000
+Model: (CSE), Epoch:   3, Iter:   120, Loss: 0.086, F1: 0.143
+Model: (CSE), Epoch:   3, Iter:   150, Loss: 0.091, F1: 0.421
+Model: (CSE), Epoch:   3, Iter:   180, Loss: 0.049, F1: 0.333
+Model: (CSE), Epoch:   3, Iter:   210, Loss: 0.190, F1: 0.286
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   3, Iter:     0, Loss: 0.169
+Model: (CSE), Epoch:   3, Iter:    30, Loss: 0.145
+Model: (CSE), Epoch:   3, Iter:    60, Loss: 1.007
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   3, Iter:     0, Loss: 0.276
+Model: (CSE), Epoch:   3, Iter:    30, Loss: 0.661
+Model: (CSE), Epoch:   3, Iter:    60, Loss: 0.168
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   3, Mean Train Loss: 0.176, Mean Train F1: 0.208
+Model: (CSE), Epoch:   3, Mean Validation Loss: 0.451, Validation F1: 0.274
+Model: (CSE), Epoch:   3, Mean Test Loss: 0.346, Test F1: 0.187
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:   4, Iter:     0, Loss: 0.135, F1: 0.480
+Model: (CSE), Epoch:   4, Iter:    30, Loss: 0.078, F1: 0.111
+Model: (CSE), Epoch:   4, Iter:    60, Loss: 0.118, F1: 0.400
+Model: (CSE), Epoch:   4, Iter:    90, Loss: 0.116, F1: 0.381
+Model: (CSE), Epoch:   4, Iter:   120, Loss: 0.058, F1: 0.333
+Model: (CSE), Epoch:   4, Iter:   150, Loss: 0.025, F1: 0.667
+Model: (CSE), Epoch:   4, Iter:   180, Loss: 0.070, F1: 0.222
+Model: (CSE), Epoch:   4, Iter:   210, Loss: 0.032, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   4, Iter:     0, Loss: 0.273
+Model: (CSE), Epoch:   4, Iter:    30, Loss: 0.317
+Model: (CSE), Epoch:   4, Iter:    60, Loss: 0.422
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   4, Iter:     0, Loss: 0.617
+Model: (CSE), Epoch:   4, Iter:    30, Loss: 0.398
+Model: (CSE), Epoch:   4, Iter:    60, Loss: 0.399
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   4, Mean Train Loss: 0.161, Mean Train F1: 0.282
+Model: (CSE), Epoch:   4, Mean Validation Loss: 0.366, Validation F1: 0.313
+Model: (CSE), Epoch:   4, Mean Test Loss: 0.332, Test F1: 0.221
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:   5, Iter:     0, Loss: 0.037, F1: 0.000
+Model: (CSE), Epoch:   5, Iter:    30, Loss: 0.055, F1: 0.250
+Model: (CSE), Epoch:   5, Iter:    60, Loss: 0.086, F1: 0.375
+Model: (CSE), Epoch:   5, Iter:    90, Loss: 0.047, F1: 0.400
+Model: (CSE), Epoch:   5, Iter:   120, Loss: 0.112, F1: 0.476
+Model: (CSE), Epoch:   5, Iter:   150, Loss: 0.064, F1: 0.000
+Model: (CSE), Epoch:   5, Iter:   180, Loss: 0.071, F1: 0.000
+Model: (CSE), Epoch:   5, Iter:   210, Loss: 0.082, F1: 0.526
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   5, Iter:     0, Loss: 0.254
+Model: (CSE), Epoch:   5, Iter:    30, Loss: 0.104
+Model: (CSE), Epoch:   5, Iter:    60, Loss: 0.367
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   5, Iter:     0, Loss: 0.494
+Model: (CSE), Epoch:   5, Iter:    30, Loss: 0.362
+Model: (CSE), Epoch:   5, Iter:    60, Loss: 0.086
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   5, Mean Train Loss: 0.150, Mean Train F1: 0.325
+Model: (CSE), Epoch:   5, Mean Validation Loss: 0.399, Validation F1: 0.338
+Model: (CSE), Epoch:   5, Mean Test Loss: 0.327, Test F1: 0.240
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:   6, Iter:     0, Loss: 0.175, F1: 0.500
+Model: (CSE), Epoch:   6, Iter:    30, Loss: 0.094, F1: 0.000
+Model: (CSE), Epoch:   6, Iter:    60, Loss: 0.117, F1: 0.286
+Model: (CSE), Epoch:   6, Iter:    90, Loss: 0.028, F1: 0.667
+Model: (CSE), Epoch:   6, Iter:   120, Loss: 0.030, F1: 0.500
+Model: (CSE), Epoch:   6, Iter:   150, Loss: 0.041, F1: 0.381
+Model: (CSE), Epoch:   6, Iter:   180, Loss: 0.097, F1: 0.167
+Model: (CSE), Epoch:   6, Iter:   210, Loss: 0.080, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   6, Iter:     0, Loss: 0.082
+Model: (CSE), Epoch:   6, Iter:    30, Loss: 0.166
+Model: (CSE), Epoch:   6, Iter:    60, Loss: 0.382
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   6, Iter:     0, Loss: 0.555
+Model: (CSE), Epoch:   6, Iter:    30, Loss: 0.130
+Model: (CSE), Epoch:   6, Iter:    60, Loss: 0.262
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   6, Mean Train Loss: 0.142, Mean Train F1: 0.364
+Model: (CSE), Epoch:   6, Mean Validation Loss: 0.426, Validation F1: 0.372
+Model: (CSE), Epoch:   6, Mean Test Loss: 0.320, Test F1: 0.261
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:   7, Iter:     0, Loss: 0.105, F1: 0.400
+Model: (CSE), Epoch:   7, Iter:    30, Loss: 0.067, F1: 0.364
+Model: (CSE), Epoch:   7, Iter:    60, Loss: 0.041, F1: 0.667
+Model: (CSE), Epoch:   7, Iter:    90, Loss: 0.038, F1: 0.600
+Model: (CSE), Epoch:   7, Iter:   120, Loss: 0.042, F1: 0.500
+Model: (CSE), Epoch:   7, Iter:   150, Loss: 0.032, F1: 0.769
+Model: (CSE), Epoch:   7, Iter:   180, Loss: 0.109, F1: 0.500
+Model: (CSE), Epoch:   7, Iter:   210, Loss: 0.077, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   7, Iter:     0, Loss: 0.195
+Model: (CSE), Epoch:   7, Iter:    30, Loss: 0.458
+Model: (CSE), Epoch:   7, Iter:    60, Loss: 0.363
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   7, Iter:     0, Loss: 0.151
+Model: (CSE), Epoch:   7, Iter:    30, Loss: 0.365
+Model: (CSE), Epoch:   7, Iter:    60, Loss: 0.325
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   7, Mean Train Loss: 0.134, Mean Train F1: 0.402
+Model: (CSE), Epoch:   7, Mean Validation Loss: 0.448, Validation F1: 0.367
+Model: (CSE), Epoch:   7, Mean Test Loss: 0.320, Test F1: 0.263
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (CSE), Epoch:   8, Iter:     0, Loss: 0.050, F1: 0.571
+Model: (CSE), Epoch:   8, Iter:    30, Loss: 0.033, F1: 0.333
+Model: (CSE), Epoch:   8, Iter:    60, Loss: 0.112, F1: 0.333
+Model: (CSE), Epoch:   8, Iter:    90, Loss: 0.017, F1: 0.000
+Model: (CSE), Epoch:   8, Iter:   120, Loss: 0.083, F1: 0.444
+Model: (CSE), Epoch:   8, Iter:   150, Loss: 0.056, F1: 0.714
+Model: (CSE), Epoch:   8, Iter:   180, Loss: 0.094, F1: 0.571
+Model: (CSE), Epoch:   8, Iter:   210, Loss: 0.057, F1: 0.333
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   8, Iter:     0, Loss: 0.706
+Model: (CSE), Epoch:   8, Iter:    30, Loss: 0.533
+Model: (CSE), Epoch:   8, Iter:    60, Loss: 0.419
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   8, Iter:     0, Loss: 0.247
+Model: (CSE), Epoch:   8, Iter:    30, Loss: 0.485
+Model: (CSE), Epoch:   8, Iter:    60, Loss: 0.193
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   8, Mean Train Loss: 0.128, Mean Train F1: 0.423
+Model: (CSE), Epoch:   8, Mean Validation Loss: 0.359, Validation F1: 0.386
+Model: (CSE), Epoch:   8, Mean Test Loss: 0.311, Test F1: 0.274
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:   9, Iter:     0, Loss: 0.099, F1: 0.333
+Model: (CSE), Epoch:   9, Iter:    30, Loss: 0.040, F1: 0.643
+Model: (CSE), Epoch:   9, Iter:    60, Loss: 0.058, F1: 0.267
+Model: (CSE), Epoch:   9, Iter:    90, Loss: 0.036, F1: 0.750
+Model: (CSE), Epoch:   9, Iter:   120, Loss: 0.105, F1: 0.286
+Model: (CSE), Epoch:   9, Iter:   150, Loss: 0.053, F1: 0.444
+Model: (CSE), Epoch:   9, Iter:   180, Loss: 0.057, F1: 0.471
+Model: (CSE), Epoch:   9, Iter:   210, Loss: 0.060, F1: 0.615
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:   9, Iter:     0, Loss: 0.381
+Model: (CSE), Epoch:   9, Iter:    30, Loss: 0.257
+Model: (CSE), Epoch:   9, Iter:    60, Loss: 0.779
+
+
+
+TESTING
+
+Model: (CSE), Epoch:   9, Iter:     0, Loss: 0.258
+Model: (CSE), Epoch:   9, Iter:    30, Loss: 0.282
+Model: (CSE), Epoch:   9, Iter:    60, Loss: 0.028
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:   9, Mean Train Loss: 0.123, Mean Train F1: 0.427
+Model: (CSE), Epoch:   9, Mean Validation Loss: 0.357, Validation F1: 0.385
+Model: (CSE), Epoch:   9, Mean Test Loss: 0.312, Test F1: 0.277
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (CSE), Epoch:  10, Iter:     0, Loss: 0.019, F1: 1.000
+Model: (CSE), Epoch:  10, Iter:    30, Loss: 0.024, F1: 0.308
+Model: (CSE), Epoch:  10, Iter:    60, Loss: 0.096, F1: 0.286
+Model: (CSE), Epoch:  10, Iter:    90, Loss: 0.093, F1: 0.333
+Model: (CSE), Epoch:  10, Iter:   120, Loss: 0.043, F1: 0.000
+Model: (CSE), Epoch:  10, Iter:   150, Loss: 0.091, F1: 0.400
+Model: (CSE), Epoch:  10, Iter:   180, Loss: 0.035, F1: 0.667
+Model: (CSE), Epoch:  10, Iter:   210, Loss: 0.052, F1: 0.143
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:  10, Iter:     0, Loss: 0.412
+Model: (CSE), Epoch:  10, Iter:    30, Loss: 0.173
+Model: (CSE), Epoch:  10, Iter:    60, Loss: 0.426
+
+
+
+TESTING
+
+Model: (CSE), Epoch:  10, Iter:     0, Loss: 0.421
+Model: (CSE), Epoch:  10, Iter:    30, Loss: 0.301
+Model: (CSE), Epoch:  10, Iter:    60, Loss: 0.218
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:  10, Mean Train Loss: 0.118, Mean Train F1: 0.478
+Model: (CSE), Epoch:  10, Mean Validation Loss: 0.345, Validation F1: 0.387
+Model: (CSE), Epoch:  10, Mean Test Loss: 0.311, Test F1: 0.277
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:  11, Iter:     0, Loss: 0.049, F1: 0.636
+Model: (CSE), Epoch:  11, Iter:    30, Loss: 0.085, F1: 0.417
+Model: (CSE), Epoch:  11, Iter:    60, Loss: 0.039, F1: 0.667
+Model: (CSE), Epoch:  11, Iter:    90, Loss: 0.045, F1: 0.364
+Model: (CSE), Epoch:  11, Iter:   120, Loss: 0.022, F1: 0.000
+Model: (CSE), Epoch:  11, Iter:   150, Loss: 0.027, F1: 0.667
+Model: (CSE), Epoch:  11, Iter:   180, Loss: 0.107, F1: 0.400
+Model: (CSE), Epoch:  11, Iter:   210, Loss: 0.030, F1: 0.818
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:  11, Iter:     0, Loss: 0.277
+Model: (CSE), Epoch:  11, Iter:    30, Loss: 0.212
+Model: (CSE), Epoch:  11, Iter:    60, Loss: 0.169
+
+
+
+TESTING
+
+Model: (CSE), Epoch:  11, Iter:     0, Loss: 0.475
+Model: (CSE), Epoch:  11, Iter:    30, Loss: 0.445
+Model: (CSE), Epoch:  11, Iter:    60, Loss: 0.483
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:  11, Mean Train Loss: 0.118, Mean Train F1: 0.473
+Model: (CSE), Epoch:  11, Mean Validation Loss: 0.338, Validation F1: 0.397
+Model: (CSE), Epoch:  11, Mean Test Loss: 0.310, Test F1: 0.290
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (CSE), Epoch:  12, Iter:     0, Loss: 0.153, F1: 0.167
+Model: (CSE), Epoch:  12, Iter:    30, Loss: 0.065, F1: 0.727
+Model: (CSE), Epoch:  12, Iter:    60, Loss: 0.022, F1: 0.800
+Model: (CSE), Epoch:  12, Iter:    90, Loss: 0.061, F1: 0.667
+Model: (CSE), Epoch:  12, Iter:   120, Loss: 0.028, F1: 0.632
+Model: (CSE), Epoch:  12, Iter:   150, Loss: 0.034, F1: 0.667
+Model: (CSE), Epoch:  12, Iter:   180, Loss: 0.078, F1: 0.353
+Model: (CSE), Epoch:  12, Iter:   210, Loss: 0.107, F1: 0.462
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:  12, Iter:     0, Loss: 0.155
+Model: (CSE), Epoch:  12, Iter:    30, Loss: 0.244
+Model: (CSE), Epoch:  12, Iter:    60, Loss: 0.291
+
+
+
+TESTING
+
+Model: (CSE), Epoch:  12, Iter:     0, Loss: 0.266
+Model: (CSE), Epoch:  12, Iter:    30, Loss: 0.193
+Model: (CSE), Epoch:  12, Iter:    60, Loss: 0.362
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:  12, Mean Train Loss: 0.110, Mean Train F1: 0.502
+Model: (CSE), Epoch:  12, Mean Validation Loss: 0.341, Validation F1: 0.392
+Model: (CSE), Epoch:  12, Mean Test Loss: 0.312, Test F1: 0.287
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (CSE), Epoch:  13, Iter:     0, Loss: 0.075, F1: 0.444
+Model: (CSE), Epoch:  13, Iter:    30, Loss: 0.051, F1: 0.667
+Model: (CSE), Epoch:  13, Iter:    60, Loss: 0.043, F1: 0.667
+Model: (CSE), Epoch:  13, Iter:    90, Loss: 0.023, F1: 0.800
+Model: (CSE), Epoch:  13, Iter:   120, Loss: 0.091, F1: 0.462
+Model: (CSE), Epoch:  13, Iter:   150, Loss: 0.065, F1: 0.556
+Model: (CSE), Epoch:  13, Iter:   180, Loss: 0.044, F1: 0.533
+Model: (CSE), Epoch:  13, Iter:   210, Loss: 0.045, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:  13, Iter:     0, Loss: 0.496
+Model: (CSE), Epoch:  13, Iter:    30, Loss: 1.212
+Model: (CSE), Epoch:  13, Iter:    60, Loss: 0.149
+
+
+
+TESTING
+
+Model: (CSE), Epoch:  13, Iter:     0, Loss: 0.264
+Model: (CSE), Epoch:  13, Iter:    30, Loss: 0.104
+Model: (CSE), Epoch:  13, Iter:    60, Loss: 0.410
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:  13, Mean Train Loss: 0.107, Mean Train F1: 0.513
+Model: (CSE), Epoch:  13, Mean Validation Loss: 0.345, Validation F1: 0.396
+Model: (CSE), Epoch:  13, Mean Test Loss: 0.307, Test F1: 0.288
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (CSE), Epoch:  14, Iter:     0, Loss: 0.063, F1: 0.571
+Model: (CSE), Epoch:  14, Iter:    30, Loss: 0.030, F1: 0.500
+Model: (CSE), Epoch:  14, Iter:    60, Loss: 0.130, F1: 0.526
+Model: (CSE), Epoch:  14, Iter:    90, Loss: 0.016, F1: 0.000
+Model: (CSE), Epoch:  14, Iter:   120, Loss: 0.013, F1: 0.923
+Model: (CSE), Epoch:  14, Iter:   150, Loss: 0.045, F1: 0.667
+Model: (CSE), Epoch:  14, Iter:   180, Loss: 0.091, F1: 0.556
+Model: (CSE), Epoch:  14, Iter:   210, Loss: 0.045, F1: 0.286
+
+
+
+VALIDATING
+
+Model: (CSE), Epoch:  14, Iter:     0, Loss: 0.302
+Model: (CSE), Epoch:  14, Iter:    30, Loss: 0.124
+Model: (CSE), Epoch:  14, Iter:    60, Loss: 0.306
+
+
+
+TESTING
+
+Model: (CSE), Epoch:  14, Iter:     0, Loss: 0.264
+Model: (CSE), Epoch:  14, Iter:    30, Loss: 0.291
+Model: (CSE), Epoch:  14, Iter:    60, Loss: 0.460
+
+
+
+EPOCH SUMMARY
+
+Model: (CSE), Epoch:  14, Mean Train Loss: 0.104, Mean Train F1: 0.518
+Model: (CSE), Epoch:  14, Mean Validation Loss: 0.340, Validation F1: 0.389
+Model: (CSE), Epoch:  14, Mean Test Loss: 0.309, Test F1: 0.289
+Impatience Level: 3
+
+

@@ -1,0 +1,806 @@
+Dataset: WNUT_2017
+Model Name: ELECTRA_CRF
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 13532
+
+
+layer_weights
+torch.Size([12])
+node_potentials.weight
+torch.Size([13, 1024])
+node_potentials.bias
+torch.Size([13])
+CRF.start_transitions
+torch.Size([13])
+CRF.end_transitions
+torch.Size([13])
+CRF.transitions
+torch.Size([13, 13])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   0, Iter:     0, Loss: 26.208, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:   0, Iter:    30, Loss: 8.004, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:   0, Iter:    60, Loss: 1.167, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:   0, Iter:    90, Loss: 3.328, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:   0, Iter:   120, Loss: 2.361, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:   0, Iter:   150, Loss: 0.103, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:   0, Iter:   180, Loss: 2.519, F1: 0.444
+Model: (ELECTRA-CRF), Epoch:   0, Iter:   210, Loss: 0.765, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   0, Iter:     0, Loss: 3.903
+Model: (ELECTRA-CRF), Epoch:   0, Iter:    30, Loss: 2.246
+Model: (ELECTRA-CRF), Epoch:   0, Iter:    60, Loss: 6.855
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   0, Iter:     0, Loss: 14.200
+Model: (ELECTRA-CRF), Epoch:   0, Iter:    30, Loss: 6.737
+Model: (ELECTRA-CRF), Epoch:   0, Iter:    60, Loss: 3.530
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   0, Mean Train Loss: 9.450, Mean Train F1: 0.103
+Model: (ELECTRA-CRF), Epoch:   0, Mean Validation Loss: 3.716, Validation F1: 0.447
+Model: (ELECTRA-CRF), Epoch:   0, Mean Test Loss: 5.213, Test F1: 0.273
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   1, Iter:     0, Loss: 1.144, F1: 0.632
+Model: (ELECTRA-CRF), Epoch:   1, Iter:    30, Loss: 0.876, F1: 0.444
+Model: (ELECTRA-CRF), Epoch:   1, Iter:    60, Loss: 2.567, F1: 0.267
+Model: (ELECTRA-CRF), Epoch:   1, Iter:    90, Loss: 0.217, F1: 0.889
+Model: (ELECTRA-CRF), Epoch:   1, Iter:   120, Loss: 0.965, F1: 0.333
+Model: (ELECTRA-CRF), Epoch:   1, Iter:   150, Loss: 2.404, F1: 0.467
+Model: (ELECTRA-CRF), Epoch:   1, Iter:   180, Loss: 0.612, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:   1, Iter:   210, Loss: 0.890, F1: 0.222
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   1, Iter:     0, Loss: 3.645
+Model: (ELECTRA-CRF), Epoch:   1, Iter:    30, Loss: 3.451
+Model: (ELECTRA-CRF), Epoch:   1, Iter:    60, Loss: 1.774
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   1, Iter:     0, Loss: 2.947
+Model: (ELECTRA-CRF), Epoch:   1, Iter:    30, Loss: 3.632
+Model: (ELECTRA-CRF), Epoch:   1, Iter:    60, Loss: 0.720
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   1, Mean Train Loss: 2.371, Mean Train F1: 0.436
+Model: (ELECTRA-CRF), Epoch:   1, Mean Validation Loss: 2.930, Validation F1: 0.558
+Model: (ELECTRA-CRF), Epoch:   1, Mean Test Loss: 4.170, Test F1: 0.390
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   2, Iter:     0, Loss: 1.220, F1: 0.636
+Model: (ELECTRA-CRF), Epoch:   2, Iter:    30, Loss: 1.520, F1: 0.471
+Model: (ELECTRA-CRF), Epoch:   2, Iter:    60, Loss: 0.556, F1: 0.400
+Model: (ELECTRA-CRF), Epoch:   2, Iter:    90, Loss: 1.658, F1: 0.621
+Model: (ELECTRA-CRF), Epoch:   2, Iter:   120, Loss: 0.647, F1: 0.471
+Model: (ELECTRA-CRF), Epoch:   2, Iter:   150, Loss: 0.942, F1: 0.636
+Model: (ELECTRA-CRF), Epoch:   2, Iter:   180, Loss: 1.010, F1: 0.400
+Model: (ELECTRA-CRF), Epoch:   2, Iter:   210, Loss: 1.162, F1: 0.462
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   2, Iter:     0, Loss: 1.450
+Model: (ELECTRA-CRF), Epoch:   2, Iter:    30, Loss: 1.997
+Model: (ELECTRA-CRF), Epoch:   2, Iter:    60, Loss: 5.608
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   2, Iter:     0, Loss: 1.951
+Model: (ELECTRA-CRF), Epoch:   2, Iter:    30, Loss: 3.709
+Model: (ELECTRA-CRF), Epoch:   2, Iter:    60, Loss: 5.011
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   2, Mean Train Loss: 1.973, Mean Train F1: 0.521
+Model: (ELECTRA-CRF), Epoch:   2, Mean Validation Loss: 2.757, Validation F1: 0.577
+Model: (ELECTRA-CRF), Epoch:   2, Mean Test Loss: 3.997, Test F1: 0.404
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   3, Iter:     0, Loss: 1.361, F1: 0.583
+Model: (ELECTRA-CRF), Epoch:   3, Iter:    30, Loss: 0.918, F1: 0.706
+Model: (ELECTRA-CRF), Epoch:   3, Iter:    60, Loss: 0.220, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:   3, Iter:    90, Loss: 0.386, F1: 0.500
+Model: (ELECTRA-CRF), Epoch:   3, Iter:   120, Loss: 1.024, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:   3, Iter:   150, Loss: 1.388, F1: 0.522
+Model: (ELECTRA-CRF), Epoch:   3, Iter:   180, Loss: 0.227, F1: 0.800
+Model: (ELECTRA-CRF), Epoch:   3, Iter:   210, Loss: 0.760, F1: 0.700
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   3, Iter:     0, Loss: 2.358
+Model: (ELECTRA-CRF), Epoch:   3, Iter:    30, Loss: 1.846
+Model: (ELECTRA-CRF), Epoch:   3, Iter:    60, Loss: 4.428
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   3, Iter:     0, Loss: 1.871
+Model: (ELECTRA-CRF), Epoch:   3, Iter:    30, Loss: 9.028
+Model: (ELECTRA-CRF), Epoch:   3, Iter:    60, Loss: 2.198
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   3, Mean Train Loss: 1.775, Mean Train F1: 0.555
+Model: (ELECTRA-CRF), Epoch:   3, Mean Validation Loss: 2.747, Validation F1: 0.609
+Model: (ELECTRA-CRF), Epoch:   3, Mean Test Loss: 3.713, Test F1: 0.452
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   4, Iter:     0, Loss: 1.109, F1: 0.686
+Model: (ELECTRA-CRF), Epoch:   4, Iter:    30, Loss: 1.091, F1: 0.538
+Model: (ELECTRA-CRF), Epoch:   4, Iter:    60, Loss: 0.722, F1: 0.762
+Model: (ELECTRA-CRF), Epoch:   4, Iter:    90, Loss: 1.362, F1: 0.560
+Model: (ELECTRA-CRF), Epoch:   4, Iter:   120, Loss: 0.551, F1: 0.833
+Model: (ELECTRA-CRF), Epoch:   4, Iter:   150, Loss: 0.101, F1: 1.000
+Model: (ELECTRA-CRF), Epoch:   4, Iter:   180, Loss: 0.592, F1: 0.615
+Model: (ELECTRA-CRF), Epoch:   4, Iter:   210, Loss: 0.027, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   4, Iter:     0, Loss: 1.633
+Model: (ELECTRA-CRF), Epoch:   4, Iter:    30, Loss: 2.101
+Model: (ELECTRA-CRF), Epoch:   4, Iter:    60, Loss: 1.117
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   4, Iter:     0, Loss: 6.839
+Model: (ELECTRA-CRF), Epoch:   4, Iter:    30, Loss: 5.933
+Model: (ELECTRA-CRF), Epoch:   4, Iter:    60, Loss: 2.469
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   4, Mean Train Loss: 1.612, Mean Train F1: 0.586
+Model: (ELECTRA-CRF), Epoch:   4, Mean Validation Loss: 2.545, Validation F1: 0.601
+Model: (ELECTRA-CRF), Epoch:   4, Mean Test Loss: 3.795, Test F1: 0.445
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   5, Iter:     0, Loss: 0.153, F1: 0.400
+Model: (ELECTRA-CRF), Epoch:   5, Iter:    30, Loss: 0.475, F1: 0.600
+Model: (ELECTRA-CRF), Epoch:   5, Iter:    60, Loss: 1.495, F1: 0.750
+Model: (ELECTRA-CRF), Epoch:   5, Iter:    90, Loss: 0.821, F1: 0.526
+Model: (ELECTRA-CRF), Epoch:   5, Iter:   120, Loss: 0.943, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:   5, Iter:   150, Loss: 0.846, F1: 0.222
+Model: (ELECTRA-CRF), Epoch:   5, Iter:   180, Loss: 0.475, F1: 0.444
+Model: (ELECTRA-CRF), Epoch:   5, Iter:   210, Loss: 1.130, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   5, Iter:     0, Loss: 1.126
+Model: (ELECTRA-CRF), Epoch:   5, Iter:    30, Loss: 0.958
+Model: (ELECTRA-CRF), Epoch:   5, Iter:    60, Loss: 2.612
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   5, Iter:     0, Loss: 8.823
+Model: (ELECTRA-CRF), Epoch:   5, Iter:    30, Loss: 1.240
+Model: (ELECTRA-CRF), Epoch:   5, Iter:    60, Loss: 3.882
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   5, Mean Train Loss: 1.541, Mean Train F1: 0.584
+Model: (ELECTRA-CRF), Epoch:   5, Mean Validation Loss: 2.609, Validation F1: 0.605
+Model: (ELECTRA-CRF), Epoch:   5, Mean Test Loss: 3.694, Test F1: 0.450
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   6, Iter:     0, Loss: 0.998, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:   6, Iter:    30, Loss: 0.833, F1: 0.533
+Model: (ELECTRA-CRF), Epoch:   6, Iter:    60, Loss: 0.599, F1: 0.444
+Model: (ELECTRA-CRF), Epoch:   6, Iter:    90, Loss: 0.138, F1: 1.000
+Model: (ELECTRA-CRF), Epoch:   6, Iter:   120, Loss: 0.371, F1: 0.500
+Model: (ELECTRA-CRF), Epoch:   6, Iter:   150, Loss: 0.815, F1: 0.600
+Model: (ELECTRA-CRF), Epoch:   6, Iter:   180, Loss: 1.072, F1: 0.400
+Model: (ELECTRA-CRF), Epoch:   6, Iter:   210, Loss: 0.352, F1: 0.909
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   6, Iter:     0, Loss: 2.604
+Model: (ELECTRA-CRF), Epoch:   6, Iter:    30, Loss: 2.725
+Model: (ELECTRA-CRF), Epoch:   6, Iter:    60, Loss: 4.156
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   6, Iter:     0, Loss: 3.321
+Model: (ELECTRA-CRF), Epoch:   6, Iter:    30, Loss: 2.993
+Model: (ELECTRA-CRF), Epoch:   6, Iter:    60, Loss: 4.152
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   6, Mean Train Loss: 1.452, Mean Train F1: 0.602
+Model: (ELECTRA-CRF), Epoch:   6, Mean Validation Loss: 2.609, Validation F1: 0.616
+Model: (ELECTRA-CRF), Epoch:   6, Mean Test Loss: 3.524, Test F1: 0.475
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   7, Iter:     0, Loss: 0.570, F1: 0.727
+Model: (ELECTRA-CRF), Epoch:   7, Iter:    30, Loss: 1.314, F1: 0.267
+Model: (ELECTRA-CRF), Epoch:   7, Iter:    60, Loss: 0.231, F1: 0.857
+Model: (ELECTRA-CRF), Epoch:   7, Iter:    90, Loss: 0.366, F1: 0.545
+Model: (ELECTRA-CRF), Epoch:   7, Iter:   120, Loss: 0.354, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:   7, Iter:   150, Loss: 0.591, F1: 0.615
+Model: (ELECTRA-CRF), Epoch:   7, Iter:   180, Loss: 0.772, F1: 0.615
+Model: (ELECTRA-CRF), Epoch:   7, Iter:   210, Loss: 0.478, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   7, Iter:     0, Loss: 1.169
+Model: (ELECTRA-CRF), Epoch:   7, Iter:    30, Loss: 1.122
+Model: (ELECTRA-CRF), Epoch:   7, Iter:    60, Loss: 2.266
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   7, Iter:     0, Loss: 0.812
+Model: (ELECTRA-CRF), Epoch:   7, Iter:    30, Loss: 0.605
+Model: (ELECTRA-CRF), Epoch:   7, Iter:    60, Loss: 3.729
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   7, Mean Train Loss: 1.374, Mean Train F1: 0.606
+Model: (ELECTRA-CRF), Epoch:   7, Mean Validation Loss: 2.531, Validation F1: 0.621
+Model: (ELECTRA-CRF), Epoch:   7, Mean Test Loss: 3.578, Test F1: 0.477
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   8, Iter:     0, Loss: 0.583, F1: 0.444
+Model: (ELECTRA-CRF), Epoch:   8, Iter:    30, Loss: 0.630, F1: 0.462
+Model: (ELECTRA-CRF), Epoch:   8, Iter:    60, Loss: 1.389, F1: 0.500
+Model: (ELECTRA-CRF), Epoch:   8, Iter:    90, Loss: 0.235, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:   8, Iter:   120, Loss: 0.504, F1: 0.839
+Model: (ELECTRA-CRF), Epoch:   8, Iter:   150, Loss: 0.737, F1: 0.571
+Model: (ELECTRA-CRF), Epoch:   8, Iter:   180, Loss: 1.084, F1: 0.769
+Model: (ELECTRA-CRF), Epoch:   8, Iter:   210, Loss: 0.558, F1: 0.706
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   8, Iter:     0, Loss: 1.959
+Model: (ELECTRA-CRF), Epoch:   8, Iter:    30, Loss: 2.503
+Model: (ELECTRA-CRF), Epoch:   8, Iter:    60, Loss: 2.261
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   8, Iter:     0, Loss: 1.307
+Model: (ELECTRA-CRF), Epoch:   8, Iter:    30, Loss: 7.654
+Model: (ELECTRA-CRF), Epoch:   8, Iter:    60, Loss: 0.775
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   8, Mean Train Loss: 1.329, Mean Train F1: 0.616
+Model: (ELECTRA-CRF), Epoch:   8, Mean Validation Loss: 2.327, Validation F1: 0.619
+Model: (ELECTRA-CRF), Epoch:   8, Mean Test Loss: 3.514, Test F1: 0.479
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:   9, Iter:     0, Loss: 0.657, F1: 0.500
+Model: (ELECTRA-CRF), Epoch:   9, Iter:    30, Loss: 0.635, F1: 0.833
+Model: (ELECTRA-CRF), Epoch:   9, Iter:    60, Loss: 0.509, F1: 0.706
+Model: (ELECTRA-CRF), Epoch:   9, Iter:    90, Loss: 0.091, F1: 1.000
+Model: (ELECTRA-CRF), Epoch:   9, Iter:   120, Loss: 0.913, F1: 0.692
+Model: (ELECTRA-CRF), Epoch:   9, Iter:   150, Loss: 0.258, F1: 0.833
+Model: (ELECTRA-CRF), Epoch:   9, Iter:   180, Loss: 0.801, F1: 0.762
+Model: (ELECTRA-CRF), Epoch:   9, Iter:   210, Loss: 0.926, F1: 0.788
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:   9, Iter:     0, Loss: 1.166
+Model: (ELECTRA-CRF), Epoch:   9, Iter:    30, Loss: 1.551
+Model: (ELECTRA-CRF), Epoch:   9, Iter:    60, Loss: 2.583
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:   9, Iter:     0, Loss: 4.932
+Model: (ELECTRA-CRF), Epoch:   9, Iter:    30, Loss: 3.797
+Model: (ELECTRA-CRF), Epoch:   9, Iter:    60, Loss: 0.025
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:   9, Mean Train Loss: 1.275, Mean Train F1: 0.621
+Model: (ELECTRA-CRF), Epoch:   9, Mean Validation Loss: 2.353, Validation F1: 0.639
+Model: (ELECTRA-CRF), Epoch:   9, Mean Test Loss: 3.465, Test F1: 0.486
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  10, Iter:     0, Loss: 0.122, F1: 1.000
+Model: (ELECTRA-CRF), Epoch:  10, Iter:    30, Loss: 0.382, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:  10, Iter:    60, Loss: 0.703, F1: 0.645
+Model: (ELECTRA-CRF), Epoch:  10, Iter:    90, Loss: 1.171, F1: 0.286
+Model: (ELECTRA-CRF), Epoch:  10, Iter:   120, Loss: 0.425, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:  10, Iter:   150, Loss: 0.531, F1: 0.714
+Model: (ELECTRA-CRF), Epoch:  10, Iter:   180, Loss: 0.384, F1: 0.571
+Model: (ELECTRA-CRF), Epoch:  10, Iter:   210, Loss: 0.248, F1: 0.750
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  10, Iter:     0, Loss: 1.744
+Model: (ELECTRA-CRF), Epoch:  10, Iter:    30, Loss: 2.149
+Model: (ELECTRA-CRF), Epoch:  10, Iter:    60, Loss: 1.602
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  10, Iter:     0, Loss: 3.911
+Model: (ELECTRA-CRF), Epoch:  10, Iter:    30, Loss: 4.301
+Model: (ELECTRA-CRF), Epoch:  10, Iter:    60, Loss: 2.420
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  10, Mean Train Loss: 1.259, Mean Train F1: 0.634
+Model: (ELECTRA-CRF), Epoch:  10, Mean Validation Loss: 2.322, Validation F1: 0.629
+Model: (ELECTRA-CRF), Epoch:  10, Mean Test Loss: 3.535, Test F1: 0.479
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  11, Iter:     0, Loss: 0.514, F1: 0.769
+Model: (ELECTRA-CRF), Epoch:  11, Iter:    30, Loss: 0.713, F1: 0.741
+Model: (ELECTRA-CRF), Epoch:  11, Iter:    60, Loss: 0.376, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:  11, Iter:    90, Loss: 0.329, F1: 0.714
+Model: (ELECTRA-CRF), Epoch:  11, Iter:   120, Loss: 0.056, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:  11, Iter:   150, Loss: 0.290, F1: 0.842
+Model: (ELECTRA-CRF), Epoch:  11, Iter:   180, Loss: 0.503, F1: 0.833
+Model: (ELECTRA-CRF), Epoch:  11, Iter:   210, Loss: 0.300, F1: 0.880
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  11, Iter:     0, Loss: 1.615
+Model: (ELECTRA-CRF), Epoch:  11, Iter:    30, Loss: 2.268
+Model: (ELECTRA-CRF), Epoch:  11, Iter:    60, Loss: 1.570
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  11, Iter:     0, Loss: 6.887
+Model: (ELECTRA-CRF), Epoch:  11, Iter:    30, Loss: 5.219
+Model: (ELECTRA-CRF), Epoch:  11, Iter:    60, Loss: 5.692
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  11, Mean Train Loss: 1.197, Mean Train F1: 0.630
+Model: (ELECTRA-CRF), Epoch:  11, Mean Validation Loss: 2.227, Validation F1: 0.640
+Model: (ELECTRA-CRF), Epoch:  11, Mean Test Loss: 3.392, Test F1: 0.494
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  12, Iter:     0, Loss: 1.227, F1: 0.381
+Model: (ELECTRA-CRF), Epoch:  12, Iter:    30, Loss: 0.937, F1: 0.727
+Model: (ELECTRA-CRF), Epoch:  12, Iter:    60, Loss: 0.336, F1: 0.800
+Model: (ELECTRA-CRF), Epoch:  12, Iter:    90, Loss: 0.848, F1: 0.692
+Model: (ELECTRA-CRF), Epoch:  12, Iter:   120, Loss: 0.666, F1: 0.600
+Model: (ELECTRA-CRF), Epoch:  12, Iter:   150, Loss: 0.408, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:  12, Iter:   180, Loss: 0.463, F1: 0.762
+Model: (ELECTRA-CRF), Epoch:  12, Iter:   210, Loss: 0.681, F1: 0.571
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  12, Iter:     0, Loss: 2.214
+Model: (ELECTRA-CRF), Epoch:  12, Iter:    30, Loss: 1.242
+Model: (ELECTRA-CRF), Epoch:  12, Iter:    60, Loss: 1.978
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  12, Iter:     0, Loss: 1.107
+Model: (ELECTRA-CRF), Epoch:  12, Iter:    30, Loss: 3.494
+Model: (ELECTRA-CRF), Epoch:  12, Iter:    60, Loss: 2.143
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  12, Mean Train Loss: 1.170, Mean Train F1: 0.645
+Model: (ELECTRA-CRF), Epoch:  12, Mean Validation Loss: 2.276, Validation F1: 0.635
+Model: (ELECTRA-CRF), Epoch:  12, Mean Test Loss: 3.447, Test F1: 0.487
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  13, Iter:     0, Loss: 0.525, F1: 0.727
+Model: (ELECTRA-CRF), Epoch:  13, Iter:    30, Loss: 0.763, F1: 0.609
+Model: (ELECTRA-CRF), Epoch:  13, Iter:    60, Loss: 0.476, F1: 0.800
+Model: (ELECTRA-CRF), Epoch:  13, Iter:    90, Loss: 0.482, F1: 0.400
+Model: (ELECTRA-CRF), Epoch:  13, Iter:   120, Loss: 0.387, F1: 0.842
+Model: (ELECTRA-CRF), Epoch:  13, Iter:   150, Loss: 0.989, F1: 0.583
+Model: (ELECTRA-CRF), Epoch:  13, Iter:   180, Loss: 0.324, F1: 0.706
+Model: (ELECTRA-CRF), Epoch:  13, Iter:   210, Loss: 0.386, F1: 0.615
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  13, Iter:     0, Loss: 1.962
+Model: (ELECTRA-CRF), Epoch:  13, Iter:    30, Loss: 3.285
+Model: (ELECTRA-CRF), Epoch:  13, Iter:    60, Loss: 3.272
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  13, Iter:     0, Loss: 2.072
+Model: (ELECTRA-CRF), Epoch:  13, Iter:    30, Loss: 3.820
+Model: (ELECTRA-CRF), Epoch:  13, Iter:    60, Loss: 4.906
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  13, Mean Train Loss: 1.103, Mean Train F1: 0.683
+Model: (ELECTRA-CRF), Epoch:  13, Mean Validation Loss: 2.271, Validation F1: 0.641
+Model: (ELECTRA-CRF), Epoch:  13, Mean Test Loss: 3.474, Test F1: 0.484
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  14, Iter:     0, Loss: 0.445, F1: 0.750
+Model: (ELECTRA-CRF), Epoch:  14, Iter:    30, Loss: 0.346, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:  14, Iter:    60, Loss: 0.530, F1: 0.846
+Model: (ELECTRA-CRF), Epoch:  14, Iter:    90, Loss: 0.028, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:  14, Iter:   120, Loss: 0.259, F1: 0.923
+Model: (ELECTRA-CRF), Epoch:  14, Iter:   150, Loss: 0.559, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:  14, Iter:   180, Loss: 0.878, F1: 0.720
+Model: (ELECTRA-CRF), Epoch:  14, Iter:   210, Loss: 0.378, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  14, Iter:     0, Loss: 3.725
+Model: (ELECTRA-CRF), Epoch:  14, Iter:    30, Loss: 4.202
+Model: (ELECTRA-CRF), Epoch:  14, Iter:    60, Loss: 2.661
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  14, Iter:     0, Loss: 2.225
+Model: (ELECTRA-CRF), Epoch:  14, Iter:    30, Loss: 2.413
+Model: (ELECTRA-CRF), Epoch:  14, Iter:    60, Loss: 4.842
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  14, Mean Train Loss: 1.117, Mean Train F1: 0.655
+Model: (ELECTRA-CRF), Epoch:  14, Mean Validation Loss: 2.229, Validation F1: 0.648
+Model: (ELECTRA-CRF), Epoch:  14, Mean Test Loss: 3.381, Test F1: 0.480
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  15, Iter:     0, Loss: 0.658, F1: 0.828
+Model: (ELECTRA-CRF), Epoch:  15, Iter:    30, Loss: 0.278, F1: 0.889
+Model: (ELECTRA-CRF), Epoch:  15, Iter:    60, Loss: 0.034, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:  15, Iter:    90, Loss: 0.121, F1: 0.500
+Model: (ELECTRA-CRF), Epoch:  15, Iter:   120, Loss: 0.602, F1: 0.571
+Model: (ELECTRA-CRF), Epoch:  15, Iter:   150, Loss: 0.525, F1: 0.737
+Model: (ELECTRA-CRF), Epoch:  15, Iter:   180, Loss: 1.105, F1: 0.703
+Model: (ELECTRA-CRF), Epoch:  15, Iter:   210, Loss: 1.306, F1: 0.615
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  15, Iter:     0, Loss: 4.353
+Model: (ELECTRA-CRF), Epoch:  15, Iter:    30, Loss: 3.730
+Model: (ELECTRA-CRF), Epoch:  15, Iter:    60, Loss: 2.441
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  15, Iter:     0, Loss: 4.960
+Model: (ELECTRA-CRF), Epoch:  15, Iter:    30, Loss: 4.958
+Model: (ELECTRA-CRF), Epoch:  15, Iter:    60, Loss: 3.378
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  15, Mean Train Loss: 1.059, Mean Train F1: 0.677
+Model: (ELECTRA-CRF), Epoch:  15, Mean Validation Loss: 2.350, Validation F1: 0.646
+Model: (ELECTRA-CRF), Epoch:  15, Mean Test Loss: 3.439, Test F1: 0.484
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  16, Iter:     0, Loss: 0.609, F1: 0.583
+Model: (ELECTRA-CRF), Epoch:  16, Iter:    30, Loss: 0.408, F1: 0.750
+Model: (ELECTRA-CRF), Epoch:  16, Iter:    60, Loss: 0.188, F1: 0.800
+Model: (ELECTRA-CRF), Epoch:  16, Iter:    90, Loss: 0.956, F1: 0.583
+Model: (ELECTRA-CRF), Epoch:  16, Iter:   120, Loss: 0.513, F1: 0.737
+Model: (ELECTRA-CRF), Epoch:  16, Iter:   150, Loss: 0.238, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:  16, Iter:   180, Loss: 0.214, F1: 0.500
+Model: (ELECTRA-CRF), Epoch:  16, Iter:   210, Loss: 0.482, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  16, Iter:     0, Loss: 2.046
+Model: (ELECTRA-CRF), Epoch:  16, Iter:    30, Loss: 1.087
+Model: (ELECTRA-CRF), Epoch:  16, Iter:    60, Loss: 1.882
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  16, Iter:     0, Loss: 3.774
+Model: (ELECTRA-CRF), Epoch:  16, Iter:    30, Loss: 0.613
+Model: (ELECTRA-CRF), Epoch:  16, Iter:    60, Loss: 1.147
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  16, Mean Train Loss: 1.030, Mean Train F1: 0.686
+Model: (ELECTRA-CRF), Epoch:  16, Mean Validation Loss: 2.178, Validation F1: 0.652
+Model: (ELECTRA-CRF), Epoch:  16, Mean Test Loss: 3.345, Test F1: 0.484
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  17, Iter:     0, Loss: 0.749, F1: 0.880
+Model: (ELECTRA-CRF), Epoch:  17, Iter:    30, Loss: 0.408, F1: 0.714
+Model: (ELECTRA-CRF), Epoch:  17, Iter:    60, Loss: 0.085, F1: 0.000
+Model: (ELECTRA-CRF), Epoch:  17, Iter:    90, Loss: 0.313, F1: 0.750
+Model: (ELECTRA-CRF), Epoch:  17, Iter:   120, Loss: 1.403, F1: 0.556
+Model: (ELECTRA-CRF), Epoch:  17, Iter:   150, Loss: 0.603, F1: 0.700
+Model: (ELECTRA-CRF), Epoch:  17, Iter:   180, Loss: 0.307, F1: 0.818
+Model: (ELECTRA-CRF), Epoch:  17, Iter:   210, Loss: 0.524, F1: 0.588
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  17, Iter:     0, Loss: 3.911
+Model: (ELECTRA-CRF), Epoch:  17, Iter:    30, Loss: 2.884
+Model: (ELECTRA-CRF), Epoch:  17, Iter:    60, Loss: 1.372
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  17, Iter:     0, Loss: 2.929
+Model: (ELECTRA-CRF), Epoch:  17, Iter:    30, Loss: 3.425
+Model: (ELECTRA-CRF), Epoch:  17, Iter:    60, Loss: 4.414
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  17, Mean Train Loss: 0.978, Mean Train F1: 0.680
+Model: (ELECTRA-CRF), Epoch:  17, Mean Validation Loss: 2.265, Validation F1: 0.642
+Model: (ELECTRA-CRF), Epoch:  17, Mean Test Loss: 3.434, Test F1: 0.491
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  18, Iter:     0, Loss: 0.437, F1: 0.571
+Model: (ELECTRA-CRF), Epoch:  18, Iter:    30, Loss: 0.322, F1: 0.778
+Model: (ELECTRA-CRF), Epoch:  18, Iter:    60, Loss: 0.437, F1: 0.818
+Model: (ELECTRA-CRF), Epoch:  18, Iter:    90, Loss: 0.538, F1: 0.706
+Model: (ELECTRA-CRF), Epoch:  18, Iter:   120, Loss: 0.470, F1: 0.737
+Model: (ELECTRA-CRF), Epoch:  18, Iter:   150, Loss: 0.324, F1: 0.889
+Model: (ELECTRA-CRF), Epoch:  18, Iter:   180, Loss: 0.275, F1: 0.500
+Model: (ELECTRA-CRF), Epoch:  18, Iter:   210, Loss: 0.753, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  18, Iter:     0, Loss: 2.069
+Model: (ELECTRA-CRF), Epoch:  18, Iter:    30, Loss: 2.182
+Model: (ELECTRA-CRF), Epoch:  18, Iter:    60, Loss: 1.470
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  18, Iter:     0, Loss: 0.624
+Model: (ELECTRA-CRF), Epoch:  18, Iter:    30, Loss: 1.160
+Model: (ELECTRA-CRF), Epoch:  18, Iter:    60, Loss: 0.070
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  18, Mean Train Loss: 0.958, Mean Train F1: 0.691
+Model: (ELECTRA-CRF), Epoch:  18, Mean Validation Loss: 2.248, Validation F1: 0.647
+Model: (ELECTRA-CRF), Epoch:  18, Mean Test Loss: 3.397, Test F1: 0.498
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (ELECTRA-CRF), Epoch:  19, Iter:     0, Loss: 0.525, F1: 0.848
+Model: (ELECTRA-CRF), Epoch:  19, Iter:    30, Loss: 0.392, F1: 0.667
+Model: (ELECTRA-CRF), Epoch:  19, Iter:    60, Loss: 0.138, F1: 0.800
+Model: (ELECTRA-CRF), Epoch:  19, Iter:    90, Loss: 0.108, F1: 1.000
+Model: (ELECTRA-CRF), Epoch:  19, Iter:   120, Loss: 0.690, F1: 0.783
+Model: (ELECTRA-CRF), Epoch:  19, Iter:   150, Loss: 0.124, F1: 0.857
+Model: (ELECTRA-CRF), Epoch:  19, Iter:   180, Loss: 0.580, F1: 0.696
+Model: (ELECTRA-CRF), Epoch:  19, Iter:   210, Loss: 0.089, F1: 0.800
+
+
+
+VALIDATING
+
+Model: (ELECTRA-CRF), Epoch:  19, Iter:     0, Loss: 2.782
+Model: (ELECTRA-CRF), Epoch:  19, Iter:    30, Loss: 3.506
+Model: (ELECTRA-CRF), Epoch:  19, Iter:    60, Loss: 2.205
+
+
+
+TESTING
+
+Model: (ELECTRA-CRF), Epoch:  19, Iter:     0, Loss: 3.904
+Model: (ELECTRA-CRF), Epoch:  19, Iter:    30, Loss: 4.194
+Model: (ELECTRA-CRF), Epoch:  19, Iter:    60, Loss: 3.475
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA-CRF), Epoch:  19, Mean Train Loss: 1.002, Mean Train F1: 0.679
+Model: (ELECTRA-CRF), Epoch:  19, Mean Validation Loss: 2.250, Validation F1: 0.638
+Model: (ELECTRA-CRF), Epoch:  19, Mean Test Loss: 3.417, Test F1: 0.486
+Impatience Level: 3
+
+

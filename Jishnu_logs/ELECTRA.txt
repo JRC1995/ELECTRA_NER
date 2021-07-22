@@ -1,0 +1,615 @@
+Dataset: WNUT_2017
+Model Name: ELECTRA
+Total Runs: 1
+Learning Rate: 0.001
+Fine-Tune Learning Rate: 2e-05
+Mixed-Case Training: no
+Display Step: 30
+SEED base value: 101
+
+
+Parameter Count: 13337
+
+
+layer_weights
+torch.Size([12])
+hidden2tags.weight
+torch.Size([13, 1024])
+hidden2tags.bias
+torch.Size([13])
+
+
+
+RUN: 0
+
+
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   0, Iter:     0, Loss: 1.284, F1: 0.000
+Model: (ELECTRA), Epoch:   0, Iter:    30, Loss: 0.462, F1: 0.000
+Model: (ELECTRA), Epoch:   0, Iter:    60, Loss: 0.108, F1: 0.000
+Model: (ELECTRA), Epoch:   0, Iter:    90, Loss: 0.238, F1: 0.000
+Model: (ELECTRA), Epoch:   0, Iter:   120, Loss: 0.138, F1: 0.000
+Model: (ELECTRA), Epoch:   0, Iter:   150, Loss: 0.080, F1: 0.000
+Model: (ELECTRA), Epoch:   0, Iter:   180, Loss: 0.140, F1: 0.125
+Model: (ELECTRA), Epoch:   0, Iter:   210, Loss: 0.134, F1: 0.500
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   0, Iter:     0, Loss: 0.228
+Model: (ELECTRA), Epoch:   0, Iter:    30, Loss: 0.601
+Model: (ELECTRA), Epoch:   0, Iter:    60, Loss: 0.515
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   0, Iter:     0, Loss: 0.672
+Model: (ELECTRA), Epoch:   0, Iter:    30, Loss: 0.489
+Model: (ELECTRA), Epoch:   0, Iter:    60, Loss: 0.385
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   0, Mean Train Loss: 0.537, Mean Train F1: 0.019
+Model: (ELECTRA), Epoch:   0, Mean Validation Loss: 0.438, Validation F1: 0.222
+Model: (ELECTRA), Epoch:   0, Mean Test Loss: 0.424, Test F1: 0.075
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   1, Iter:     0, Loss: 0.082, F1: 0.308
+Model: (ELECTRA), Epoch:   1, Iter:    30, Loss: 0.106, F1: 0.286
+Model: (ELECTRA), Epoch:   1, Iter:    60, Loss: 0.171, F1: 0.000
+Model: (ELECTRA), Epoch:   1, Iter:    90, Loss: 0.032, F1: 0.889
+Model: (ELECTRA), Epoch:   1, Iter:   120, Loss: 0.104, F1: 0.000
+Model: (ELECTRA), Epoch:   1, Iter:   150, Loss: 0.112, F1: 0.357
+Model: (ELECTRA), Epoch:   1, Iter:   180, Loss: 0.056, F1: 0.545
+Model: (ELECTRA), Epoch:   1, Iter:   210, Loss: 0.074, F1: 0.250
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   1, Iter:     0, Loss: 0.143
+Model: (ELECTRA), Epoch:   1, Iter:    30, Loss: 0.458
+Model: (ELECTRA), Epoch:   1, Iter:    60, Loss: 0.312
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   1, Iter:     0, Loss: 0.321
+Model: (ELECTRA), Epoch:   1, Iter:    30, Loss: 0.330
+Model: (ELECTRA), Epoch:   1, Iter:    60, Loss: 0.312
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   1, Mean Train Loss: 0.185, Mean Train F1: 0.270
+Model: (ELECTRA), Epoch:   1, Mean Validation Loss: 0.394, Validation F1: 0.449
+Model: (ELECTRA), Epoch:   1, Mean Test Loss: 0.338, Test F1: 0.256
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   2, Iter:     0, Loss: 0.077, F1: 0.000
+Model: (ELECTRA), Epoch:   2, Iter:    30, Loss: 0.126, F1: 0.471
+Model: (ELECTRA), Epoch:   2, Iter:    60, Loss: 0.069, F1: 0.400
+Model: (ELECTRA), Epoch:   2, Iter:    90, Loss: 0.108, F1: 0.385
+Model: (ELECTRA), Epoch:   2, Iter:   120, Loss: 0.081, F1: 0.286
+Model: (ELECTRA), Epoch:   2, Iter:   150, Loss: 0.055, F1: 0.500
+Model: (ELECTRA), Epoch:   2, Iter:   180, Loss: 0.091, F1: 0.400
+Model: (ELECTRA), Epoch:   2, Iter:   210, Loss: 0.066, F1: 0.462
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   2, Iter:     0, Loss: 0.092
+Model: (ELECTRA), Epoch:   2, Iter:    30, Loss: 0.273
+Model: (ELECTRA), Epoch:   2, Iter:    60, Loss: 0.191
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   2, Iter:     0, Loss: 0.200
+Model: (ELECTRA), Epoch:   2, Iter:    30, Loss: 0.309
+Model: (ELECTRA), Epoch:   2, Iter:    60, Loss: 0.359
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   2, Mean Train Loss: 0.149, Mean Train F1: 0.389
+Model: (ELECTRA), Epoch:   2, Mean Validation Loss: 0.335, Validation F1: 0.502
+Model: (ELECTRA), Epoch:   2, Mean Test Loss: 0.310, Test F1: 0.324
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   3, Iter:     0, Loss: 0.077, F1: 0.348
+Model: (ELECTRA), Epoch:   3, Iter:    30, Loss: 0.043, F1: 0.588
+Model: (ELECTRA), Epoch:   3, Iter:    60, Loss: 0.031, F1: 0.667
+Model: (ELECTRA), Epoch:   3, Iter:    90, Loss: 0.031, F1: 0.500
+Model: (ELECTRA), Epoch:   3, Iter:   120, Loss: 0.064, F1: 0.588
+Model: (ELECTRA), Epoch:   3, Iter:   150, Loss: 0.086, F1: 0.455
+Model: (ELECTRA), Epoch:   3, Iter:   180, Loss: 0.023, F1: 0.800
+Model: (ELECTRA), Epoch:   3, Iter:   210, Loss: 0.084, F1: 0.632
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   3, Iter:     0, Loss: 0.137
+Model: (ELECTRA), Epoch:   3, Iter:    30, Loss: 0.098
+Model: (ELECTRA), Epoch:   3, Iter:    60, Loss: 0.808
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   3, Iter:     0, Loss: 0.200
+Model: (ELECTRA), Epoch:   3, Iter:    30, Loss: 0.393
+Model: (ELECTRA), Epoch:   3, Iter:    60, Loss: 0.135
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   3, Mean Train Loss: 0.133, Mean Train F1: 0.455
+Model: (ELECTRA), Epoch:   3, Mean Validation Loss: 0.399, Validation F1: 0.536
+Model: (ELECTRA), Epoch:   3, Mean Test Loss: 0.302, Test F1: 0.373
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   4, Iter:     0, Loss: 0.080, F1: 0.629
+Model: (ELECTRA), Epoch:   4, Iter:    30, Loss: 0.050, F1: 0.538
+Model: (ELECTRA), Epoch:   4, Iter:    60, Loss: 0.091, F1: 0.762
+Model: (ELECTRA), Epoch:   4, Iter:    90, Loss: 0.087, F1: 0.500
+Model: (ELECTRA), Epoch:   4, Iter:   120, Loss: 0.030, F1: 0.833
+Model: (ELECTRA), Epoch:   4, Iter:   150, Loss: 0.015, F1: 1.000
+Model: (ELECTRA), Epoch:   4, Iter:   180, Loss: 0.050, F1: 0.615
+Model: (ELECTRA), Epoch:   4, Iter:   210, Loss: 0.012, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   4, Iter:     0, Loss: 0.136
+Model: (ELECTRA), Epoch:   4, Iter:    30, Loss: 0.326
+Model: (ELECTRA), Epoch:   4, Iter:    60, Loss: 0.249
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   4, Iter:     0, Loss: 0.626
+Model: (ELECTRA), Epoch:   4, Iter:    30, Loss: 0.384
+Model: (ELECTRA), Epoch:   4, Iter:    60, Loss: 0.209
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   4, Mean Train Loss: 0.120, Mean Train F1: 0.495
+Model: (ELECTRA), Epoch:   4, Mean Validation Loss: 0.293, Validation F1: 0.540
+Model: (ELECTRA), Epoch:   4, Mean Test Loss: 0.297, Test F1: 0.369
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   5, Iter:     0, Loss: 0.023, F1: 0.000
+Model: (ELECTRA), Epoch:   5, Iter:    30, Loss: 0.042, F1: 0.600
+Model: (ELECTRA), Epoch:   5, Iter:    60, Loss: 0.097, F1: 0.500
+Model: (ELECTRA), Epoch:   5, Iter:    90, Loss: 0.046, F1: 0.556
+Model: (ELECTRA), Epoch:   5, Iter:   120, Loss: 0.069, F1: 0.522
+Model: (ELECTRA), Epoch:   5, Iter:   150, Loss: 0.049, F1: 0.222
+Model: (ELECTRA), Epoch:   5, Iter:   180, Loss: 0.044, F1: 0.444
+Model: (ELECTRA), Epoch:   5, Iter:   210, Loss: 0.062, F1: 0.636
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   5, Iter:     0, Loss: 0.242
+Model: (ELECTRA), Epoch:   5, Iter:    30, Loss: 0.062
+Model: (ELECTRA), Epoch:   5, Iter:    60, Loss: 0.240
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   5, Iter:     0, Loss: 0.567
+Model: (ELECTRA), Epoch:   5, Iter:    30, Loss: 0.269
+Model: (ELECTRA), Epoch:   5, Iter:    60, Loss: 0.137
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   5, Mean Train Loss: 0.118, Mean Train F1: 0.505
+Model: (ELECTRA), Epoch:   5, Mean Validation Loss: 0.368, Validation F1: 0.558
+Model: (ELECTRA), Epoch:   5, Mean Test Loss: 0.290, Test F1: 0.390
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   6, Iter:     0, Loss: 0.242, F1: 0.000
+Model: (ELECTRA), Epoch:   6, Iter:    30, Loss: 0.061, F1: 0.267
+Model: (ELECTRA), Epoch:   6, Iter:    60, Loss: 0.097, F1: 0.444
+Model: (ELECTRA), Epoch:   6, Iter:    90, Loss: 0.015, F1: 0.286
+Model: (ELECTRA), Epoch:   6, Iter:   120, Loss: 0.027, F1: 0.500
+Model: (ELECTRA), Epoch:   6, Iter:   150, Loss: 0.040, F1: 0.526
+Model: (ELECTRA), Epoch:   6, Iter:   180, Loss: 0.063, F1: 0.375
+Model: (ELECTRA), Epoch:   6, Iter:   210, Loss: 0.033, F1: 0.909
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   6, Iter:     0, Loss: 0.091
+Model: (ELECTRA), Epoch:   6, Iter:    30, Loss: 0.164
+Model: (ELECTRA), Epoch:   6, Iter:    60, Loss: 0.230
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   6, Iter:     0, Loss: 0.442
+Model: (ELECTRA), Epoch:   6, Iter:    30, Loss: 0.115
+Model: (ELECTRA), Epoch:   6, Iter:    60, Loss: 0.241
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   6, Mean Train Loss: 0.113, Mean Train F1: 0.513
+Model: (ELECTRA), Epoch:   6, Mean Validation Loss: 0.383, Validation F1: 0.561
+Model: (ELECTRA), Epoch:   6, Mean Test Loss: 0.288, Test F1: 0.400
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   7, Iter:     0, Loss: 0.073, F1: 0.500
+Model: (ELECTRA), Epoch:   7, Iter:    30, Loss: 0.069, F1: 0.286
+Model: (ELECTRA), Epoch:   7, Iter:    60, Loss: 0.025, F1: 0.500
+Model: (ELECTRA), Epoch:   7, Iter:    90, Loss: 0.026, F1: 0.545
+Model: (ELECTRA), Epoch:   7, Iter:   120, Loss: 0.028, F1: 0.667
+Model: (ELECTRA), Epoch:   7, Iter:   150, Loss: 0.034, F1: 0.462
+Model: (ELECTRA), Epoch:   7, Iter:   180, Loss: 0.063, F1: 0.538
+Model: (ELECTRA), Epoch:   7, Iter:   210, Loss: 0.085, F1: 0.000
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   7, Iter:     0, Loss: 0.092
+Model: (ELECTRA), Epoch:   7, Iter:    30, Loss: 0.425
+Model: (ELECTRA), Epoch:   7, Iter:    60, Loss: 0.187
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   7, Iter:     0, Loss: 0.157
+Model: (ELECTRA), Epoch:   7, Iter:    30, Loss: 0.622
+Model: (ELECTRA), Epoch:   7, Iter:    60, Loss: 0.240
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   7, Mean Train Loss: 0.105, Mean Train F1: 0.514
+Model: (ELECTRA), Epoch:   7, Mean Validation Loss: 0.384, Validation F1: 0.566
+Model: (ELECTRA), Epoch:   7, Mean Test Loss: 0.292, Test F1: 0.397
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   8, Iter:     0, Loss: 0.058, F1: 0.444
+Model: (ELECTRA), Epoch:   8, Iter:    30, Loss: 0.034, F1: 0.462
+Model: (ELECTRA), Epoch:   8, Iter:    60, Loss: 0.106, F1: 0.545
+Model: (ELECTRA), Epoch:   8, Iter:    90, Loss: 0.013, F1: 0.667
+Model: (ELECTRA), Epoch:   8, Iter:   120, Loss: 0.038, F1: 0.774
+Model: (ELECTRA), Epoch:   8, Iter:   150, Loss: 0.050, F1: 0.462
+Model: (ELECTRA), Epoch:   8, Iter:   180, Loss: 0.079, F1: 0.720
+Model: (ELECTRA), Epoch:   8, Iter:   210, Loss: 0.041, F1: 0.556
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   8, Iter:     0, Loss: 0.821
+Model: (ELECTRA), Epoch:   8, Iter:    30, Loss: 0.376
+Model: (ELECTRA), Epoch:   8, Iter:    60, Loss: 0.316
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   8, Iter:     0, Loss: 0.217
+Model: (ELECTRA), Epoch:   8, Iter:    30, Loss: 0.335
+Model: (ELECTRA), Epoch:   8, Iter:    60, Loss: 0.379
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   8, Mean Train Loss: 0.106, Mean Train F1: 0.544
+Model: (ELECTRA), Epoch:   8, Mean Validation Loss: 0.283, Validation F1: 0.567
+Model: (ELECTRA), Epoch:   8, Mean Test Loss: 0.281, Test F1: 0.414
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:   9, Iter:     0, Loss: 0.065, F1: 0.533
+Model: (ELECTRA), Epoch:   9, Iter:    30, Loss: 0.025, F1: 0.757
+Model: (ELECTRA), Epoch:   9, Iter:    60, Loss: 0.044, F1: 0.444
+Model: (ELECTRA), Epoch:   9, Iter:    90, Loss: 0.010, F1: 1.000
+Model: (ELECTRA), Epoch:   9, Iter:   120, Loss: 0.084, F1: 0.615
+Model: (ELECTRA), Epoch:   9, Iter:   150, Loss: 0.026, F1: 0.727
+Model: (ELECTRA), Epoch:   9, Iter:   180, Loss: 0.046, F1: 0.667
+Model: (ELECTRA), Epoch:   9, Iter:   210, Loss: 0.046, F1: 0.727
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:   9, Iter:     0, Loss: 0.211
+Model: (ELECTRA), Epoch:   9, Iter:    30, Loss: 0.382
+Model: (ELECTRA), Epoch:   9, Iter:    60, Loss: 1.035
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:   9, Iter:     0, Loss: 0.177
+Model: (ELECTRA), Epoch:   9, Iter:    30, Loss: 0.267
+Model: (ELECTRA), Epoch:   9, Iter:    60, Loss: 0.025
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:   9, Mean Train Loss: 0.102, Mean Train F1: 0.533
+Model: (ELECTRA), Epoch:   9, Mean Validation Loss: 0.297, Validation F1: 0.583
+Model: (ELECTRA), Epoch:   9, Mean Test Loss: 0.280, Test F1: 0.418
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:  10, Iter:     0, Loss: 0.018, F1: 1.000
+Model: (ELECTRA), Epoch:  10, Iter:    30, Loss: 0.022, F1: 0.667
+Model: (ELECTRA), Epoch:  10, Iter:    60, Loss: 0.065, F1: 0.581
+Model: (ELECTRA), Epoch:  10, Iter:    90, Loss: 0.072, F1: 0.235
+Model: (ELECTRA), Epoch:  10, Iter:   120, Loss: 0.061, F1: 0.000
+Model: (ELECTRA), Epoch:  10, Iter:   150, Loss: 0.053, F1: 0.714
+Model: (ELECTRA), Epoch:  10, Iter:   180, Loss: 0.040, F1: 0.667
+Model: (ELECTRA), Epoch:  10, Iter:   210, Loss: 0.022, F1: 0.571
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:  10, Iter:     0, Loss: 0.255
+Model: (ELECTRA), Epoch:  10, Iter:    30, Loss: 0.171
+Model: (ELECTRA), Epoch:  10, Iter:    60, Loss: 0.404
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:  10, Iter:     0, Loss: 0.329
+Model: (ELECTRA), Epoch:  10, Iter:    30, Loss: 0.338
+Model: (ELECTRA), Epoch:  10, Iter:    60, Loss: 0.152
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:  10, Mean Train Loss: 0.101, Mean Train F1: 0.556
+Model: (ELECTRA), Epoch:  10, Mean Validation Loss: 0.280, Validation F1: 0.579
+Model: (ELECTRA), Epoch:  10, Mean Test Loss: 0.287, Test F1: 0.416
+Impatience Level: 0
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:  11, Iter:     0, Loss: 0.035, F1: 0.696
+Model: (ELECTRA), Epoch:  11, Iter:    30, Loss: 0.045, F1: 0.640
+Model: (ELECTRA), Epoch:  11, Iter:    60, Loss: 0.035, F1: 0.000
+Model: (ELECTRA), Epoch:  11, Iter:    90, Loss: 0.023, F1: 0.429
+Model: (ELECTRA), Epoch:  11, Iter:   120, Loss: 0.022, F1: 0.000
+Model: (ELECTRA), Epoch:  11, Iter:   150, Loss: 0.018, F1: 0.632
+Model: (ELECTRA), Epoch:  11, Iter:   180, Loss: 0.065, F1: 0.769
+Model: (ELECTRA), Epoch:  11, Iter:   210, Loss: 0.021, F1: 0.769
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:  11, Iter:     0, Loss: 0.408
+Model: (ELECTRA), Epoch:  11, Iter:    30, Loss: 0.179
+Model: (ELECTRA), Epoch:  11, Iter:    60, Loss: 0.079
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:  11, Iter:     0, Loss: 0.500
+Model: (ELECTRA), Epoch:  11, Iter:    30, Loss: 0.329
+Model: (ELECTRA), Epoch:  11, Iter:    60, Loss: 0.571
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:  11, Mean Train Loss: 0.100, Mean Train F1: 0.547
+Model: (ELECTRA), Epoch:  11, Mean Validation Loss: 0.271, Validation F1: 0.592
+Model: (ELECTRA), Epoch:  11, Mean Test Loss: 0.283, Test F1: 0.428
+Impatience Level: 0
+
+
+Checkpoint Created!
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:  12, Iter:     0, Loss: 0.136, F1: 0.200
+Model: (ELECTRA), Epoch:  12, Iter:    30, Loss: 0.065, F1: 0.688
+Model: (ELECTRA), Epoch:  12, Iter:    60, Loss: 0.019, F1: 0.800
+Model: (ELECTRA), Epoch:  12, Iter:    90, Loss: 0.045, F1: 0.720
+Model: (ELECTRA), Epoch:  12, Iter:   120, Loss: 0.044, F1: 0.400
+Model: (ELECTRA), Epoch:  12, Iter:   150, Loss: 0.029, F1: 0.615
+Model: (ELECTRA), Epoch:  12, Iter:   180, Loss: 0.046, F1: 0.700
+Model: (ELECTRA), Epoch:  12, Iter:   210, Loss: 0.074, F1: 0.429
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:  12, Iter:     0, Loss: 0.090
+Model: (ELECTRA), Epoch:  12, Iter:    30, Loss: 0.201
+Model: (ELECTRA), Epoch:  12, Iter:    60, Loss: 0.133
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:  12, Iter:     0, Loss: 0.169
+Model: (ELECTRA), Epoch:  12, Iter:    30, Loss: 0.139
+Model: (ELECTRA), Epoch:  12, Iter:    60, Loss: 0.226
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:  12, Mean Train Loss: 0.097, Mean Train F1: 0.550
+Model: (ELECTRA), Epoch:  12, Mean Validation Loss: 0.272, Validation F1: 0.583
+Model: (ELECTRA), Epoch:  12, Mean Test Loss: 0.282, Test F1: 0.427
+Impatience Level: 1
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:  13, Iter:     0, Loss: 0.058, F1: 0.609
+Model: (ELECTRA), Epoch:  13, Iter:    30, Loss: 0.043, F1: 0.560
+Model: (ELECTRA), Epoch:  13, Iter:    60, Loss: 0.027, F1: 0.632
+Model: (ELECTRA), Epoch:  13, Iter:    90, Loss: 0.052, F1: 0.400
+Model: (ELECTRA), Epoch:  13, Iter:   120, Loss: 0.033, F1: 0.632
+Model: (ELECTRA), Epoch:  13, Iter:   150, Loss: 0.068, F1: 0.560
+Model: (ELECTRA), Epoch:  13, Iter:   180, Loss: 0.034, F1: 0.625
+Model: (ELECTRA), Epoch:  13, Iter:   210, Loss: 0.035, F1: 0.667
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:  13, Iter:     0, Loss: 0.547
+Model: (ELECTRA), Epoch:  13, Iter:    30, Loss: 1.456
+Model: (ELECTRA), Epoch:  13, Iter:    60, Loss: 0.130
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:  13, Iter:     0, Loss: 0.186
+Model: (ELECTRA), Epoch:  13, Iter:    30, Loss: 0.118
+Model: (ELECTRA), Epoch:  13, Iter:    60, Loss: 0.469
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:  13, Mean Train Loss: 0.091, Mean Train F1: 0.582
+Model: (ELECTRA), Epoch:  13, Mean Validation Loss: 0.279, Validation F1: 0.588
+Model: (ELECTRA), Epoch:  13, Mean Test Loss: 0.281, Test F1: 0.423
+Impatience Level: 2
+
+
+TRAINING
+
+Model: (ELECTRA), Epoch:  14, Iter:     0, Loss: 0.040, F1: 0.571
+Model: (ELECTRA), Epoch:  14, Iter:    30, Loss: 0.049, F1: 0.600
+Model: (ELECTRA), Epoch:  14, Iter:    60, Loss: 0.058, F1: 0.741
+Model: (ELECTRA), Epoch:  14, Iter:    90, Loss: 0.010, F1: 0.000
+Model: (ELECTRA), Epoch:  14, Iter:   120, Loss: 0.016, F1: 0.923
+Model: (ELECTRA), Epoch:  14, Iter:   150, Loss: 0.173, F1: 0.182
+Model: (ELECTRA), Epoch:  14, Iter:   180, Loss: 0.065, F1: 0.480
+Model: (ELECTRA), Epoch:  14, Iter:   210, Loss: 0.036, F1: 0.375
+
+
+
+VALIDATING
+
+Model: (ELECTRA), Epoch:  14, Iter:     0, Loss: 0.257
+Model: (ELECTRA), Epoch:  14, Iter:    30, Loss: 0.123
+Model: (ELECTRA), Epoch:  14, Iter:    60, Loss: 0.186
+
+
+
+TESTING
+
+Model: (ELECTRA), Epoch:  14, Iter:     0, Loss: 0.264
+Model: (ELECTRA), Epoch:  14, Iter:    30, Loss: 0.172
+Model: (ELECTRA), Epoch:  14, Iter:    60, Loss: 0.288
+
+
+
+EPOCH SUMMARY
+
+Model: (ELECTRA), Epoch:  14, Mean Train Loss: 0.106, Mean Train F1: 0.554
+Model: (ELECTRA), Epoch:  14, Mean Validation Loss: 0.283, Validation F1: 0.591
+Model: (ELECTRA), Epoch:  14, Mean Test Loss: 0.281, Test F1: 0.427
+Impatience Level: 3
+
+
