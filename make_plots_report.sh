@@ -1,0 +1,2 @@
+python3 plot_results.py --metric f1 --log logs_for_graph/graph1/ELECTRA_BiLSTM_CRF_run0.json logs_for_graph/graph1/ELECTRA_w2v_BiLSTM_CRF_run0.json --labels "Without W2V" "With W2V" --title "ELECTRA with BiLSTM-CRF, W2V Comparison" --out w2v-comp.jpg
+python3 plot_results.py --metric f1 --log logs_for_graph/graph2/ELECTRA_BiLSTM_CRF_run0.json logs_for_graph/graph2/ELECTRA_BiLSTM_CRF_natural_query_run0.json --labels "Without QA" "With QA" --title "ELECTRA with BiLSTM-CRF, QA Comparison" --out mrc-comp.jpg
